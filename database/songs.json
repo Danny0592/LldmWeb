@@ -2,3076 +2,3691 @@
   {
     "id": "1",
     "titulo": "A donde ire",
-    "url": "/A_donde_ire.pdf"
+    "url": "/A_donde_ire.pdf",
+    "categoria": "Petición"
   },
   {
     "id": "2",
     "titulo": "A Jesucristo ven sin tardar",
-    "url": "/A_Jesucristo_ven_sin_tardar.pdf"
+    "url": "/A_Jesucristo_ven_sin_tardar.pdf",
+    "categoria": "Llamamiento"
   },
   {
     "id": "3",
     "titulo": "A la Batalla",
-    "url": "/A_la_Batalla.pdf"
+    "url": "/A_la_Batalla.pdf",
+    "categoria": "Lucha"
   },
   {
     "id": "4",
     "titulo": "A la Batalla es Orden del Señor",
-    "url": "/A_la_Batalla_es_Orden_del_Seor.pdf"
+    "url": "/A_la_Batalla_es_Orden_del_Seor.pdf",
+    "categoria": "Lucha"
   },
   {
     "id": "5",
     "titulo": "A la Diestra de Dios",
-    "url": "/A_la_Diestra_de_Dios.pdf"
+    "url": "/A_la_Diestra_de_Dios.pdf",
+    "categoria": "Pasión"
   },
   {
     "id": "6",
     "titulo": "A La Sombra De Tus Alas",
-    "url": "/A_La_Sombra_De_Tus_Alas.pdf"
+    "url": "/A_La_Sombra_De_Tus_Alas.pdf",
+    "categoria": "Consagración"
   },
   {
     "id": "7",
     "titulo": "A Solas al Huerto",
-    "url": "/A_Solas_al_Huerto.pdf"
+    "url": "/A_Solas_al_Huerto.pdf",
+    "categoria": "Confianza"
   },
   {
     "id": "8",
     "titulo": "A su Santa Voz",
-    "url": "/A_su_Santa_Voz.pdf"
+    "url": "/A_su_Santa_Voz.pdf",
+    "categoria": "Intercesión"
   },
   {
     "id": "9",
     "titulo": "A Ti la gloria",
-    "url": "/A_Ti_la_gloria.pdf"
+    "url": "/A_Ti_la_gloria.pdf",
+    "categoria": "Alabanza"
   },
   {
     "id": "10",
     "titulo": "A Ti Señor",
-    "url": "/A_Ti_Seor.pdf"
+    "url": "/A_Ti_Seor.pdf",
+    "categoria": "Confianza"
   },
   {
     "id": "11",
     "titulo": "A veces me pregunto",
-    "url": "/A_veces_me_pregunto.pdf"
+    "url": "/A_veces_me_pregunto.pdf",
+    "categoria": "Gracia"
   },
   {
     "id": "12",
     "titulo": "A Vencer el Mal",
-    "url": "/A_Vencer_el_Mal.pdf"
+    "url": "/A_Vencer_el_Mal.pdf",
+    "categoria": "Lucha"
   },
   {
     "id": "13",
     "titulo": "A Él Oíd y Recibid",
-    "url": "/A_l_Od_y_Recibid.pdf"
+    "url": "/A_l_Od_y_Recibid.pdf",
+    "categoria": "Elección"
   },
   {
     "id": "14",
     "titulo": "A-el-oid",
-    "url": "/Aeloid.pdf"
+    "url": "/Aeloid.pdf",
+    "categoria": "Elección"
   },
   {
     "id": "15",
     "titulo": "Acepto el Reto",
-    "url": "/Acepto_el_Reto.pdf"
+    "url": "/Acepto_el_Reto.pdf",
+    "categoria": "Lucha"
   },
   {
     "id": "16",
     "titulo": "Acércame a Ti",
-    "url": "/Acrcame_a_Ti.pdf"
+    "url": "/Acrcame_a_Ti.pdf",
+    "categoria": "Intercesión"
   },
   {
     "id": "17",
     "titulo": "Adelante Juventud",
-    "url": "/Adelante_Juventud.pdf"
+    "url": "/Adelante_Juventud.pdf",
+    "categoria": "Juventud"
   },
   {
     "id": "18",
     "titulo": "Adorad A Dios",
-    "url": "/Adorad_A_Dios.pdf"
+    "url": "/Adorad_A_Dios.pdf",
+    "categoria": "Adoración"
   },
   {
     "id": "19",
     "titulo": "Ahora soy Feliz",
-    "url": "/Ahora_soy_Feliz.pdf"
+    "url": "/Ahora_soy_Feliz.pdf",
+    "categoria": "Gozo"
   },
   {
     "id": "20",
     "titulo": "Ahora Soy muy Feliz",
-    "url": "/Ahora_Soy_muy_Feliz.pdf"
+    "url": "/Ahora_Soy_muy_Feliz.pdf",
+    "categoria": "Gratitud"
   },
   {
     "id": "21",
     "titulo": "Al amparo de la roca",
-    "url": "/Al_amparo_de_la_roca.pdf"
+    "url": "/Al_amparo_de_la_roca.pdf",
+    "categoria": "Confianza"
   },
   {
     "id": "22",
     "titulo": "Al Amparo de su Elección",
-    "url": "/Al_Amparo_de_su_Eleccin.pdf"
+    "url": "/Al_Amparo_de_su_Eleccin.pdf",
+    "categoria": "Elección"
   },
   {
     "id": "23",
     "titulo": "Al cielo ire",
-    "url": "/Al_cielo_ire.pdf"
+    "url": "/Al_cielo_ire.pdf",
+    "categoria": "Esperanza"
   },
   {
     "id": "24",
     "titulo": "Al contemplar la grandeza",
-    "url": "/Al_contemplar_la_grandeza.pdf"
+    "url": "/Al_contemplar_la_grandeza.pdf",
+    "categoria": "Elección"
   },
   {
     "id": "25",
     "titulo": "Al Cordero Gloria",
-    "url": "/Al_Cordero_Gloria.pdf"
+    "url": "/Al_Cordero_Gloria.pdf",
+    "categoria": "Alabanza"
   },
   {
     "id": "26",
     "titulo": "Al Despertar por la mañana",
-    "url": "/Al_Despertar_por_la_maana.pdf"
+    "url": "/Al_Despertar_por_la_maana.pdf",
+    "categoria": "Amanecer"
   },
   {
     "id": "27",
     "titulo": "Al Divino Salvador",
-    "url": "/Al_Divino_Salvador.pdf"
+    "url": "/Al_Divino_Salvador.pdf",
+    "categoria": "Alabanza"
   },
   {
     "id": "28",
     "titulo": "Al huerto van",
-    "url": "/Al_huerto_van.pdf"
+    "url": "/Al_huerto_van.pdf",
+    "categoria": "Pasión"
   },
   {
     "id": "29",
     "titulo": "Al Mundo Paz",
-    "url": "/Al_Mundo_Paz.pdf"
+    "url": "/Al_Mundo_Paz.pdf",
+    "categoria": "Fin de Año"
   },
   {
     "id": "30",
     "titulo": "Al Sonar de la Trompeta",
-    "url": "/Al_Sonar_de_la_Trompeta.pdf"
+    "url": "/Al_Sonar_de_la_Trompeta.pdf",
+    "categoria": "Santa Cena"
   },
   {
     "id": "31",
     "titulo": "Alabad a Jehová",
-    "url": "/Alabad_a_Jehov.pdf"
+    "url": "/Alabad_a_Jehov.pdf",
+    "categoria": "Alabanza"
   },
   {
     "id": "32",
     "titulo": "Alabad Aleluya",
-    "url": "/Alabad_Aleluya.pdf"
+    "url": "/Alabad_Aleluya.pdf",
+    "categoria": "Elección"
   },
   {
     "id": "33",
     "titulo": "Alabado el gran manantial",
-    "url": "/Alabado_el_gran_manantial.pdf"
+    "url": "/Alabado_el_gran_manantial.pdf",
+    "categoria": "Alabanza"
   },
   {
     "id": "34",
     "titulo": "Alabado sea tu Nombre",
-    "url": "/Alabado_sea_tu_Nombre.pdf"
+    "url": "/Alabado_sea_tu_Nombre.pdf",
+    "categoria": "Alabanza"
   },
   {
     "id": "35",
     "titulo": "Alabo Tu Voluntad",
-    "url": "/Alabo_Tu_Voluntad.pdf"
+    "url": "/Alabo_Tu_Voluntad.pdf",
+    "categoria": "Adoración"
   },
   {
     "id": "36",
     "titulo": "Alcance Salvacion",
-    "url": "/Alcance_Salvacion.pdf"
+    "url": "/Alcance_Salvacion.pdf",
+    "categoria": "Consagración"
   },
   {
     "id": "37",
     "titulo": "Aleluya a nuestro Dios",
-    "url": "/Aleluya_a_nuestro_Dios.pdf"
+    "url": "/Aleluya_a_nuestro_Dios.pdf",
+    "categoria": "Alabanza"
   },
   {
     "id": "38",
     "titulo": "Aleluya al Cordero de Dios",
-    "url": "/Aleluya_al_Cordero_de_Dios.pdf"
+    "url": "/Aleluya_al_Cordero_de_Dios.pdf",
+    "categoria": "Santa Cena"
   },
   {
     "id": "39",
     "titulo": "Aleluya al Rey",
-    "url": "/Aleluya_al_Rey.pdf"
+    "url": "/Aleluya_al_Rey.pdf",
+    "categoria": "Alabanza"
   },
   {
     "id": "40",
     "titulo": "Aleluya Amen",
-    "url": "/Aleluya_Amen.pdf"
+    "url": "/Aleluya_Amen.pdf",
+    "categoria": "Alabanza"
   },
   {
     "id": "41",
     "titulo": "Aleluya Handell",
-    "url": "/Aleluya_Handell.pdf"
+    "url": "/Aleluya_Handell.pdf",
+    "categoria": "Alabanza"
   },
   {
     "id": "42",
     "titulo": "Aleluya oh Creador",
-    "url": "/Aleluya_oh_Creador.pdf"
+    "url": "/Aleluya_oh_Creador.pdf",
+    "categoria": "Alabanza"
   },
   {
     "id": "43",
     "titulo": "Alla en la Gloria Del Rey",
-    "url": "/Alla_en_la_Gloria_Del_Rey.pdf"
+    "url": "/Alla_en_la_Gloria_Del_Rey.pdf",
+    "categoria": "Esperanza"
   },
   {
     "id": "44",
     "titulo": "Alumbres mi sendero",
-    "url": "/Alumbres_mi_sendero.pdf"
+    "url": "/Alumbres_mi_sendero.pdf",
+    "categoria": "Consagración"
   },
   {
     "id": "45",
     "titulo": "Alzamos Nuestras Voces",
-    "url": "/Alzamos_Nuestras_Voces.pdf"
+    "url": "/Alzamos_Nuestras_Voces.pdf",
+    "categoria": "Honra"
   },
   {
     "id": "46",
     "titulo": "Amado incomparable",
-    "url": "/Amado_incomparable.pdf"
+    "url": "/Amado_incomparable.pdf",
+    "categoria": "Elección"
   },
   {
     "id": "47",
     "titulo": "America sera para cristo",
-    "url": "/America_sera_para_cristo.pdf"
+    "url": "/America_sera_para_cristo.pdf",
+    "categoria": "Evangelización"
   },
   {
     "id": "48",
     "titulo": "Amigo Fiel",
-    "url": "/Amigo_Fiel.pdf"
+    "url": "/Amigo_Fiel.pdf",
+    "categoria": "Consagración"
   },
   {
     "id": "49",
     "titulo": "Amigos con Placer",
-    "url": "/Amigos_con_Placer.pdf"
+    "url": "/Amigos_con_Placer.pdf",
+    "categoria": "Esperanza"
   },
   {
     "id": "50",
     "titulo": "Amor",
-    "url": "/Amor.pdf"
+    "url": "/Amor.pdf",
+    "categoria": "Amor"
   },
   {
     "id": "51",
     "titulo": "Amor es",
-    "url": "/Amor_es.pdf"
+    "url": "/Amor_es.pdf",
+    "categoria": "Evangelización"
   },
   {
     "id": "52",
     "titulo": "Angel amoroso",
-    "url": "/Angel_amoroso.pdf"
+    "url": "/Angel_amoroso.pdf",
+    "categoria": "Elección"
   },
   {
     "id": "53",
     "titulo": "Angel de Dios",
-    "url": "/Angel_de_Dios.pdf"
+    "url": "/Angel_de_Dios.pdf",
+    "categoria": "Elección"
   },
   {
     "id": "54",
     "titulo": "Angel Hermoso",
-    "url": "/Angel_Hermoso.pdf"
+    "url": "/Angel_Hermoso.pdf",
+    "categoria": "Elección"
   },
   {
     "id": "55",
     "titulo": "Angeles cantando estan",
-    "url": "/Angeles_cantando_estan.pdf"
+    "url": "/Angeles_cantando_estan.pdf",
+    "categoria": "Alabanza"
   },
   {
     "id": "56",
     "titulo": "Anhelo Ser",
-    "url": "/Anhelo_Ser.pdf"
+    "url": "/Anhelo_Ser.pdf",
+    "categoria": "Consagración"
   },
   {
     "id": "57",
     "titulo": "Ante Ti",
-    "url": "/Ante_Ti.pdf"
+    "url": "/Ante_Ti.pdf",
+    "categoria": "Gratitud"
   },
   {
     "id": "58",
     "titulo": "Ante tu altar",
-    "url": "/Ante_tu_altar.pdf"
+    "url": "/Ante_tu_altar.pdf",
+    "categoria": "Consagración"
   },
   {
     "id": "59",
     "titulo": "Ante tus pies",
-    "url": "/Ante_tus_pies.pdf"
+    "url": "/Ante_tus_pies.pdf",
+    "categoria": "Fin de Año"
   },
   {
     "id": "60",
     "titulo": "Apocalipsis 14-6",
-    "url": "/Apocalipsis_146.pdf"
+    "url": "/Apocalipsis_146.pdf",
+    "categoria": "Elección"
   },
   {
     "id": "61",
     "titulo": "Apóstol Padre y Maestro",
-    "url": "/Apstol_Padre_y_Maestro.pdf"
+    "url": "/Apstol_Padre_y_Maestro.pdf",
+    "categoria": "Elección"
   },
   {
     "id": "62",
     "titulo": "Ayudame a amarle",
-    "url": "/Ayudame_a_amarle.pdf"
+    "url": "/Ayudame_a_amarle.pdf",
+    "categoria": "Elección"
   },
   {
     "id": "63",
     "titulo": "Barro en tus manos",
-    "url": "/Barro_en_tus_manos.pdf"
+    "url": "/Barro_en_tus_manos.pdf",
+    "categoria": "Consagración"
   },
   {
     "id": "64",
     "titulo": "Bautizados fueron todos",
-    "url": "/Bautizados_fueron_todos.pdf"
+    "url": "/Bautizados_fueron_todos.pdf",
+    "categoria": "Bautismo"
   },
   {
     "id": "65",
     "titulo": "Bellas palabras de vida",
-    "url": "/Bellas_palabras_de_vida.pdf"
+    "url": "/Bellas_palabras_de_vida.pdf",
+    "categoria": "Consagración"
   },
   {
     "id": "66",
     "titulo": "Bello Reencuentro",
-    "url": "/Bello_Reencuentro.pdf"
+    "url": "/Bello_Reencuentro.pdf",
+    "categoria": "Gozo"
   },
   {
     "id": "67",
     "titulo": "Bendice a mi Señor",
-    "url": "/Bendice_a_mi_Seor.pdf"
+    "url": "/Bendice_a_mi_Seor.pdf",
+    "categoria": "Petición"
   },
   {
     "id": "68",
     "titulo": "Bendice a tu creador",
-    "url": "/Bendice_a_tu_creador.pdf"
+    "url": "/Bendice_a_tu_creador.pdf",
+    "categoria": "Alabanza"
   },
   {
     "id": "69",
     "titulo": "Bendita Elección",
-    "url": "/Bendita_Eleccin.pdf"
+    "url": "/Bendita_Eleccin.pdf",
+    "categoria": "Elección"
   },
   {
     "id": "70",
     "titulo": "Bendita fe",
-    "url": "/Bendita_fe.pdf"
+    "url": "/Bendita_fe.pdf",
+    "categoria": "Elección"
   },
   {
     "id": "71",
     "titulo": "Bendita gracia",
-    "url": "/Bendita_gracia.pdf"
+    "url": "/Bendita_gracia.pdf",
+    "categoria": "Elección"
   },
   {
     "id": "72",
     "titulo": "Bendito Amor",
-    "url": "/Bendito_Amor.pdf"
+    "url": "/Bendito_Amor.pdf",
+    "categoria": "Elección"
   },
   {
     "id": "73",
     "titulo": "Bendito Aquél Día",
-    "url": "/Bendito_Aqul_Da.pdf"
+    "url": "/Bendito_Aqul_Da.pdf",
+    "categoria": "Elección"
   },
   {
     "id": "74",
     "titulo": "Bendito Dios",
-    "url": "/Bendito_Dios.pdf"
+    "url": "/Bendito_Dios.pdf",
+    "categoria": "Gracia"
   },
   {
     "id": "75",
     "titulo": "Bendito el dia",
-    "url": "/Bendito_el_dia.pdf"
+    "url": "/Bendito_el_dia.pdf",
+    "categoria": "Gracia"
   },
   {
     "id": "76",
     "titulo": "Bendito el que Viene",
-    "url": "/Bendito_el_que_Viene.pdf"
+    "url": "/Bendito_el_que_Viene.pdf",
+    "categoria": "Honra"
   },
   {
     "id": "77",
     "titulo": "Bienvenido Padre Naasón",
-    "url": "/Bienvenido_Padre_Naasn.pdf"
+    "url": "/Bienvenido_Padre_Naasn.pdf",
+    "categoria": "Elección"
   },
   {
     "id": "78",
     "titulo": "Bienvenidos",
-    "url": "/Bienvenidos.pdf"
+    "url": "/Bienvenidos.pdf",
+    "categoria": "Bienvenida"
   },
   {
     "id": "79",
     "titulo": "Blancos Vestidos",
-    "url": "/Blancos_Vestidos.pdf"
+    "url": "/Blancos_Vestidos.pdf",
+    "categoria": "Consagración"
   },
   {
     "id": "80",
     "titulo": "Brilla su Santa Elección",
-    "url": "/Brilla_su_Santa_Eleccin.pdf"
+    "url": "/Brilla_su_Santa_Eleccin.pdf",
+    "categoria": "Elección"
   },
   {
     "id": "81",
     "titulo": "Cada Paso",
-    "url": "/Cada_Paso.pdf"
+    "url": "/Cada_Paso.pdf",
+    "categoria": "Confianza"
   },
   {
     "id": "82",
     "titulo": "Canción de Gratitud",
-    "url": "/Cancin_de_Gratitud.pdf"
+    "url": "/Cancin_de_Gratitud.pdf",
+    "categoria": "Gratitud"
   },
   {
     "id": "83",
     "titulo": "Cantad a jehova",
-    "url": "/Cantad_a_jehova.pdf"
+    "url": "/Cantad_a_jehova.pdf",
+    "categoria": "Alabanza"
   },
   {
     "id": "84",
     "titulo": "Cantad a Jehová Nuestro Dios",
-    "url": "/Cantad_a_Jehov_Nuestro_Dios.pdf"
+    "url": "/Cantad_a_Jehov_Nuestro_Dios.pdf",
+    "categoria": "Alabanza"
   },
   {
     "id": "85",
     "titulo": "Cantad alegres",
-    "url": "/Cantad_alegres.pdf"
+    "url": "/Cantad_alegres.pdf",
+    "categoria": "Alabanza"
   },
   {
     "id": "86",
     "titulo": "Cantemos con Alegria",
-    "url": "/Cantemos_con_Alegria.pdf"
+    "url": "/Cantemos_con_Alegria.pdf",
+    "categoria": "Alabanza"
   },
   {
     "id": "87",
     "titulo": "Cantemos Su Victoria",
-    "url": "/Cantemos_Su_Victoria.pdf"
+    "url": "/Cantemos_Su_Victoria.pdf",
+    "categoria": "Santa Cena"
   },
   {
     "id": "88",
     "titulo": "Canten a Cristo Rey",
-    "url": "/Canten_a_Cristo_Rey.pdf"
+    "url": "/Canten_a_Cristo_Rey.pdf",
+    "categoria": "Alabanza"
   },
   {
     "id": "89",
     "titulo": "Canto de Victoria",
-    "url": "/Canto_de_Victoria.pdf"
+    "url": "/Canto_de_Victoria.pdf",
+    "categoria": "Alabanza"
   },
   {
     "id": "90",
     "titulo": "Cantos Jubilosos",
-    "url": "/Cantos_Jubilosos.pdf"
+    "url": "/Cantos_Jubilosos.pdf",
+    "categoria": "Santa Cena"
   },
   {
     "id": "91",
     "titulo": "Celebremos La Santa Cena",
-    "url": "/Celebremos_La_Santa_Cena.pdf"
+    "url": "/Celebremos_La_Santa_Cena.pdf",
+    "categoria": "Santa Cena"
   },
   {
     "id": "92",
     "titulo": "Celestial Ciudad",
-    "url": "/Celestial_Ciudad.pdf"
+    "url": "/Celestial_Ciudad.pdf",
+    "categoria": "Esperanza"
   },
   {
     "id": "93",
     "titulo": "Cenando con Él",
-    "url": "/Cenando_con_l.pdf"
+    "url": "/Cenando_con_l.pdf",
+    "categoria": "Santa Cena"
   },
   {
     "id": "94",
     "titulo": "Cerca de ti Señor",
-    "url": "/Cerca_de_ti_Seor.pdf"
+    "url": "/Cerca_de_ti_Seor.pdf",
+    "categoria": "Consagración"
   },
   {
     "id": "95",
     "titulo": "Cerca El esta",
-    "url": "/Cerca_El_esta.pdf"
+    "url": "/Cerca_El_esta.pdf",
+    "categoria": "Confianza"
   },
   {
     "id": "96",
     "titulo": "Cerca mas Cerca",
-    "url": "/Cerca_mas_Cerca.pdf"
+    "url": "/Cerca_mas_Cerca.pdf",
+    "categoria": "Consagración"
   },
   {
     "id": "97",
     "titulo": "Ciertamente casa de dios",
-    "url": "/Ciertamente_casa_de_dios.pdf"
+    "url": "/Ciertamente_casa_de_dios.pdf",
+    "categoria": "Consagración"
   },
   {
     "id": "98",
     "titulo": "Ciudad hermosa",
-    "url": "/Ciudad_hermosa.pdf"
+    "url": "/Ciudad_hermosa.pdf",
+    "categoria": "Bienvenida"
   },
   {
     "id": "99",
     "titulo": "Como la Lluvia",
-    "url": "/Como_la_Lluvia.pdf"
+    "url": "/Como_la_Lluvia.pdf",
+    "categoria": "Elección"
   },
   {
     "id": "100",
     "titulo": "Como mi Padre",
-    "url": "/Como_mi_Padre.pdf"
+    "url": "/Como_mi_Padre.pdf",
+    "categoria": "Obra"
   },
   {
     "id": "101",
     "titulo": "Como nardo",
-    "url": "/Como_nardo.pdf"
+    "url": "/Como_nardo.pdf",
+    "categoria": "Elección"
   },
   {
     "id": "102",
     "titulo": "Como poeta",
-    "url": "/Como_poeta.pdf"
+    "url": "/Como_poeta.pdf",
+    "categoria": "Alabanza"
   },
   {
     "id": "103",
     "titulo": "Con Canticos Señor",
-    "url": "/Con_Canticos_Seor.pdf"
+    "url": "/Con_Canticos_Seor.pdf",
+    "categoria": "Alabanza"
   },
   {
     "id": "104",
     "titulo": "Con Cristo quiero yo estar",
-    "url": "/Con_Cristo_quiero_yo_estar.pdf"
+    "url": "/Con_Cristo_quiero_yo_estar.pdf",
+    "categoria": "Intercesión"
   },
   {
     "id": "105",
     "titulo": "Con Gran Gozo y Placer",
-    "url": "/Con_Gran_Gozo_y_Placer.pdf"
+    "url": "/Con_Gran_Gozo_y_Placer.pdf",
+    "categoria": "Bienvenida"
   },
   {
     "id": "106",
     "titulo": "Con Jesús estoy",
-    "url": "/Con_Jess_estoy.pdf"
+    "url": "/Con_Jess_estoy.pdf",
+    "categoria": "Confianza"
   },
   {
     "id": "107",
     "titulo": "Con Mi Rostro En Tierra",
-    "url": "/Con_Mi_Rostro_En_Tierra.pdf"
+    "url": "/Con_Mi_Rostro_En_Tierra.pdf",
+    "categoria": "Consagración"
   },
   {
     "id": "108",
     "titulo": "Con Mis Manos Hacia el Cielo",
-    "url": "/Con_Mis_Manos_Hacia_el_Cielo.pdf"
+    "url": "/Con_Mis_Manos_Hacia_el_Cielo.pdf",
+    "categoria": "Petición"
   },
   {
     "id": "109",
     "titulo": "Con más fuerza",
-    "url": "/Con_ms_fuerza.pdf"
+    "url": "/Con_ms_fuerza.pdf",
+    "categoria": "Elección"
   },
   {
     "id": "110",
     "titulo": "Con que podre pagar",
-    "url": "/Con_que_podre_pagar.pdf"
+    "url": "/Con_que_podre_pagar.pdf",
+    "categoria": "Gratitud"
   },
   {
     "id": "111",
     "titulo": "Con Reverencia",
-    "url": "/Con_Reverencia.pdf"
+    "url": "/Con_Reverencia.pdf",
+    "categoria": "Intercesión"
   },
   {
     "id": "112",
     "titulo": "Con Todo Amor",
-    "url": "/Con_Todo_Amor.pdf"
+    "url": "/Con_Todo_Amor.pdf",
+    "categoria": "Elección"
   },
   {
     "id": "113",
     "titulo": "Con Todo mi ser",
-    "url": "/Con_Todo_mi_ser.pdf"
+    "url": "/Con_Todo_mi_ser.pdf",
+    "categoria": "Elección"
   },
   {
     "id": "114",
     "titulo": "Con Usted Hasta El Fin",
-    "url": "/Con_Usted_Hasta_El_Fin.pdf"
+    "url": "/Con_Usted_Hasta_El_Fin.pdf",
+    "categoria": "Obra"
   },
   {
     "id": "115",
     "titulo": "Conocerle es un Honor",
-    "url": "/Conocerle_es_un_Honor.pdf"
+    "url": "/Conocerle_es_un_Honor.pdf",
+    "categoria": "Elección"
   },
   {
     "id": "116",
     "titulo": "Contigo en oracion",
-    "url": "/Contigo_en_oracion.pdf"
+    "url": "/Contigo_en_oracion.pdf",
+    "categoria": "Oración"
   },
   {
     "id": "117",
     "titulo": "Contigo estoy tan Feliz",
-    "url": "/Contigo_estoy_tan_Feliz.pdf"
+    "url": "/Contigo_estoy_tan_Feliz.pdf",
+    "categoria": "Gozo"
   },
   {
     "id": "118",
     "titulo": "Contigo quiero estar",
-    "url": "/Contigo_quiero_estar.pdf"
+    "url": "/Contigo_quiero_estar.pdf",
+    "categoria": "Esperanza"
   },
   {
     "id": "119",
     "titulo": "Coros celestiales",
-    "url": "/Coros_celestiales.pdf"
+    "url": "/Coros_celestiales.pdf",
+    "categoria": "Esperanza"
   },
   {
     "id": "120",
     "titulo": "Creed en Jehová, Nuestro Dios",
-    "url": "/Creed_en_Jehov_Nuestro_Dios.pdf"
+    "url": "/Creed_en_Jehov_Nuestro_Dios.pdf",
+    "categoria": "Elección"
   },
   {
     "id": "121",
     "titulo": "Creemos en Usted",
-    "url": "/Creemos_en_Usted.pdf"
+    "url": "/Creemos_en_Usted.pdf",
+    "categoria": "Elección"
   },
   {
     "id": "122",
     "titulo": "Creo en ti",
-    "url": "/Creo_en_ti.pdf"
+    "url": "/Creo_en_ti.pdf",
+    "categoria": "Elección"
   },
   {
     "id": "123",
     "titulo": "Creo en usted",
-    "url": "/Creo_en_usted.pdf"
+    "url": "/Creo_en_usted.pdf",
+    "categoria": "Elección"
   },
   {
     "id": "124",
     "titulo": "Cristiandad del mundo",
-    "url": "/Cristiandad_del_mundo.pdf"
+    "url": "/Cristiandad_del_mundo.pdf",
+    "categoria": "Alabanza"
   },
   {
     "id": "125",
     "titulo": "Cristo esta buscando",
-    "url": "/Cristo_esta_buscando.pdf"
+    "url": "/Cristo_esta_buscando.pdf",
+    "categoria": "Obra"
   },
   {
     "id": "126",
     "titulo": "Cristo me Ayuda",
-    "url": "/Cristo_me_Ayuda.pdf"
+    "url": "/Cristo_me_Ayuda.pdf",
+    "categoria": "Consagración"
   },
   {
     "id": "127",
     "titulo": "Crucificado fue el rey",
-    "url": "/Crucificado_fue_el_rey.pdf"
+    "url": "/Crucificado_fue_el_rey.pdf",
+    "categoria": "Pasión"
   },
   {
     "id": "128",
     "titulo": "Cuan Amables son tus Moradas",
-    "url": "/Cuan_Amables_son_tus_Moradas.pdf"
+    "url": "/Cuan_Amables_son_tus_Moradas.pdf",
+    "categoria": "Alabanza"
   },
   {
     "id": "129",
     "titulo": "Cuando Allá Se Pase Lista",
-    "url": "/Cuando_All_Se_Pase_Lista.pdf"
+    "url": "/Cuando_All_Se_Pase_Lista.pdf",
+    "categoria": "Duermen"
   },
   {
     "id": "130",
     "titulo": "Cuando Escucho Su Nombre",
-    "url": "/Cuando_Escucho_Su_Nombre.pdf"
+    "url": "/Cuando_Escucho_Su_Nombre.pdf",
+    "categoria": "Elección"
   },
   {
     "id": "131",
     "titulo": "Cuando Estemos en el Cielo",
-    "url": "/Cuando_Estemos_en_el_Cielo.pdf"
+    "url": "/Cuando_Estemos_en_el_Cielo.pdf",
+    "categoria": "Gloria"
   },
   {
     "id": "132",
     "titulo": "Cuando Estoy Contigo",
-    "url": "/Cuando_Estoy_Contigo.pdf"
+    "url": "/Cuando_Estoy_Contigo.pdf",
+    "categoria": "Oración"
   },
   {
     "id": "133",
     "titulo": "Cuando lleguemos al cielo",
-    "url": "/Cuando_lleguemos_al_cielo.pdf"
+    "url": "/Cuando_lleguemos_al_cielo.pdf",
+    "categoria": "Esperanza"
   },
   {
     "id": "134",
     "titulo": "Cuando Oí Su Voz",
-    "url": "/Cuando_O_Su_Voz.pdf"
+    "url": "/Cuando_O_Su_Voz.pdf",
+    "categoria": "Elección"
   },
   {
     "id": "135",
     "titulo": "Cuando tu preciosa voz oí",
-    "url": "/Cuando_tu_preciosa_voz_o.pdf"
+    "url": "/Cuando_tu_preciosa_voz_o.pdf",
+    "categoria": "Elección"
   },
   {
     "id": "136",
     "titulo": "Cuerdas de Amor",
-    "url": "/Cuerdas_de_Amor.pdf"
+    "url": "/Cuerdas_de_Amor.pdf",
+    "categoria": "Elección"
   },
   {
     "id": "137",
     "titulo": "Cómo Podré estar Triste",
-    "url": "/Cmo_Podr_estar_Triste.pdf"
+    "url": "/Cmo_Podr_estar_Triste.pdf",
+    "categoria": "Confianza"
   },
   {
     "id": "138",
     "titulo": "De Amor Llenó mi Vida",
-    "url": "/De_Amor_Llen_mi_Vida.pdf"
+    "url": "/De_Amor_Llen_mi_Vida.pdf",
+    "categoria": "Amor"
   },
   {
     "id": "139",
     "titulo": "De lo Profundo",
-    "url": "/De_lo_Profundo.pdf"
+    "url": "/De_lo_Profundo.pdf",
+    "categoria": "Consagración"
   },
   {
     "id": "140",
     "titulo": "De su Mano",
-    "url": "/De_su_Mano.pdf"
+    "url": "/De_su_Mano.pdf",
+    "categoria": "Advenimiento"
   },
   {
     "id": "141",
     "titulo": "Declina el dia",
-    "url": "/Declina_el_dia.pdf"
+    "url": "/Declina_el_dia.pdf",
+    "categoria": "Consagración"
   },
   {
     "id": "142",
     "titulo": "Del Celeste Pais",
-    "url": "/Del_Celeste_Pais.pdf"
+    "url": "/Del_Celeste_Pais.pdf",
+    "categoria": "Gloria"
   },
   {
     "id": "143",
     "titulo": "Dia Felíz",
-    "url": "/Dia_Felz.pdf"
+    "url": "/Dia_Felz.pdf",
+    "categoria": "Elección"
   },
   {
     "id": "144",
     "titulo": "Digno No Soy",
-    "url": "/Digno_No_Soy.pdf"
+    "url": "/Digno_No_Soy.pdf",
+    "categoria": "Consagración"
   },
   {
     "id": "145",
     "titulo": "Dios os Guarde",
-    "url": "/Dios_os_Guarde.pdf"
+    "url": "/Dios_os_Guarde.pdf",
+    "categoria": "Despedida"
   },
   {
     "id": "146",
     "titulo": "Dios Poderoso",
-    "url": "/Dios_Poderoso.pdf"
+    "url": "/Dios_Poderoso.pdf",
+    "categoria": "Adoración"
   },
   {
     "id": "147",
     "titulo": "Dios Proveerá",
-    "url": "/Dios_Proveer.pdf"
+    "url": "/Dios_Proveer.pdf",
+    "categoria": "Confianza"
   },
   {
     "id": "148",
     "titulo": "Divina Luz",
-    "url": "/Divina_Luz.pdf"
+    "url": "/Divina_Luz.pdf",
+    "categoria": "Elección"
   },
   {
     "id": "149",
     "titulo": "Divino redentor",
-    "url": "/Divino_redentor.pdf"
+    "url": "/Divino_redentor.pdf",
+    "categoria": "Gratitud"
   },
   {
     "id": "150",
     "titulo": "Don Inefable",
-    "url": "/Don_Inefable.pdf"
+    "url": "/Don_Inefable.pdf",
+    "categoria": "Elección"
   },
   {
     "id": "151",
     "titulo": "Doy gracias a Dios",
-    "url": "/Doy_gracias_a_Dios.pdf"
+    "url": "/Doy_gracias_a_Dios.pdf",
+    "categoria": "Gratitud"
   },
   {
     "id": "152",
     "titulo": "Doy Gracias al Señor",
-    "url": "/Doy_Gracias_al_Seor.pdf"
+    "url": "/Doy_Gracias_al_Seor.pdf",
+    "categoria": "Gratitud"
   },
   {
     "id": "153",
     "titulo": "Dulce Oracion",
-    "url": "/Dulce_Oracion.pdf"
+    "url": "/Dulce_Oracion.pdf",
+    "categoria": "Oración"
   },
   {
     "id": "154",
     "titulo": "Dulce Paz",
-    "url": "/Dulce_Paz.pdf"
+    "url": "/Dulce_Paz.pdf",
+    "categoria": "Gracia"
   },
   {
     "id": "155",
     "titulo": "El Alfarero",
-    "url": "/El_Alfarero.pdf"
+    "url": "/El_Alfarero.pdf",
+    "categoria": "Gratitud"
   },
   {
     "id": "156",
     "titulo": "El Aliento de mi Ser",
-    "url": "/El_Aliento_de_mi_Ser.pdf"
+    "url": "/El_Aliento_de_mi_Ser.pdf",
+    "categoria": "Elección"
   },
   {
     "id": "157",
     "titulo": "El Amigo del Angel",
-    "url": "/El_Amigo_del_Angel.pdf"
+    "url": "/El_Amigo_del_Angel.pdf",
+    "categoria": "Elección"
   },
   {
     "id": "158",
     "titulo": "El Amor de mi Cristo",
-    "url": "/El_Amor_de_mi_Cristo.pdf"
+    "url": "/El_Amor_de_mi_Cristo.pdf",
+    "categoria": "Amor"
   },
   {
     "id": "159",
     "titulo": "El Amor del Señor es Infinito",
-    "url": "/El_Amor_del_Seor_es_Infinito.pdf"
+    "url": "/El_Amor_del_Seor_es_Infinito.pdf",
+    "categoria": "Amor"
   },
   {
     "id": "160",
     "titulo": "El Apóstol de la Consolación",
-    "url": "/El_Apstol_de_la_Consolacin.pdf"
+    "url": "/El_Apstol_de_la_Consolacin.pdf",
+    "categoria": "Elección"
   },
   {
     "id": "161",
     "titulo": "El arca de mi salvacion",
-    "url": "/El_arca_de_mi_salvacion.pdf"
+    "url": "/El_arca_de_mi_salvacion.pdf",
+    "categoria": "Elección"
   },
   {
     "id": "162",
     "titulo": "El Aroma de la elección",
-    "url": "/El_Aroma_de_la_eleccin.pdf"
+    "url": "/El_Aroma_de_la_eleccin.pdf",
+    "categoria": "Elección"
   },
   {
     "id": "163",
     "titulo": "El Año que se va",
-    "url": "/El_Ao_que_se_va.pdf"
+    "url": "/El_Ao_que_se_va.pdf",
+    "categoria": "Fin de Año"
   },
   {
     "id": "164",
     "titulo": "El Cantico de los 144",
-    "url": "/El_Cantico_de_los_144.pdf"
+    "url": "/El_Cantico_de_los_144.pdf",
+    "categoria": "Alabanza"
   },
   {
     "id": "165",
     "titulo": "El Cantico de Moises",
-    "url": "/El_Cantico_de_Moises.pdf"
+    "url": "/El_Cantico_de_Moises.pdf",
+    "categoria": "Alabanza"
   },
   {
     "id": "166",
     "titulo": "El Canto Triunfal",
-    "url": "/El_Canto_Triunfal.pdf"
+    "url": "/El_Canto_Triunfal.pdf",
+    "categoria": "Elección"
   },
   {
     "id": "167",
     "titulo": "El cielo y el mar",
-    "url": "/El_cielo_y_el_mar.pdf"
+    "url": "/El_cielo_y_el_mar.pdf",
+    "categoria": "Alabanza"
   },
   {
     "id": "168",
     "titulo": "El Consuelo de Dios",
-    "url": "/El_Consuelo_de_Dios.pdf"
+    "url": "/El_Consuelo_de_Dios.pdf",
+    "categoria": "Elección"
   },
   {
     "id": "169",
     "titulo": "El Consuelo de mi Alma",
-    "url": "/El_Consuelo_de_mi_Alma.pdf"
+    "url": "/El_Consuelo_de_mi_Alma.pdf",
+    "categoria": "Elección"
   },
   {
     "id": "170",
     "titulo": "El coro celestial",
-    "url": "/El_coro_celestial.pdf"
+    "url": "/El_coro_celestial.pdf",
+    "categoria": "Gloria"
   },
   {
     "id": "171",
     "titulo": "El Dios de mi Padre",
-    "url": "/El_Dios_de_mi_Padre.pdf"
+    "url": "/El_Dios_de_mi_Padre.pdf",
+    "categoria": "Confianza"
   },
   {
     "id": "172",
     "titulo": "El Espiritu de Cristo",
-    "url": "/El_Espiritu_de_Cristo.pdf"
+    "url": "/El_Espiritu_de_Cristo.pdf",
+    "categoria": "Elección"
   },
   {
     "id": "173",
     "titulo": "El Gran Apostol",
-    "url": "/El_Gran_Apostol.pdf"
+    "url": "/El_Gran_Apostol.pdf",
+    "categoria": "Elección"
   },
   {
     "id": "174",
     "titulo": "El hijo prodigo",
-    "url": "/El_hijo_prodigo.pdf"
+    "url": "/El_hijo_prodigo.pdf",
+    "categoria": "Llamamiento"
   },
   {
     "id": "175",
     "titulo": "El Lema de la Iglesia",
-    "url": "/El_Lema_de_la_Iglesia.pdf"
+    "url": "/El_Lema_de_la_Iglesia.pdf",
+    "categoria": "Lucha"
   },
   {
     "id": "176",
     "titulo": "El León de Judá",
-    "url": "/El_Len_de_Jud.pdf"
+    "url": "/El_Len_de_Jud.pdf",
+    "categoria": "Advenimiento"
   },
   {
     "id": "177",
     "titulo": "El libro de la vida",
-    "url": "/El_libro_de_la_vida.pdf"
+    "url": "/El_libro_de_la_vida.pdf",
+    "categoria": "Alabanza"
   },
   {
     "id": "178",
     "titulo": "El Llamado de Tu Voz",
-    "url": "/El_Llamado_de_Tu_Voz.pdf"
+    "url": "/El_Llamado_de_Tu_Voz.pdf",
+    "categoria": "Amor"
   },
   {
     "id": "179",
     "titulo": "El Llamamiento",
-    "url": "/El_Llamamiento.pdf"
+    "url": "/El_Llamamiento.pdf",
+    "categoria": "Elección"
   },
   {
     "id": "180",
     "titulo": "El Llamamiento de Dios",
-    "url": "/El_Llamamiento_de_Dios.pdf"
+    "url": "/El_Llamamiento_de_Dios.pdf",
+    "categoria": "Elección"
   },
   {
     "id": "181",
     "titulo": "El Manto de la Elección",
-    "url": "/El_Manto_de_la_Eleccin.pdf"
+    "url": "/El_Manto_de_la_Eleccin.pdf",
+    "categoria": "Elección"
   },
   {
     "id": "182",
     "titulo": "El mas Bello Amor",
-    "url": "/El_mas_Bello_Amor.pdf"
+    "url": "/El_mas_Bello_Amor.pdf",
+    "categoria": "7 de Mayo"
   },
   {
     "id": "183",
     "titulo": "El Nombre del Señor",
-    "url": "/El_Nombre_del_Seor.pdf"
+    "url": "/El_Nombre_del_Seor.pdf",
+    "categoria": "Alabanza"
   },
   {
     "id": "184",
     "titulo": "El Nuevo Israel",
-    "url": "/El_Nuevo_Israel.pdf"
+    "url": "/El_Nuevo_Israel.pdf",
+    "categoria": "Lucha"
   },
   {
     "id": "185",
     "titulo": "El Pacto con Dios",
-    "url": "/El_Pacto_con_Dios.pdf"
+    "url": "/El_Pacto_con_Dios.pdf",
+    "categoria": "Santa Cena"
   },
   {
     "id": "186",
     "titulo": "El Pescador",
-    "url": "/El_Pescador.pdf"
+    "url": "/El_Pescador.pdf",
+    "categoria": "Consagración"
   },
   {
     "id": "187",
     "titulo": "El Pueblo Feliz",
-    "url": "/El_Pueblo_Feliz.pdf"
+    "url": "/El_Pueblo_Feliz.pdf",
+    "categoria": "Honra"
   },
   {
     "id": "188",
     "titulo": "El puro afecto",
-    "url": "/El_puro_afecto.pdf"
+    "url": "/El_puro_afecto.pdf",
+    "categoria": "Gratitud"
   },
   {
     "id": "189",
     "titulo": "El que Habita al Abrigo de Dios",
-    "url": "/El_que_Habita_al_Abrigo_de_Dios.pdf"
+    "url": "/El_que_Habita_al_Abrigo_de_Dios.pdf",
+    "categoria": "Confianza"
   },
   {
     "id": "190",
     "titulo": "El redentor",
-    "url": "/El_redentor.pdf"
+    "url": "/El_redentor.pdf",
+    "categoria": "Alabanza"
   },
   {
     "id": "191",
     "titulo": "El Regalo Más Grande",
-    "url": "/El_Regalo_Ms_Grande.pdf"
+    "url": "/El_Regalo_Ms_Grande.pdf",
+    "categoria": "Gratitud"
   },
   {
     "id": "192",
     "titulo": "El reino del amor",
-    "url": "/El_reino_del_amor.pdf"
+    "url": "/El_reino_del_amor.pdf",
+    "categoria": "Alabanza"
   },
   {
     "id": "193",
     "titulo": "El Replicar del Campanal",
-    "url": "/El_Replicar_del_Campanal.pdf"
+    "url": "/El_Replicar_del_Campanal.pdf",
+    "categoria": "Alabanza"
   },
   {
     "id": "194",
     "titulo": "El rey ya viene",
-    "url": "/El_rey_ya_viene.pdf"
+    "url": "/El_rey_ya_viene.pdf",
+    "categoria": "Santa Cena"
   },
   {
     "id": "195",
     "titulo": "El Sello de su Unción",
-    "url": "/El_Sello_de_su_Uncin.pdf"
+    "url": "/El_Sello_de_su_Uncin.pdf",
+    "categoria": "Elección"
   },
   {
     "id": "196",
     "titulo": "El sol que ilumina",
-    "url": "/El_sol_que_ilumina.pdf"
+    "url": "/El_sol_que_ilumina.pdf",
+    "categoria": "Elección"
   },
   {
     "id": "197",
     "titulo": "El valle de los huesos secos",
-    "url": "/El_valle_de_los_huesos_secos.pdf"
+    "url": "/El_valle_de_los_huesos_secos.pdf",
+    "categoria": "Alabanza"
   },
   {
     "id": "198",
     "titulo": "El vino a mi corazon",
-    "url": "/El_vino_a_mi_corazon.pdf"
+    "url": "/El_vino_a_mi_corazon.pdf",
+    "categoria": "Alabanza"
   },
   {
     "id": "199",
     "titulo": "El Vive",
-    "url": "/El_Vive.pdf"
+    "url": "/El_Vive.pdf",
+    "categoria": "Pasión"
   },
   {
     "id": "200",
     "titulo": "El Ángel de Cristo",
-    "url": "/El_ngel_de_Cristo.pdf"
+    "url": "/El_ngel_de_Cristo.pdf",
+    "categoria": "Elección"
   },
   {
     "id": "201",
     "titulo": "El Ángel del Apocalipsis 14-6",
-    "url": "/El_ngel_del_Apocalipsis_146.pdf"
+    "url": "/El_ngel_del_Apocalipsis_146.pdf",
+    "categoria": "Elección"
   },
   {
     "id": "202",
     "titulo": "El Ángel del Evangelio Eterno",
-    "url": "/El_ngel_del_Evangelio_Eterno.pdf"
+    "url": "/El_ngel_del_Evangelio_Eterno.pdf",
+    "categoria": "Elección"
   },
   {
     "id": "203",
     "titulo": "El Ángel del Señor",
-    "url": "/El_ngel_del_Seor.pdf"
+    "url": "/El_ngel_del_Seor.pdf",
+    "categoria": "Elección"
   },
   {
     "id": "204",
     "titulo": "El Ángel que Juan Vio",
-    "url": "/El_ngel_que_Juan_Vio.pdf"
+    "url": "/El_ngel_que_Juan_Vio.pdf",
+    "categoria": "Elección"
   },
   {
     "id": "205",
     "titulo": "Eleccion",
-    "url": "/Eleccion.pdf"
+    "url": "/Eleccion.pdf",
+    "categoria": "Elección"
   },
   {
     "id": "206",
     "titulo": "Elección Apostólica",
-    "url": "/Eleccin_Apostlica.pdf"
+    "url": "/Eleccin_Apostlica.pdf",
+    "categoria": "Elección"
   },
   {
     "id": "207",
     "titulo": "Elección de Dios",
-    "url": "/Eleccin_de_Dios.pdf"
+    "url": "/Eleccin_de_Dios.pdf",
+    "categoria": "Elección"
   },
   {
     "id": "208",
     "titulo": "Empuñemos La Espada",
-    "url": "/Empuemos_La_Espada.pdf"
+    "url": "/Empuemos_La_Espada.pdf",
+    "categoria": "Lucha"
   },
   {
     "id": "209",
     "titulo": "En el eco de su nombre",
-    "url": "/En_el_eco_de_su_nombre.pdf"
+    "url": "/En_el_eco_de_su_nombre.pdf",
+    "categoria": "Elección"
   },
   {
     "id": "210",
     "titulo": "En el Firmamento",
-    "url": "/En_el_Firmamento.pdf"
+    "url": "/En_el_Firmamento.pdf",
+    "categoria": "Elección"
   },
   {
     "id": "211",
     "titulo": "En El Hueco De Su Mano",
-    "url": "/En_El_Hueco_De_Su_Mano.pdf"
+    "url": "/En_El_Hueco_De_Su_Mano.pdf",
+    "categoria": "Confianza"
   },
   {
     "id": "212",
     "titulo": "En Jesucristo se halla la paz",
-    "url": "/En_Jesucristo_se_halla_la_paz.pdf"
+    "url": "/En_Jesucristo_se_halla_la_paz.pdf",
+    "categoria": "Confianza"
   },
   {
     "id": "213",
     "titulo": "En la Judea",
-    "url": "/En_la_Judea.pdf"
+    "url": "/En_la_Judea.pdf",
+    "categoria": "Alabanza"
   },
   {
     "id": "214",
     "titulo": "En las Alas de su Amor",
-    "url": "/En_las_Alas_de_su_Amor.pdf"
+    "url": "/En_las_Alas_de_su_Amor.pdf",
+    "categoria": "Confianza"
   },
   {
     "id": "215",
     "titulo": "En las mañanas de bendicion",
-    "url": "/En_las_maanas_de_bendicion.pdf"
+    "url": "/En_las_maanas_de_bendicion.pdf",
+    "categoria": "Amanecer"
   },
   {
     "id": "216",
     "titulo": "En Memoria Tuya Es Hecho",
-    "url": "/En_Memoria_Tuya_Es_Hecho.pdf"
+    "url": "/En_Memoria_Tuya_Es_Hecho.pdf",
+    "categoria": "Santa Cena"
   },
   {
     "id": "217",
     "titulo": "En mi alma hay una bendicion",
-    "url": "/En_mi_alma_hay_una_bendicion.pdf"
+    "url": "/En_mi_alma_hay_una_bendicion.pdf",
+    "categoria": "Elección"
   },
   {
     "id": "218",
     "titulo": "En mi camino",
-    "url": "/En_mi_camino.pdf"
+    "url": "/En_mi_camino.pdf",
+    "categoria": "Elección"
   },
   {
     "id": "219",
     "titulo": "En Presencia Estar de Cristo",
-    "url": "/En_Presencia_Estar_de_Cristo.pdf"
+    "url": "/En_Presencia_Estar_de_Cristo.pdf",
+    "categoria": "Duermen"
   },
   {
     "id": "220",
     "titulo": "En su Corazón",
-    "url": "/En_su_Corazn.pdf"
+    "url": "/En_su_Corazn.pdf",
+    "categoria": "Elección"
   },
   {
     "id": "221",
     "titulo": "En tu amor",
-    "url": "/En_tu_amor.pdf"
+    "url": "/En_tu_amor.pdf",
+    "categoria": "Confianza"
   },
   {
     "id": "222",
     "titulo": "Engrandeced",
-    "url": "/Engrandeced.pdf"
+    "url": "/Engrandeced.pdf",
+    "categoria": "Alabanza"
   },
   {
     "id": "223",
     "titulo": "Engrandecido sea Dios",
-    "url": "/Engrandecido_sea_Dios.pdf"
+    "url": "/Engrandecido_sea_Dios.pdf",
+    "categoria": "Alabanza"
   },
   {
     "id": "224",
     "titulo": "Enseñanos",
-    "url": "/Enseanos.pdf"
+    "url": "/Enseanos.pdf",
+    "categoria": "Meditación"
   },
   {
     "id": "225",
     "titulo": "Eres el Angel",
-    "url": "/Eres_el_Angel.pdf"
+    "url": "/Eres_el_Angel.pdf",
+    "categoria": "Elección"
   },
   {
     "id": "226",
     "titulo": "Eres el Más Hermoso",
-    "url": "/Eres_el_Ms_Hermoso.pdf"
+    "url": "/Eres_el_Ms_Hermoso.pdf",
+    "categoria": "Elección"
   },
   {
     "id": "227",
     "titulo": "Eres limpio en la sangre",
-    "url": "/Eres_limpio_en_la_sangre.pdf"
+    "url": "/Eres_limpio_en_la_sangre.pdf",
+    "categoria": "Consagración"
   },
   {
     "id": "228",
     "titulo": "Eres mi Esperanza",
-    "url": "/Eres_mi_Esperanza.pdf"
+    "url": "/Eres_mi_Esperanza.pdf",
+    "categoria": "Elección"
   },
   {
     "id": "229",
     "titulo": "Eres mi todo",
-    "url": "/Eres_mi_todo.pdf"
+    "url": "/Eres_mi_todo.pdf",
+    "categoria": "Confianza"
   },
   {
     "id": "230",
     "titulo": "Es Apostol el que Dios nos ha enviado",
-    "url": "/Es_Apostol_el_que_Dios_nos_ha_enviado.pdf"
+    "url": "/Es_Apostol_el_que_Dios_nos_ha_enviado.pdf",
+    "categoria": "Elección"
   },
   {
     "id": "231",
     "titulo": "Es Dios",
-    "url": "/Es_Dios.pdf"
+    "url": "/Es_Dios.pdf",
+    "categoria": "Alabanza"
   },
   {
     "id": "232",
     "titulo": "Es el apostol de Dios",
-    "url": "/Es_el_apostol_de_Dios.pdf"
+    "url": "/Es_el_apostol_de_Dios.pdf",
+    "categoria": "Elección"
   },
   {
     "id": "233",
     "titulo": "Es el tiempo de la siega",
-    "url": "/Es_el_tiempo_de_la_siega.pdf"
+    "url": "/Es_el_tiempo_de_la_siega.pdf",
+    "categoria": "Obra"
   },
   {
     "id": "234",
     "titulo": "Es Honorable",
-    "url": "/Es_Honorable.pdf"
+    "url": "/Es_Honorable.pdf",
+    "categoria": "Honra"
   },
   {
     "id": "235",
     "titulo": "Es la obra de Dios",
-    "url": "/Es_la_obra_de_Dios.pdf"
+    "url": "/Es_la_obra_de_Dios.pdf",
+    "categoria": "Elección"
   },
   {
     "id": "236",
     "titulo": "Es Más Hermoso Que el Sol",
-    "url": "/Es_Ms_Hermoso_Que_el_Sol.pdf"
+    "url": "/Es_Ms_Hermoso_Que_el_Sol.pdf",
+    "categoria": "Elección"
   },
   {
     "id": "237",
     "titulo": "Es por Ti",
-    "url": "/Es_por_Ti.pdf"
+    "url": "/Es_por_Ti.pdf",
+    "categoria": "Elección"
   },
   {
     "id": "238",
     "titulo": "Es tu presencia",
-    "url": "/Es_tu_presencia.pdf"
+    "url": "/Es_tu_presencia.pdf",
+    "categoria": "Elección"
   },
   {
     "id": "239",
     "titulo": "Escogido fui de Dios",
-    "url": "/Escogido_fui_de_Dios.pdf"
+    "url": "/Escogido_fui_de_Dios.pdf",
+    "categoria": "Alabanza"
   },
   {
     "id": "240",
     "titulo": "Ese dia llegara",
-    "url": "/Ese_dia_llegara.pdf"
+    "url": "/Ese_dia_llegara.pdf",
+    "categoria": "Esperanza"
   },
   {
     "id": "241",
     "titulo": "Esperamos ser descanso",
-    "url": "/Esperamos_ser_descanso.pdf"
+    "url": "/Esperamos_ser_descanso.pdf",
+    "categoria": "Elección"
   },
   {
     "id": "242",
     "titulo": "Estas en Mi Corazón",
-    "url": "/Estas_en_Mi_Corazn.pdf"
+    "url": "/Estas_en_Mi_Corazn.pdf",
+    "categoria": "Elección"
   },
   {
     "id": "243",
     "titulo": "Estoy en su corazón",
-    "url": "/Estoy_en_su_corazn.pdf"
+    "url": "/Estoy_en_su_corazn.pdf",
+    "categoria": "Elección"
   },
   {
     "id": "244",
     "titulo": "Estoy resuelto",
-    "url": "/Estoy_resuelto.pdf"
+    "url": "/Estoy_resuelto.pdf",
+    "categoria": "Bautismo"
   },
   {
     "id": "245",
     "titulo": "Estrellas en mi corona",
-    "url": "/Estrellas_en_mi_corona.pdf"
+    "url": "/Estrellas_en_mi_corona.pdf",
+    "categoria": "Gloria"
   },
   {
     "id": "246",
     "titulo": "Eternamente Gloria",
-    "url": "/Eternamente_Gloria.pdf"
+    "url": "/Eternamente_Gloria.pdf",
+    "categoria": "Alabanza"
   },
   {
     "id": "247",
     "titulo": "Eterno Dios",
-    "url": "/Eterno_Dios.pdf"
+    "url": "/Eterno_Dios.pdf",
+    "categoria": "Adoración"
   },
   {
     "id": "248",
     "titulo": "Felicidades con Amor",
-    "url": "/Felicidades_con_Amor.pdf"
+    "url": "/Felicidades_con_Amor.pdf",
+    "categoria": "7 de Mayo"
   },
   {
     "id": "249",
     "titulo": "Feliz Momento",
-    "url": "/Feliz_Momento.pdf"
+    "url": "/Feliz_Momento.pdf",
+    "categoria": "Consagración"
   },
   {
     "id": "250",
     "titulo": "Fieles siervos",
-    "url": "/Fieles_siervos.pdf"
+    "url": "/Fieles_siervos.pdf",
+    "categoria": "Obra"
   },
   {
     "id": "251",
     "titulo": "Firmes y Adelante",
-    "url": "/Firmes_y_Adelante.pdf"
+    "url": "/Firmes_y_Adelante.pdf",
+    "categoria": "Lucha"
   },
   {
     "id": "252",
     "titulo": "Flpa Eymimu",
-    "url": "/Flpa_Eymimu.pdf"
+    "url": "/Flpa_Eymimu.pdf",
+    "categoria": "Consagración"
   },
   {
     "id": "253",
     "titulo": "Fue por mi",
-    "url": "/Fue_por_mi.pdf"
+    "url": "/Fue_por_mi.pdf",
+    "categoria": "Consagración"
   },
   {
     "id": "254",
     "titulo": "Fuente de la vida eterna",
-    "url": "/Fuente_de_la_vida_eterna.pdf"
+    "url": "/Fuente_de_la_vida_eterna.pdf",
+    "categoria": "Elección"
   },
   {
     "id": "255",
     "titulo": "Fuente de Salvación",
-    "url": "/Fuente_de_Salvacin.pdf"
+    "url": "/Fuente_de_Salvacin.pdf",
+    "categoria": "Evangelización"
   },
   {
     "id": "256",
     "titulo": "Fundidos a su Elección",
-    "url": "/Fundidos_a_su_Eleccin.pdf"
+    "url": "/Fundidos_a_su_Eleccin.pdf",
+    "categoria": "Elección"
   },
   {
     "id": "257",
     "titulo": "Garantia de Salvacion",
-    "url": "/Garantia_de_Salvacion.pdf"
+    "url": "/Garantia_de_Salvacion.pdf",
+    "categoria": "Elección"
   },
   {
     "id": "258",
     "titulo": "Getsemani",
-    "url": "/Getsemani.pdf"
+    "url": "/Getsemani.pdf",
+    "categoria": "Pasión"
   },
   {
     "id": "259",
     "titulo": "Gloria a Dios",
-    "url": "/Gloria_a_Dios.pdf"
+    "url": "/Gloria_a_Dios.pdf",
+    "categoria": "Alabanza"
   },
   {
     "id": "260",
     "titulo": "Gloria a ti",
-    "url": "/Gloria_a_ti.pdf"
+    "url": "/Gloria_a_ti.pdf",
+    "categoria": "Adoración"
   },
   {
     "id": "261",
     "titulo": "Gloria al Señor",
-    "url": "/Gloria_al_Seor.pdf"
+    "url": "/Gloria_al_Seor.pdf",
+    "categoria": "Alabanza"
   },
   {
     "id": "262",
     "titulo": "Gloria en las Alturas",
-    "url": "/Gloria_en_las_Alturas.pdf"
+    "url": "/Gloria_en_las_Alturas.pdf",
+    "categoria": "Alabanza"
   },
   {
     "id": "263",
     "titulo": "Gloria sin fin",
-    "url": "/Gloria_sin_fin.pdf"
+    "url": "/Gloria_sin_fin.pdf",
+    "categoria": "Gloria"
   },
   {
     "id": "264",
     "titulo": "Gloria, Gloria, Aleluya",
-    "url": "/Gloria_Gloria_Aleluya.pdf"
+    "url": "/Gloria_Gloria_Aleluya.pdf",
+    "categoria": "Alabanza"
   },
   {
     "id": "265",
     "titulo": "Gracias a ti Señor",
-    "url": "/Gracias_a_ti_Seor.pdf"
+    "url": "/Gracias_a_ti_Seor.pdf",
+    "categoria": "Gratitud"
   },
   {
     "id": "266",
     "titulo": "Gracias Apostol",
-    "url": "/Gracias_Apostol.pdf"
+    "url": "/Gracias_Apostol.pdf",
+    "categoria": "Honra"
   },
   {
     "id": "267",
     "titulo": "Gran Amigo de Dios",
-    "url": "/Gran_Amigo_de_Dios.pdf"
+    "url": "/Gran_Amigo_de_Dios.pdf",
+    "categoria": "Elección"
   },
   {
     "id": "268",
     "titulo": "Gran Apostol del Señor",
-    "url": "/Gran_Apostol_del_Seor.pdf"
+    "url": "/Gran_Apostol_del_Seor.pdf",
+    "categoria": "Elección"
   },
   {
     "id": "269",
     "titulo": "Grande es Jehova",
-    "url": "/Grande_es_Jehova.pdf"
+    "url": "/Grande_es_Jehova.pdf",
+    "categoria": "Alabanza"
   },
   {
     "id": "270",
     "titulo": "Grandioso Amor",
-    "url": "/Grandioso_Amor.pdf"
+    "url": "/Grandioso_Amor.pdf",
+    "categoria": "Amor"
   },
   {
     "id": "271",
     "titulo": "Gratitud",
-    "url": "/Gratitud.pdf"
+    "url": "/Gratitud.pdf",
+    "categoria": "Gratitud"
   },
   {
     "id": "272",
     "titulo": "Grato es contar la historia",
-    "url": "/Grato_es_contar_la_historia.pdf"
+    "url": "/Grato_es_contar_la_historia.pdf",
+    "categoria": "Amor"
   },
   {
     "id": "273",
     "titulo": "Guia señor mi corazon",
-    "url": "/Guia_seor_mi_corazon.pdf"
+    "url": "/Guia_seor_mi_corazon.pdf",
+    "categoria": "Petición"
   },
   {
     "id": "274",
     "titulo": "Guiado por su Mano",
-    "url": "/Guiado_por_su_Mano.pdf"
+    "url": "/Guiado_por_su_Mano.pdf",
+    "categoria": "Elección"
   },
   {
     "id": "275",
     "titulo": "Ha llegado el momento",
-    "url": "/Ha_llegado_el_momento.pdf"
+    "url": "/Ha_llegado_el_momento.pdf",
+    "categoria": "Santa Cena"
   },
   {
     "id": "276",
     "titulo": "Habla Jesus amante",
-    "url": "/Habla_Jesus_amante.pdf"
+    "url": "/Habla_Jesus_amante.pdf",
+    "categoria": "Consagración"
   },
   {
     "id": "277",
     "titulo": "Haciendo historia",
-    "url": "/Haciendo_historia.pdf"
+    "url": "/Haciendo_historia.pdf",
+    "categoria": "Evangelización"
   },
   {
     "id": "278",
     "titulo": "Has oido la historia de Cristo",
-    "url": "/Has_oido_la_historia_de_Cristo.pdf"
+    "url": "/Has_oido_la_historia_de_Cristo.pdf",
+    "categoria": "Amor"
   },
   {
     "id": "279",
     "titulo": "Hay Apóstol",
-    "url": "/Hay_Apstol.pdf"
+    "url": "/Hay_Apstol.pdf",
+    "categoria": "Elección"
   },
   {
     "id": "280",
     "titulo": "Hay quien Interceda",
-    "url": "/Hay_quien_Interceda.pdf"
+    "url": "/Hay_quien_Interceda.pdf",
+    "categoria": "Intercesión"
   },
   {
     "id": "281",
     "titulo": "Hay Quien Vele mis Pisadas",
-    "url": "/Hay_Quien_Vele_mis_Pisadas.pdf"
+    "url": "/Hay_Quien_Vele_mis_Pisadas.pdf",
+    "categoria": "Confianza"
   },
   {
     "id": "282",
     "titulo": "Hay un Lugar Feliz",
-    "url": "/Hay_un_Lugar_Feliz.pdf"
+    "url": "/Hay_un_Lugar_Feliz.pdf",
+    "categoria": "Gloria"
   },
   {
     "id": "283",
     "titulo": "Hay una Hora de Solaz",
-    "url": "/Hay_una_Hora_de_Solaz.pdf"
+    "url": "/Hay_una_Hora_de_Solaz.pdf",
+    "categoria": "Oración"
   },
   {
     "id": "284",
     "titulo": "He de estar",
-    "url": "/He_de_estar.pdf"
+    "url": "/He_de_estar.pdf",
+    "categoria": "Elección"
   },
   {
     "id": "285",
     "titulo": "Heme Aqui",
-    "url": "/Heme_Aqui.pdf"
+    "url": "/Heme_Aqui.pdf",
+    "categoria": "Obra"
   },
   {
     "id": "286",
     "titulo": "Herencia de Mi Fe",
-    "url": "/Herencia_de_Mi_Fe.pdf"
+    "url": "/Herencia_de_Mi_Fe.pdf",
+    "categoria": "Esperanza"
   },
   {
     "id": "287",
     "titulo": "Hermosa Bendicion",
-    "url": "/Hermosa_Bendicion.pdf"
+    "url": "/Hermosa_Bendicion.pdf",
+    "categoria": "Elección"
   },
   {
     "id": "288",
     "titulo": "Hermosa Luz",
-    "url": "/Hermosa_Luz.pdf"
+    "url": "/Hermosa_Luz.pdf",
+    "categoria": "Elección"
   },
   {
     "id": "289",
     "titulo": "Hermosa Obra",
-    "url": "/Hermosa_Obra.pdf"
+    "url": "/Hermosa_Obra.pdf",
+    "categoria": "Elección"
   },
   {
     "id": "290",
     "titulo": "Hermosa Oración",
-    "url": "/Hermosa_Oracin.pdf"
+    "url": "/Hermosa_Oracin.pdf",
+    "categoria": "Oración"
   },
   {
     "id": "291",
     "titulo": "Hermosa y grande dicha",
-    "url": "/Hermosa_y_grande_dicha.pdf"
+    "url": "/Hermosa_y_grande_dicha.pdf",
+    "categoria": "Elección"
   },
   {
     "id": "292",
     "titulo": "Hermoso amor",
-    "url": "/Hermoso_amor.pdf"
+    "url": "/Hermoso_amor.pdf",
+    "categoria": "Elección"
   },
   {
     "id": "293",
     "titulo": "Hermoso manto real",
-    "url": "/Hermoso_manto_real.pdf"
+    "url": "/Hermoso_manto_real.pdf",
+    "categoria": "Esperanza"
   },
   {
     "id": "294",
     "titulo": "Hogar de mis recuerdos",
-    "url": "/Hogar_de_mis_recuerdos.pdf"
+    "url": "/Hogar_de_mis_recuerdos.pdf",
+    "categoria": "Esperanza"
   },
   {
     "id": "295",
     "titulo": "Holocausto de amor",
-    "url": "/Holocausto_de_amor.pdf"
+    "url": "/Holocausto_de_amor.pdf",
+    "categoria": "Pasión"
   },
   {
     "id": "296",
     "titulo": "Honorable",
-    "url": "/Honorable.pdf"
+    "url": "/Honorable.pdf",
+    "categoria": "Elección"
   },
   {
     "id": "297",
     "titulo": "Honra, Gloria y Dominio",
-    "url": "/Honra_Gloria_y_Dominio.pdf"
+    "url": "/Honra_Gloria_y_Dominio.pdf",
+    "categoria": "Elección"
   },
   {
     "id": "298",
     "titulo": "Hoy me Presento ante Ti",
-    "url": "/Hoy_me_Presento_ante_Ti.pdf"
+    "url": "/Hoy_me_Presento_ante_Ti.pdf",
+    "categoria": "Elección"
   },
   {
     "id": "299",
     "titulo": "Imaginate tu",
-    "url": "/Imaginate_tu.pdf"
+    "url": "/Imaginate_tu.pdf",
+    "categoria": "Advenimiento"
   },
   {
     "id": "300",
     "titulo": "Imperio y Dominio",
-    "url": "/Imperio_y_Dominio.pdf"
+    "url": "/Imperio_y_Dominio.pdf",
+    "categoria": "Adoración"
   },
   {
     "id": "301",
     "titulo": "Incliname tu oido",
-    "url": "/Incliname_tu_oido.pdf"
+    "url": "/Incliname_tu_oido.pdf",
+    "categoria": "Intercesión"
   },
   {
     "id": "302",
     "titulo": "Inmensa gratitud",
-    "url": "/Inmensa_gratitud.pdf"
+    "url": "/Inmensa_gratitud.pdf",
+    "categoria": "Gratitud"
   },
   {
     "id": "303",
     "titulo": "Jehova Dios dio revisado",
-    "url": "/Jehova_Dios_dio_revisado.pdf"
+    "url": "/Jehova_Dios_dio_revisado.pdf",
+    "categoria": "Duermen"
   },
   {
     "id": "304",
     "titulo": "Jehova el Señor es Rey",
-    "url": "/Jehova_el_Seor_es_Rey.pdf"
+    "url": "/Jehova_el_Seor_es_Rey.pdf",
+    "categoria": "Alabanza"
   },
   {
     "id": "305",
     "titulo": "Jehova es mi pastor",
-    "url": "/Jehova_es_mi_pastor.pdf"
+    "url": "/Jehova_es_mi_pastor.pdf",
+    "categoria": "Alabanza"
   },
   {
     "id": "306",
     "titulo": "Jehova te bendiga y te guarde",
-    "url": "/Jehova_te_bendiga_y_te_guarde.pdf"
+    "url": "/Jehova_te_bendiga_y_te_guarde.pdf",
+    "categoria": "Despedida"
   },
   {
     "id": "307",
     "titulo": "Jesus yo he prometido",
-    "url": "/Jesus_yo_he_prometido.pdf"
+    "url": "/Jesus_yo_he_prometido.pdf",
+    "categoria": "Intercesión"
   },
   {
     "id": "308",
     "titulo": "Jingle Bells",
-    "url": "/Jingle_Bells.pdf"
+    "url": "/Jingle_Bells.pdf",
+    "categoria": "Alabanza"
   },
   {
     "id": "309",
     "titulo": "Joya Perfecta",
-    "url": "/Joya_Perfecta.pdf"
+    "url": "/Joya_Perfecta.pdf",
+    "categoria": "Elección"
   },
   {
     "id": "310",
     "titulo": "Jubilosas nuestras voces",
-    "url": "/Jubilosas_nuestras_voces.pdf"
+    "url": "/Jubilosas_nuestras_voces.pdf",
+    "categoria": "Bienvenida"
   },
   {
     "id": "311",
     "titulo": "Junto a mi Dios",
-    "url": "/Junto_a_mi_Dios.pdf"
+    "url": "/Junto_a_mi_Dios.pdf",
+    "categoria": "Consagración"
   },
   {
     "id": "312",
     "titulo": "Junto a ti",
-    "url": "/Junto_a_ti.pdf"
+    "url": "/Junto_a_ti.pdf",
+    "categoria": "Consagración"
   },
   {
     "id": "313",
     "titulo": "La Autoridad de Dios",
-    "url": "/La_Autoridad_de_Dios.pdf"
+    "url": "/La_Autoridad_de_Dios.pdf",
+    "categoria": "Alabanza"
   },
   {
     "id": "314",
     "titulo": "La Batalla Empezó",
-    "url": "/La_Batalla_Empez.pdf"
+    "url": "/La_Batalla_Empez.pdf",
+    "categoria": "Lucha"
   },
   {
     "id": "315",
     "titulo": "La batalla espiritual",
-    "url": "/La_batalla_espiritual.pdf"
+    "url": "/La_batalla_espiritual.pdf",
+    "categoria": "Lucha"
   },
   {
     "id": "316",
     "titulo": "La Bendición de Creer en Ti",
-    "url": "/La_Bendicin_de_Creer_en_Ti.pdf"
+    "url": "/La_Bendicin_de_Creer_en_Ti.pdf",
+    "categoria": "Elección"
   },
   {
     "id": "317",
     "titulo": "La cancion de los redimidos",
-    "url": "/La_cancion_de_los_redimidos.pdf"
+    "url": "/La_cancion_de_los_redimidos.pdf",
+    "categoria": "Alabanza"
   },
   {
     "id": "318",
     "titulo": "La Cena Gloriosa",
-    "url": "/La_Cena_Gloriosa.pdf"
+    "url": "/La_Cena_Gloriosa.pdf",
+    "categoria": "Santa Cena"
   },
   {
     "id": "319",
     "titulo": "La Creacion",
-    "url": "/La_Creacion.pdf"
+    "url": "/La_Creacion.pdf",
+    "categoria": "Alabanza"
   },
   {
     "id": "320",
     "titulo": "La Elección de mi Amado",
-    "url": "/La_Eleccin_de_mi_Amado.pdf"
+    "url": "/La_Eleccin_de_mi_Amado.pdf",
+    "categoria": "Elección"
   },
   {
     "id": "321",
     "titulo": "La Elección Es Amor",
-    "url": "/La_Eleccin_Es_Amor.pdf"
+    "url": "/La_Eleccin_Es_Amor.pdf",
+    "categoria": "Elección"
   },
   {
     "id": "322",
     "titulo": "La Entrada Triunfal",
-    "url": "/La_Entrada_Triunfal.pdf"
+    "url": "/La_Entrada_Triunfal.pdf",
+    "categoria": "Elección"
   },
   {
     "id": "323",
     "titulo": "La Era Apostolica",
-    "url": "/La_Era_Apostolica.pdf"
+    "url": "/La_Era_Apostolica.pdf",
+    "categoria": "Elección"
   },
   {
     "id": "324",
     "titulo": "La Fiesta mas grande",
-    "url": "/La_Fiesta_mas_grande.pdf"
+    "url": "/La_Fiesta_mas_grande.pdf",
+    "categoria": "Santa Cena"
   },
   {
     "id": "325",
     "titulo": "La fuente viva",
-    "url": "/La_fuente_viva.pdf"
+    "url": "/La_fuente_viva.pdf",
+    "categoria": "Bautismo"
   },
   {
     "id": "326",
     "titulo": "La Gloria de su Elección",
-    "url": "/La_Gloria_de_su_Eleccin.pdf"
+    "url": "/La_Gloria_de_su_Eleccin.pdf",
+    "categoria": "Elección"
   },
   {
     "id": "327",
     "titulo": "La Gloria sea a Dios",
-    "url": "/La_Gloria_sea_a_Dios.pdf"
+    "url": "/La_Gloria_sea_a_Dios.pdf",
+    "categoria": "Elección"
   },
   {
     "id": "328",
     "titulo": "La gloriosa comunion",
-    "url": "/La_gloriosa_comunion.pdf"
+    "url": "/La_gloriosa_comunion.pdf",
+    "categoria": "Santa Cena"
   },
   {
     "id": "329",
     "titulo": "La Gran Aguila",
-    "url": "/La_Gran_Aguila.pdf"
+    "url": "/La_Gran_Aguila.pdf",
+    "categoria": "Restauración"
   },
   {
     "id": "330",
     "titulo": "La Gran Jerusalen",
-    "url": "/La_Gran_Jerusalen.pdf"
+    "url": "/La_Gran_Jerusalen.pdf",
+    "categoria": "Gloria"
   },
   {
     "id": "331",
     "titulo": "La Grandeza de Tu Gloria",
-    "url": "/La_Grandeza_de_Tu_Gloria.pdf"
+    "url": "/La_Grandeza_de_Tu_Gloria.pdf",
+    "categoria": "Alabanza"
   },
   {
     "id": "332",
     "titulo": "La Hermosura de su Ser",
-    "url": "/La_Hermosura_de_su_Ser.pdf"
+    "url": "/La_Hermosura_de_su_Ser.pdf",
+    "categoria": "Elección"
   },
   {
     "id": "333",
     "titulo": "La Iglesia de cristo reunida",
-    "url": "/La_Iglesia_de_cristo_reunida.pdf"
+    "url": "/La_Iglesia_de_cristo_reunida.pdf",
+    "categoria": "Bienvenida"
   },
   {
     "id": "334",
     "titulo": "La Iglesia de Jesucristo",
-    "url": "/La_Iglesia_de_Jesucristo.pdf"
+    "url": "/La_Iglesia_de_Jesucristo.pdf",
+    "categoria": "Elección"
   },
   {
     "id": "335",
     "titulo": "La Iglesia del Dios Vivo",
-    "url": "/La_Iglesia_del_Dios_Vivo.pdf"
+    "url": "/La_Iglesia_del_Dios_Vivo.pdf",
+    "categoria": "Lucha"
   },
   {
     "id": "336",
     "titulo": "La Iglesia escogida",
-    "url": "/La_Iglesia_escogida.pdf"
+    "url": "/La_Iglesia_escogida.pdf",
+    "categoria": "Restauración"
   },
   {
     "id": "337",
     "titulo": "La Luz de aquella cuidad",
-    "url": "/La_Luz_de_aquella_cuidad.pdf"
+    "url": "/La_Luz_de_aquella_cuidad.pdf",
+    "categoria": "Esperanza"
   },
   {
     "id": "338",
     "titulo": "La Luz de Esperanza",
-    "url": "/La_Luz_de_Esperanza.pdf"
+    "url": "/La_Luz_de_Esperanza.pdf",
+    "categoria": "7 de Mayo"
   },
   {
     "id": "339",
     "titulo": "La Luz De La Salvación",
-    "url": "/La_Luz_De_La_Salvacin.pdf"
+    "url": "/La_Luz_De_La_Salvacin.pdf",
+    "categoria": "Elección"
   },
   {
     "id": "340",
     "titulo": "La Luz de la Vida",
-    "url": "/La_Luz_de_la_Vida.pdf"
+    "url": "/La_Luz_de_la_Vida.pdf",
+    "categoria": "Pasión"
   },
   {
     "id": "341",
     "titulo": "La Luz de un Apóstol",
-    "url": "/La_Luz_de_un_Apstol.pdf"
+    "url": "/La_Luz_de_un_Apstol.pdf",
+    "categoria": "Elección"
   },
   {
     "id": "342",
     "titulo": "La Luz que Llegó a mi Alma",
-    "url": "/La_Luz_que_Lleg_a_mi_Alma.pdf"
+    "url": "/La_Luz_que_Lleg_a_mi_Alma.pdf",
+    "categoria": "Elección"
   },
   {
     "id": "343",
     "titulo": "La Manifestación",
-    "url": "/La_Manifestacin.pdf"
+    "url": "/La_Manifestacin.pdf",
+    "categoria": "Elección"
   },
   {
     "id": "344",
     "titulo": "La Marcha De los Santos",
-    "url": "/La_Marcha_De_los_Santos.pdf"
+    "url": "/La_Marcha_De_los_Santos.pdf",
+    "categoria": "Lucha"
   },
   {
     "id": "345",
     "titulo": "La merced de nuestro padre",
-    "url": "/La_merced_de_nuestro_padre.pdf"
+    "url": "/La_merced_de_nuestro_padre.pdf",
+    "categoria": "Consagración"
   },
   {
     "id": "346",
     "titulo": "La mision",
-    "url": "/La_mision.pdf"
+    "url": "/La_mision.pdf",
+    "categoria": "Restauración"
   },
   {
     "id": "347",
     "titulo": "La Multitud de Vestiduras Blancas",
-    "url": "/La_Multitud_de_Vestiduras_Blancas.pdf"
+    "url": "/La_Multitud_de_Vestiduras_Blancas.pdf",
+    "categoria": "Santa Cena"
   },
   {
     "id": "348",
     "titulo": "La obra del Señor",
-    "url": "/La_obra_del_Seor.pdf"
+    "url": "/La_obra_del_Seor.pdf",
+    "categoria": "Elección"
   },
   {
     "id": "349",
     "titulo": "La obra perfecta",
-    "url": "/La_obra_perfecta.pdf"
+    "url": "/La_obra_perfecta.pdf",
+    "categoria": "Elección"
   },
   {
     "id": "350",
     "titulo": "La Oración del Justo",
-    "url": "/La_Oracin_del_Justo.pdf"
+    "url": "/La_Oracin_del_Justo.pdf",
+    "categoria": "Intercesión"
   },
   {
     "id": "351",
     "titulo": "La Oración Eficaz",
-    "url": "/La_Oracin_Eficaz.pdf"
+    "url": "/La_Oracin_Eficaz.pdf",
+    "categoria": "Intercesión"
   },
   {
     "id": "352",
     "titulo": "La Plegaria Más Hermosa",
-    "url": "/La_Plegaria_Ms_Hermosa.pdf"
+    "url": "/La_Plegaria_Ms_Hermosa.pdf",
+    "categoria": "Intercesión"
   },
   {
     "id": "353",
     "titulo": "La Plenitud de la Deidad",
-    "url": "/La_Plenitud_de_la_Deidad.pdf"
+    "url": "/La_Plenitud_de_la_Deidad.pdf",
+    "categoria": "Elección"
   },
   {
     "id": "354",
     "titulo": "La profecia de Dios",
-    "url": "/La_profecia_de_Dios.pdf"
+    "url": "/La_profecia_de_Dios.pdf",
+    "categoria": "Alabanza"
   },
   {
     "id": "355",
     "titulo": "La razon de mi cancion",
-    "url": "/La_razon_de_mi_cancion.pdf"
+    "url": "/La_razon_de_mi_cancion.pdf",
+    "categoria": "Gratitud"
   },
   {
     "id": "356",
     "titulo": "La Revelación",
-    "url": "/La_Revelacin.pdf"
+    "url": "/La_Revelacin.pdf",
+    "categoria": "Elección"
   },
   {
     "id": "357",
     "titulo": "La Santa Conmemoración",
-    "url": "/La_Santa_Conmemoracin.pdf"
+    "url": "/La_Santa_Conmemoracin.pdf",
+    "categoria": "Santa Cena"
   },
   {
     "id": "358",
     "titulo": "La Tumba le encerro",
-    "url": "/La_Tumba_le_encerro.pdf"
+    "url": "/La_Tumba_le_encerro.pdf",
+    "categoria": "Pasión"
   },
   {
     "id": "359",
     "titulo": "La Victoria es de Cristo",
-    "url": "/La_Victoria_es_de_Cristo.pdf"
+    "url": "/La_Victoria_es_de_Cristo.pdf",
+    "categoria": "Restauración"
   },
   {
     "id": "360",
     "titulo": "La Vida del Pueblo de Dios",
-    "url": "/La_Vida_del_Pueblo_de_Dios.pdf"
+    "url": "/La_Vida_del_Pueblo_de_Dios.pdf",
+    "categoria": "Elección"
   },
   {
     "id": "361",
     "titulo": "La vida se va como el viento",
-    "url": "/La_vida_se_va_como_el_viento.pdf"
+    "url": "/La_vida_se_va_como_el_viento.pdf",
+    "categoria": "Evangelización"
   },
   {
     "id": "362",
     "titulo": "La voz de Dios",
-    "url": "/La_voz_de_Dios.pdf"
+    "url": "/La_voz_de_Dios.pdf",
+    "categoria": "Restauración"
   },
   {
     "id": "363",
     "titulo": "La voz de muchos angeles",
-    "url": "/La_voz_de_muchos_angeles.pdf"
+    "url": "/La_voz_de_muchos_angeles.pdf",
+    "categoria": "Alabanza"
   },
   {
     "id": "364",
     "titulo": "Las Bodas del cordero",
-    "url": "/Las_Bodas_del_cordero.pdf"
+    "url": "/Las_Bodas_del_cordero.pdf",
+    "categoria": "Santa Cena"
   },
   {
     "id": "365",
     "titulo": "Las naciones Redimidas",
-    "url": "/Las_naciones_Redimidas.pdf"
+    "url": "/Las_naciones_Redimidas.pdf",
+    "categoria": "Bienvenida"
   },
   {
     "id": "366",
     "titulo": "Le amamos",
-    "url": "/Le_amamos.pdf"
+    "url": "/Le_amamos.pdf",
+    "categoria": "Elección"
   },
   {
     "id": "367",
     "titulo": "Libreta del Coro",
-    "url": "/Libreta_del_Coro.pdf"
+    "url": "/Libreta_del_Coro.pdf",
+    "categoria": "none"
   },
   {
     "id": "368",
     "titulo": "Llama de Luz",
-    "url": "/Llama_de_Luz.pdf"
+    "url": "/Llama_de_Luz.pdf",
+    "categoria": "Amor"
   },
   {
     "id": "369",
     "titulo": "Llegó el Momento Ya",
-    "url": "/Lleg_el_Momento_Ya.pdf"
+    "url": "/Lleg_el_Momento_Ya.pdf",
+    "categoria": "Meditación"
   },
   {
     "id": "370",
     "titulo": "Los Convidados",
-    "url": "/Los_Convidados.pdf"
+    "url": "/Los_Convidados.pdf",
+    "categoria": "Esperanza"
   },
   {
     "id": "371",
     "titulo": "Los Niños son de Cristo",
-    "url": "/Los_Nios_son_de_Cristo.pdf"
+    "url": "/Los_Nios_son_de_Cristo.pdf",
+    "categoria": "Niñez"
   },
   {
     "id": "372",
     "titulo": "Los que aman",
-    "url": "/Los_que_aman.pdf"
+    "url": "/Los_que_aman.pdf",
+    "categoria": "Alabanza"
   },
   {
     "id": "373",
     "titulo": "Los que Creen en la Elección",
-    "url": "/Los_que_Creen_en_la_Eleccin.pdf"
+    "url": "/Los_que_Creen_en_la_Eleccin.pdf",
+    "categoria": "Elección"
   },
   {
     "id": "374",
     "titulo": "Los que duermen en Cristo",
-    "url": "/Los_que_duermen_en_Cristo.pdf"
+    "url": "/Los_que_duermen_en_Cristo.pdf",
+    "categoria": "Duermen"
   },
   {
     "id": "375",
     "titulo": "Luces en el puerto",
-    "url": "/Luces_en_el_puerto.pdf"
+    "url": "/Luces_en_el_puerto.pdf",
+    "categoria": "Confianza"
   },
   {
     "id": "376",
     "titulo": "Luchando siempre luchando",
-    "url": "/Luchando_siempre_luchando.pdf"
+    "url": "/Luchando_siempre_luchando.pdf",
+    "categoria": "Santa Cena"
   },
   {
     "id": "377",
     "titulo": "Luz celestial",
-    "url": "/Luz_celestial.pdf"
+    "url": "/Luz_celestial.pdf",
+    "categoria": "Elección"
   },
   {
     "id": "378",
     "titulo": "Luz Refulgente",
-    "url": "/Luz_Refulgente.pdf"
+    "url": "/Luz_Refulgente.pdf",
+    "categoria": "Elección"
   },
   {
     "id": "379",
     "titulo": "Manifestación de amor",
-    "url": "/Manifestacin_de_amor.pdf"
+    "url": "/Manifestacin_de_amor.pdf",
+    "categoria": "Elección"
   },
   {
     "id": "380",
     "titulo": "Manos del Apostol",
-    "url": "/Manos_del_Apostol.pdf"
+    "url": "/Manos_del_Apostol.pdf",
+    "categoria": "Elección"
   },
   {
     "id": "381",
     "titulo": "Maravilla de la vida",
-    "url": "/Maravilla_de_la_vida.pdf"
+    "url": "/Maravilla_de_la_vida.pdf",
+    "categoria": "Elección"
   },
   {
     "id": "382",
     "titulo": "Maravilloso es",
-    "url": "/Maravilloso_es.pdf"
+    "url": "/Maravilloso_es.pdf",
+    "categoria": "Amor"
   },
   {
     "id": "383",
     "titulo": "Marcha con gozo",
-    "url": "/Marcha_con_gozo.pdf"
+    "url": "/Marcha_con_gozo.pdf",
+    "categoria": "Santa Cena"
   },
   {
     "id": "384",
     "titulo": "Mas esplendente que el sol",
-    "url": "/Mas_esplendente_que_el_sol.pdf"
+    "url": "/Mas_esplendente_que_el_sol.pdf",
+    "categoria": "Elección"
   },
   {
     "id": "385",
     "titulo": "Mañanas de bendicion",
-    "url": "/Maanas_de_bendicion.pdf"
+    "url": "/Maanas_de_bendicion.pdf",
+    "categoria": "Alabanza"
   },
   {
     "id": "386",
     "titulo": "Me Amas Como Soy",
-    "url": "/Me_Amas_Como_Soy.pdf"
+    "url": "/Me_Amas_Como_Soy.pdf",
+    "categoria": "Amor"
   },
   {
     "id": "387",
     "titulo": "Me Enamoraste",
-    "url": "/Me_Enamoraste.pdf"
+    "url": "/Me_Enamoraste.pdf",
+    "categoria": "Gracia"
   },
   {
     "id": "388",
     "titulo": "Me lo dice el corazon",
-    "url": "/Me_lo_dice_el_corazon.pdf"
+    "url": "/Me_lo_dice_el_corazon.pdf",
+    "categoria": "Elección"
   },
   {
     "id": "389",
     "titulo": "Meditad en que hay un hogar",
-    "url": "/Meditad_en_que_hay_un_hogar.pdf"
+    "url": "/Meditad_en_que_hay_un_hogar.pdf",
+    "categoria": "Duermen"
   },
   {
     "id": "390",
     "titulo": "Mensaje de Salvacion",
-    "url": "/Mensaje_de_Salvacion.pdf"
+    "url": "/Mensaje_de_Salvacion.pdf",
+    "categoria": "Elección"
   },
   {
     "id": "391",
     "titulo": "Mi alma te alaba",
-    "url": "/Mi_alma_te_alaba.pdf"
+    "url": "/Mi_alma_te_alaba.pdf",
+    "categoria": "Alabanza"
   },
   {
     "id": "392",
     "titulo": "Mi Elegido es Naasón",
-    "url": "/Mi_Elegido_es_Naasn.pdf"
+    "url": "/Mi_Elegido_es_Naasn.pdf",
+    "categoria": "Elección"
   },
   {
     "id": "393",
     "titulo": "Mi Esperanza",
-    "url": "/Mi_Esperanza.pdf"
+    "url": "/Mi_Esperanza.pdf",
+    "categoria": "Confianza"
   },
   {
     "id": "394",
     "titulo": "Mi Esperanza Es En Ti",
-    "url": "/Mi_Esperanza_Es_En_Ti.pdf"
+    "url": "/Mi_Esperanza_Es_En_Ti.pdf",
+    "categoria": "Esperanza"
   },
   {
     "id": "395",
     "titulo": "Mi Gratitud",
-    "url": "/Mi_Gratitud.pdf"
+    "url": "/Mi_Gratitud.pdf",
+    "categoria": "Gratitud"
   },
   {
     "id": "396",
     "titulo": "Mi Jesús Vendrá",
-    "url": "/Mi_Jess_Vendr.pdf"
+    "url": "/Mi_Jess_Vendr.pdf",
+    "categoria": "Advenimiento"
   },
   {
     "id": "397",
     "titulo": "Mi Oración",
-    "url": "/Mi_Oracin.pdf"
+    "url": "/Mi_Oracin.pdf",
+    "categoria": "Oración"
   },
   {
     "id": "398",
     "titulo": "Mi Padre en La Fe",
-    "url": "/Mi_Padre_en_La_Fe.pdf"
+    "url": "/Mi_Padre_en_La_Fe.pdf",
+    "categoria": "Elección"
   },
   {
     "id": "399",
     "titulo": "Mi patria celestial",
-    "url": "/Mi_patria_celestial.pdf"
+    "url": "/Mi_patria_celestial.pdf",
+    "categoria": "Gloria"
   },
   {
     "id": "400",
     "titulo": "Mi Tesoro Más Valioso",
-    "url": "/Mi_Tesoro_Ms_Valioso.pdf"
+    "url": "/Mi_Tesoro_Ms_Valioso.pdf",
+    "categoria": "Elección"
   },
   {
     "id": "401",
     "titulo": "Mi Tiempo ha Llegado",
-    "url": "/Mi_Tiempo_ha_Llegado.pdf"
+    "url": "/Mi_Tiempo_ha_Llegado.pdf",
+    "categoria": "Elección"
   },
   {
     "id": "402",
     "titulo": "Mi Torre Fuerte",
-    "url": "/Mi_Torre_Fuerte.pdf"
+    "url": "/Mi_Torre_Fuerte.pdf",
+    "categoria": "Elección"
   },
   {
     "id": "403",
     "titulo": "Mi Vida te he de Ofrecer",
-    "url": "/Mi_Vida_te_he_de_Ofrecer.pdf"
+    "url": "/Mi_Vida_te_he_de_Ofrecer.pdf",
+    "categoria": "Consagración"
   },
   {
     "id": "404",
     "titulo": "Mi Única Esperanza",
-    "url": "/Mi_nica_Esperanza.pdf"
+    "url": "/Mi_nica_Esperanza.pdf",
+    "categoria": "Esperanza"
   },
   {
     "id": "405",
     "titulo": "Millares de cristianos",
-    "url": "/Millares_de_cristianos.pdf"
+    "url": "/Millares_de_cristianos.pdf",
+    "categoria": "Esperanza"
   },
   {
     "id": "406",
     "titulo": "Ministerio Sagrado",
-    "url": "/Ministerio_Sagrado.pdf"
+    "url": "/Ministerio_Sagrado.pdf",
+    "categoria": "Elección"
   },
   {
     "id": "407",
     "titulo": "Momentos de afliccion",
-    "url": "/Momentos_de_afliccion.pdf"
+    "url": "/Momentos_de_afliccion.pdf",
+    "categoria": "Confianza"
   },
   {
     "id": "408",
     "titulo": "Naasón Joaquín Reina",
-    "url": "/Naasn_Joaqun_Reina.pdf"
+    "url": "/Naasn_Joaqun_Reina.pdf",
+    "categoria": "Elección"
   },
   {
     "id": "409",
     "titulo": "Nacimos Para Ti",
-    "url": "/Nacimos_Para_Ti.pdf"
+    "url": "/Nacimos_Para_Ti.pdf",
+    "categoria": "Elección"
   },
   {
     "id": "410",
     "titulo": "Naciste para brillar",
-    "url": "/Naciste_para_brillar.pdf"
+    "url": "/Naciste_para_brillar.pdf",
+    "categoria": "Elección"
   },
   {
     "id": "411",
     "titulo": "Nada sé sobre el Futuro",
-    "url": "/Nada_s_sobre_el_Futuro.pdf"
+    "url": "/Nada_s_sobre_el_Futuro.pdf",
+    "categoria": "Confianza"
   },
   {
     "id": "412",
     "titulo": "Nadie como Tu",
-    "url": "/Nadie_como_Tu.pdf"
+    "url": "/Nadie_como_Tu.pdf",
+    "categoria": "Elección"
   },
   {
     "id": "413",
     "titulo": "Nadie Pudo Amarme",
-    "url": "/Nadie_Pudo_Amarme.pdf"
+    "url": "/Nadie_Pudo_Amarme.pdf",
+    "categoria": "Gracia"
   },
   {
     "id": "414",
     "titulo": "Nadie puede detenernos",
-    "url": "/Nadie_puede_detenernos.pdf"
+    "url": "/Nadie_puede_detenernos.pdf",
+    "categoria": "Confianza"
   },
   {
     "id": "415",
     "titulo": "Nardo, Justicia y Gloria",
-    "url": "/Nardo_Justicia_y_Gloria.pdf"
+    "url": "/Nardo_Justicia_y_Gloria.pdf",
+    "categoria": "Elección"
   },
   {
     "id": "416",
     "titulo": "Necesito a Cristo",
-    "url": "/Necesito_a_Cristo.pdf"
+    "url": "/Necesito_a_Cristo.pdf",
+    "categoria": "Intercesión"
   },
   {
     "id": "417",
     "titulo": "No cambiara",
-    "url": "/No_cambiara.pdf"
+    "url": "/No_cambiara.pdf",
+    "categoria": "Honra"
   },
   {
     "id": "418",
     "titulo": "No es de Todos",
-    "url": "/No_es_de_Todos.pdf"
+    "url": "/No_es_de_Todos.pdf",
+    "categoria": "Elección"
   },
   {
     "id": "419",
     "titulo": "No esperes",
-    "url": "/No_esperes.pdf"
+    "url": "/No_esperes.pdf",
+    "categoria": "Llamamiento"
   },
   {
     "id": "420",
     "titulo": "No hay amigo mas hermoso",
-    "url": "/No_hay_amigo_mas_hermoso.pdf"
+    "url": "/No_hay_amigo_mas_hermoso.pdf",
+    "categoria": "Confianza"
   },
   {
     "id": "421",
     "titulo": "No Hay Amigo Mejor",
-    "url": "/No_Hay_Amigo_Mejor.pdf"
+    "url": "/No_Hay_Amigo_Mejor.pdf",
+    "categoria": "Elección"
   },
   {
     "id": "422",
     "titulo": "No hay otro pueblo",
-    "url": "/No_hay_otro_pueblo.pdf"
+    "url": "/No_hay_otro_pueblo.pdf",
+    "categoria": "Elección"
   },
   {
     "id": "423",
     "titulo": "No hay otro Varon",
-    "url": "/No_hay_otro_Varon.pdf"
+    "url": "/No_hay_otro_Varon.pdf",
+    "categoria": "Elección"
   },
   {
     "id": "424",
     "titulo": "Noche de paz",
-    "url": "/Noche_de_paz.pdf"
+    "url": "/Noche_de_paz.pdf",
+    "categoria": "Meditación"
   },
   {
     "id": "425",
     "titulo": "Noche preciosa",
-    "url": "/Noche_preciosa.pdf"
+    "url": "/Noche_preciosa.pdf",
+    "categoria": "Consagración"
   },
   {
     "id": "426",
     "titulo": "Nuestra alegria",
-    "url": "/Nuestra_alegria.pdf"
+    "url": "/Nuestra_alegria.pdf",
+    "categoria": "Honra"
   },
   {
     "id": "427",
     "titulo": "Nuestra Canción",
-    "url": "/Nuestra_Cancin.pdf"
+    "url": "/Nuestra_Cancin.pdf",
+    "categoria": "Adoración"
   },
   {
     "id": "428",
     "titulo": "Nuestro Capitan",
-    "url": "/Nuestro_Capitan.pdf"
+    "url": "/Nuestro_Capitan.pdf",
+    "categoria": "Lucha"
   },
   {
     "id": "429",
     "titulo": "Nuestro Consuelo",
-    "url": "/Nuestro_Consuelo.pdf"
+    "url": "/Nuestro_Consuelo.pdf",
+    "categoria": "Elección"
   },
   {
     "id": "430",
     "titulo": "Nuestro Señor a la batalla",
-    "url": "/Nuestro_Seor_a_la_batalla.pdf"
+    "url": "/Nuestro_Seor_a_la_batalla.pdf",
+    "categoria": "Lucha"
   },
   {
     "id": "431",
     "titulo": "Ocasos",
-    "url": "/Ocasos.pdf"
+    "url": "/Ocasos.pdf",
+    "categoria": "Gloria"
   },
   {
     "id": "432",
     "titulo": "Ofrenda de Amor",
-    "url": "/Ofrenda_de_Amor.pdf"
+    "url": "/Ofrenda_de_Amor.pdf",
+    "categoria": "Liberalidad"
   },
   {
     "id": "433",
     "titulo": "Oh alma mia",
-    "url": "/Oh_alma_mia.pdf"
+    "url": "/Oh_alma_mia.pdf",
+    "categoria": "Gracia"
   },
   {
     "id": "434",
     "titulo": "Oh bendito rey",
-    "url": "/Oh_bendito_rey.pdf"
+    "url": "/Oh_bendito_rey.pdf",
+    "categoria": "Adoración"
   },
   {
     "id": "435",
     "titulo": "Oh brillara",
-    "url": "/Oh_brillara.pdf"
+    "url": "/Oh_brillara.pdf",
+    "categoria": "Elección"
   },
   {
     "id": "436",
     "titulo": "Oh Creador",
-    "url": "/Oh_Creador.pdf"
+    "url": "/Oh_Creador.pdf",
+    "categoria": "Adoración"
   },
   {
     "id": "437",
     "titulo": "Oh Cristo mio",
-    "url": "/Oh_Cristo_mio.pdf"
+    "url": "/Oh_Cristo_mio.pdf",
+    "categoria": "Consagración"
   },
   {
     "id": "438",
     "titulo": "Oh Habéis visto al Ungido de Jehová",
-    "url": "/Oh_Habis_visto_al_Ungido_de_Jehov.pdf"
+    "url": "/Oh_Habis_visto_al_Ungido_de_Jehov.pdf",
+    "categoria": "Elección"
   },
   {
     "id": "439",
     "titulo": "Oh Jerusalen",
-    "url": "/Oh_Jerusalen.pdf"
+    "url": "/Oh_Jerusalen.pdf",
+    "categoria": "Gloria"
   },
   {
     "id": "440",
     "titulo": "Oh Jovenes venid",
-    "url": "/Oh_Jovenes_venid.pdf"
+    "url": "/Oh_Jovenes_venid.pdf",
+    "categoria": "Juventud"
   },
   {
     "id": "441",
     "titulo": "Oh noche santa",
-    "url": "/Oh_noche_santa.pdf"
+    "url": "/Oh_noche_santa.pdf",
+    "categoria": "Alabanza"
   },
   {
     "id": "442",
     "titulo": "Oh que amigo",
-    "url": "/Oh_que_amigo.pdf"
+    "url": "/Oh_que_amigo.pdf",
+    "categoria": "Confianza"
   },
   {
     "id": "443",
     "titulo": "Oh Señor",
-    "url": "/Oh_Seor.pdf"
+    "url": "/Oh_Seor.pdf",
+    "categoria": "Alabanza"
   },
   {
     "id": "444",
     "titulo": "Oh Señor si Tú me Ayudas",
-    "url": "/Oh_Seor_si_T_me_Ayudas.pdf"
+    "url": "/Oh_Seor_si_T_me_Ayudas.pdf",
+    "categoria": "Confianza"
   },
   {
     "id": "445",
     "titulo": "Oh tu Fidelidad",
-    "url": "/Oh_tu_Fidelidad.pdf"
+    "url": "/Oh_tu_Fidelidad.pdf",
+    "categoria": "Gracia"
   },
   {
     "id": "446",
     "titulo": "Oh ven sin tardar",
-    "url": "/Oh_ven_sin_tardar.pdf"
+    "url": "/Oh_ven_sin_tardar.pdf",
+    "categoria": "Evangelización"
   },
   {
     "id": "447",
     "titulo": "Olor de Vida",
-    "url": "/Olor_de_Vida.pdf"
+    "url": "/Olor_de_Vida.pdf",
+    "categoria": "Elección"
   },
   {
     "id": "448",
     "titulo": "Oracion divina",
-    "url": "/Oracion_divina.pdf"
+    "url": "/Oracion_divina.pdf",
+    "categoria": "Oración"
   },
   {
     "id": "449",
     "titulo": "Otro año mas",
-    "url": "/Otro_ao_mas.pdf"
+    "url": "/Otro_ao_mas.pdf",
+    "categoria": "Fin de Año"
   },
   {
     "id": "450",
     "titulo": "Padre",
-    "url": "/Padre.pdf"
+    "url": "/Padre.pdf",
+    "categoria": "Honra"
   },
   {
     "id": "451",
     "titulo": "Padre aunque diez mil ayos",
-    "url": "/Padre_aunque_diez_mil_ayos.pdf"
+    "url": "/Padre_aunque_diez_mil_ayos.pdf",
+    "categoria": "Elección"
   },
   {
     "id": "452",
     "titulo": "Padre tu significas",
-    "url": "/Padre_tu_significas.pdf"
+    "url": "/Padre_tu_significas.pdf",
+    "categoria": "Elección"
   },
   {
     "id": "453",
     "titulo": "Paloma mia",
-    "url": "/Paloma_mia.pdf"
+    "url": "/Paloma_mia.pdf",
+    "categoria": "Restauración"
   },
   {
     "id": "454",
     "titulo": "Para mi el vivir es Cristo",
-    "url": "/Para_mi_el_vivir_es_Cristo.pdf"
+    "url": "/Para_mi_el_vivir_es_Cristo.pdf",
+    "categoria": "Duermen"
   },
   {
     "id": "455",
     "titulo": "Para Siempre Santidad",
-    "url": "/Para_Siempre_Santidad.pdf"
+    "url": "/Para_Siempre_Santidad.pdf",
+    "categoria": "Lucha"
   },
   {
     "id": "456",
     "titulo": "Parece que fue ayer",
-    "url": "/Parece_que_fue_ayer.pdf"
+    "url": "/Parece_que_fue_ayer.pdf",
+    "categoria": "Elección"
   },
   {
     "id": "457",
     "titulo": "Paz cuan dulce paz",
-    "url": "/Paz_cuan_dulce_paz.pdf"
+    "url": "/Paz_cuan_dulce_paz.pdf",
+    "categoria": "Confianza"
   },
   {
     "id": "458",
     "titulo": "Pecador ven al dulce",
-    "url": "/Pecador_ven_al_dulce.pdf"
+    "url": "/Pecador_ven_al_dulce.pdf",
+    "categoria": "Llamamiento"
   },
   {
     "id": "459",
     "titulo": "Piedad señor",
-    "url": "/Piedad_seor.pdf"
+    "url": "/Piedad_seor.pdf",
+    "categoria": "Petición"
   },
   {
     "id": "460",
     "titulo": "Placer Verdadero",
-    "url": "/Placer_Verdadero.pdf"
+    "url": "/Placer_Verdadero.pdf",
+    "categoria": "Obra"
   },
   {
     "id": "461",
     "titulo": "Por conocerle aleluya amen",
-    "url": "/Por_conocerle_aleluya_amen.pdf"
+    "url": "/Por_conocerle_aleluya_amen.pdf",
+    "categoria": "Alabanza"
   },
   {
     "id": "462",
     "titulo": "Por Eso Te Canto",
-    "url": "/Por_Eso_Te_Canto.pdf"
+    "url": "/Por_Eso_Te_Canto.pdf",
+    "categoria": "Gratitud"
   },
   {
     "id": "463",
     "titulo": "Por esta Hermosa Eleccion",
-    "url": "/Por_esta_Hermosa_Eleccion.pdf"
+    "url": "/Por_esta_Hermosa_Eleccion.pdf",
+    "categoria": "Elección"
   },
   {
     "id": "464",
     "titulo": "Por Gracia Me Tocó",
-    "url": "/Por_Gracia_Me_Toc.pdf"
+    "url": "/Por_Gracia_Me_Toc.pdf",
+    "categoria": "Elección"
   },
   {
     "id": "465",
     "titulo": "Por Jesus luchando",
-    "url": "/Por_Jesus_luchando.pdf"
+    "url": "/Por_Jesus_luchando.pdf",
+    "categoria": "Llamamiento"
   },
   {
     "id": "466",
     "titulo": "Por la oración del Justo",
-    "url": "/Por_la_oracin_del_Justo.pdf"
+    "url": "/Por_la_oracin_del_Justo.pdf",
+    "categoria": "Intercesión"
   },
   {
     "id": "467",
     "titulo": "Por su amor ya reina",
-    "url": "/Por_su_amor_ya_reina.pdf"
+    "url": "/Por_su_amor_ya_reina.pdf",
+    "categoria": "Amor"
   },
   {
     "id": "468",
     "titulo": "Por su Elección Cantemos",
-    "url": "/Por_su_Eleccin_Cantemos.pdf"
+    "url": "/Por_su_Eleccin_Cantemos.pdf",
+    "categoria": "Elección"
   },
   {
     "id": "469",
     "titulo": "Por tu bendita eleccion",
-    "url": "/Por_tu_bendita_eleccion.pdf"
+    "url": "/Por_tu_bendita_eleccion.pdf",
+    "categoria": "Elección"
   },
   {
     "id": "470",
     "titulo": "Por tu Elección",
-    "url": "/Por_tu_Eleccin.pdf"
+    "url": "/Por_tu_Eleccin.pdf",
+    "categoria": "Elección"
   },
   {
     "id": "471",
     "titulo": "Postrados Adoramos",
-    "url": "/Postrados_Adoramos.pdf"
+    "url": "/Postrados_Adoramos.pdf",
+    "categoria": "Adoración"
   },
   {
     "id": "472",
     "titulo": "Preciosa existencia",
-    "url": "/Preciosa_existencia.pdf"
+    "url": "/Preciosa_existencia.pdf",
+    "categoria": "Elección"
   },
   {
     "id": "473",
     "titulo": "Preciosa fe",
-    "url": "/Preciosa_fe.pdf"
+    "url": "/Preciosa_fe.pdf",
+    "categoria": "Consagración"
   },
   {
     "id": "474",
     "titulo": "Proclamad con alegria",
-    "url": "/Proclamad_con_alegria.pdf"
+    "url": "/Proclamad_con_alegria.pdf",
+    "categoria": "Elección"
   },
   {
     "id": "475",
     "titulo": "Pues la gracia",
-    "url": "/Pues_la_gracia.pdf"
+    "url": "/Pues_la_gracia.pdf",
+    "categoria": "Gracia"
   },
   {
     "id": "476",
     "titulo": "Que bueno eres",
-    "url": "/Que_bueno_eres.pdf"
+    "url": "/Que_bueno_eres.pdf",
+    "categoria": "Gracia"
   },
   {
     "id": "477",
     "titulo": "Que dulce es el amor",
-    "url": "/Que_dulce_es_el_amor.pdf"
+    "url": "/Que_dulce_es_el_amor.pdf",
+    "categoria": "Amor"
   },
   {
     "id": "478",
     "titulo": "Que dulce es tu nombre",
-    "url": "/Que_dulce_es_tu_nombre.pdf"
+    "url": "/Que_dulce_es_tu_nombre.pdf",
+    "categoria": "Consagración"
   },
   {
     "id": "479",
     "titulo": "Que mi Vida entera Esté",
-    "url": "/Que_mi_Vida_entera_Est.pdf"
+    "url": "/Que_mi_Vida_entera_Est.pdf",
+    "categoria": "Consagración"
   },
   {
     "id": "480",
     "titulo": "Que sea Feliz",
-    "url": "/Que_sea_Feliz.pdf"
+    "url": "/Que_sea_Feliz.pdf",
+    "categoria": "Petición"
   },
   {
     "id": "481",
     "titulo": "Que sea muy feliz",
-    "url": "/Que_sea_muy_feliz.pdf"
+    "url": "/Que_sea_muy_feliz.pdf",
+    "categoria": "Honra"
   },
   {
     "id": "482",
     "titulo": "Que un Coro de Ángeles",
-    "url": "/Que_un_Coro_de_ngeles.pdf"
+    "url": "/Que_un_Coro_de_ngeles.pdf",
+    "categoria": "Petición"
   },
   {
     "id": "483",
     "titulo": "Quieres ser salvo",
-    "url": "/Quieres_ser_salvo.pdf"
+    "url": "/Quieres_ser_salvo.pdf",
+    "categoria": "Bautismo"
   },
   {
     "id": "484",
     "titulo": "Quiero Hacer Tu Voluntad",
-    "url": "/Quiero_Hacer_Tu_Voluntad.pdf"
+    "url": "/Quiero_Hacer_Tu_Voluntad.pdf",
+    "categoria": "Consagración"
   },
   {
     "id": "485",
     "titulo": "Quiero ser",
-    "url": "/Quiero_ser.pdf"
+    "url": "/Quiero_ser.pdf",
+    "categoria": "Consagración"
   },
   {
     "id": "486",
     "titulo": "Quiero ser como tu",
-    "url": "/Quiero_ser_como_tu.pdf"
+    "url": "/Quiero_ser_como_tu.pdf",
+    "categoria": "Consagración"
   },
   {
     "id": "487",
     "titulo": "Quiero ser Limpio",
-    "url": "/Quiero_ser_Limpio.pdf"
+    "url": "/Quiero_ser_Limpio.pdf",
+    "categoria": "Intercesión"
   },
   {
     "id": "488",
     "titulo": "Qué Gran Amor",
-    "url": "/Qu_Gran_Amor.pdf"
+    "url": "/Qu_Gran_Amor.pdf",
+    "categoria": "Elección"
   },
   {
     "id": "489",
     "titulo": "Qué Secreto Amor",
-    "url": "/Qu_Secreto_Amor.pdf"
+    "url": "/Qu_Secreto_Amor.pdf",
+    "categoria": "7 de Mayo"
   },
   {
     "id": "490",
     "titulo": "Razones",
-    "url": "/Razones.pdf"
+    "url": "/Razones.pdf",
+    "categoria": "Honra"
   },
   {
     "id": "491",
     "titulo": "Recuerdo de la muerte de Cristo",
-    "url": "/Recuerdo_de_la_muerte_de_Cristo.pdf"
+    "url": "/Recuerdo_de_la_muerte_de_Cristo.pdf",
+    "categoria": "Pasión"
   },
   {
     "id": "492",
     "titulo": "Regresa al Hogar",
-    "url": "/Regresa_al_Hogar.pdf"
+    "url": "/Regresa_al_Hogar.pdf",
+    "categoria": "Restauración"
   },
   {
     "id": "493",
     "titulo": "Resplandor de Cristo",
-    "url": "/Resplandor_de_Cristo.pdf"
+    "url": "/Resplandor_de_Cristo.pdf",
+    "categoria": "Elección"
   },
   {
     "id": "494",
     "titulo": "Rey de Reyes",
-    "url": "/Rey_de_Reyes.pdf"
+    "url": "/Rey_de_Reyes.pdf",
+    "categoria": "Alabanza"
   },
   {
     "id": "495",
     "titulo": "Salmo 100",
-    "url": "/Salmo_100.pdf"
+    "url": "/Salmo_100.pdf",
+    "categoria": "Alabanza"
   },
   {
     "id": "496",
     "titulo": "Salmo 115",
-    "url": "/Salmo_115.pdf"
+    "url": "/Salmo_115.pdf",
+    "categoria": "Alabanza"
   },
   {
     "id": "497",
     "titulo": "Salmo 135",
-    "url": "/Salmo_135.pdf"
+    "url": "/Salmo_135.pdf",
+    "categoria": "Alabanza"
   },
   {
     "id": "498",
     "titulo": "Salmo 150",
-    "url": "/Salmo_150.pdf"
+    "url": "/Salmo_150.pdf",
+    "categoria": "Alabanza"
   },
   {
     "id": "499",
     "titulo": "Salmo 90",
-    "url": "/Salmo_90.pdf"
+    "url": "/Salmo_90.pdf",
+    "categoria": "Consagración"
   },
   {
     "id": "500",
     "titulo": "Santa Convocación",
-    "url": "/Santa_Convocacin.pdf"
+    "url": "/Santa_Convocacin.pdf",
+    "categoria": "Santa Cena"
   },
   {
     "id": "501",
     "titulo": "Santo es el señor",
-    "url": "/Santo_es_el_seor.pdf"
+    "url": "/Santo_es_el_seor.pdf",
+    "categoria": "Adoración"
   },
   {
     "id": "502",
     "titulo": "Santo varon",
-    "url": "/Santo_varon.pdf"
+    "url": "/Santo_varon.pdf",
+    "categoria": "Elección"
   },
   {
     "id": "503",
     "titulo": "Se llama fe",
-    "url": "/Se_llama_fe.pdf"
+    "url": "/Se_llama_fe.pdf",
+    "categoria": "Gracia"
   },
   {
     "id": "504",
     "titulo": "Se oye Coro Triunfal",
-    "url": "/Se_oye_Coro_Triunfal.pdf"
+    "url": "/Se_oye_Coro_Triunfal.pdf",
+    "categoria": "Alabanza"
   },
   {
     "id": "505",
     "titulo": "Secreta Oración",
-    "url": "/Secreta_Oracin.pdf"
+    "url": "/Secreta_Oracin.pdf",
+    "categoria": "Oración"
   },
   {
     "id": "506",
     "titulo": "Señor aqui a tus plantas",
-    "url": "/Seor_aqui_a_tus_plantas.pdf"
+    "url": "/Seor_aqui_a_tus_plantas.pdf",
+    "categoria": "Consagración"
   },
   {
     "id": "507",
     "titulo": "Señor en tu Presencia",
-    "url": "/Seor_en_tu_Presencia.pdf"
+    "url": "/Seor_en_tu_Presencia.pdf",
+    "categoria": "Petición"
   },
   {
     "id": "508",
     "titulo": "Señor Jesus cuan bella",
-    "url": "/Seor_Jesus_cuan_bella.pdf"
+    "url": "/Seor_Jesus_cuan_bella.pdf",
+    "categoria": "Consagración"
   },
   {
     "id": "509",
     "titulo": "Señor Jesus Tu eres mi Esperanza",
-    "url": "/Seor_Jesus_Tu_eres_mi_Esperanza.pdf"
+    "url": "/Seor_Jesus_Tu_eres_mi_Esperanza.pdf",
+    "categoria": "Gratitud"
   },
   {
     "id": "510",
     "titulo": "Señor mi Dios",
-    "url": "/Seor_mi_Dios.pdf"
+    "url": "/Seor_mi_Dios.pdf",
+    "categoria": "Alabanza"
   },
   {
     "id": "511",
     "titulo": "Señor piedad",
-    "url": "/Seor_piedad.pdf"
+    "url": "/Seor_piedad.pdf",
+    "categoria": "Consagración"
   },
   {
     "id": "512",
     "titulo": "Señor Tu ves Mi Corazón",
-    "url": "/Seor_Tu_ves_Mi_Corazn.pdf"
+    "url": "/Seor_Tu_ves_Mi_Corazn.pdf",
+    "categoria": "Consagración"
   },
   {
     "id": "513",
     "titulo": "Si callare",
-    "url": "/Si_callare.pdf"
+    "url": "/Si_callare.pdf",
+    "categoria": "Gracia"
   },
   {
     "id": "514",
     "titulo": "Si Fui motivo",
-    "url": "/Si_Fui_motivo.pdf"
+    "url": "/Si_Fui_motivo.pdf",
+    "categoria": "Intercesión"
   },
   {
     "id": "515",
     "titulo": "Si Mil Veces",
-    "url": "/Si_Mil_Veces.pdf"
+    "url": "/Si_Mil_Veces.pdf",
+    "categoria": "Honra"
   },
   {
     "id": "516",
     "titulo": "Si te negara",
-    "url": "/Si_te_negara.pdf"
+    "url": "/Si_te_negara.pdf",
+    "categoria": "Consagración"
   },
   {
     "id": "517",
     "titulo": "Siempre cantando",
-    "url": "/Siempre_cantando.pdf"
+    "url": "/Siempre_cantando.pdf",
+    "categoria": "Alabanza"
   },
   {
     "id": "518",
     "titulo": "Siempre estas alli",
-    "url": "/Siempre_estas_alli.pdf"
+    "url": "/Siempre_estas_alli.pdf",
+    "categoria": "Confianza"
   },
   {
     "id": "519",
     "titulo": "Siempre te alabare",
-    "url": "/Siempre_te_alabare.pdf"
+    "url": "/Siempre_te_alabare.pdf",
+    "categoria": "Alabanza"
   },
   {
     "id": "520",
     "titulo": "Siempre Te Amaré",
-    "url": "/Siempre_Te_Amar.pdf"
+    "url": "/Siempre_Te_Amar.pdf",
+    "categoria": "Consagración"
   },
   {
     "id": "521",
     "titulo": "Siento orgullo",
-    "url": "/Siento_orgullo.pdf"
+    "url": "/Siento_orgullo.pdf",
+    "categoria": "Honra"
   },
   {
     "id": "522",
     "titulo": "Sigue la Enseña",
-    "url": "/Sigue_la_Ensea.pdf"
+    "url": "/Sigue_la_Ensea.pdf",
+    "categoria": "Lucha"
   },
   {
     "id": "523",
     "titulo": "Solo tienes que voltear",
-    "url": "/Solo_tienes_que_voltear.pdf"
+    "url": "/Solo_tienes_que_voltear.pdf",
+    "categoria": "Elección"
   },
   {
     "id": "524",
     "titulo": "Somos Cartas",
-    "url": "/Somos_Cartas.pdf"
+    "url": "/Somos_Cartas.pdf",
+    "categoria": "Elección"
   },
   {
     "id": "525",
     "titulo": "Sonó la trompeta",
-    "url": "/Son_la_trompeta.pdf"
+    "url": "/Son_la_trompeta.pdf",
+    "categoria": "Santa Cena"
   },
   {
     "id": "526",
     "titulo": "Soy muy Feliz",
-    "url": "/Soy_muy_Feliz.pdf"
+    "url": "/Soy_muy_Feliz.pdf",
+    "categoria": "Gracia"
   },
   {
     "id": "527",
     "titulo": "Soy Soldado de Cristo",
-    "url": "/Soy_Soldado_de_Cristo.pdf"
+    "url": "/Soy_Soldado_de_Cristo.pdf",
+    "categoria": "Lucha"
   },
   {
     "id": "528",
     "titulo": "Soy Soldado de Naason",
-    "url": "/Soy_Soldado_de_Naason.pdf"
+    "url": "/Soy_Soldado_de_Naason.pdf",
+    "categoria": "Lucha"
   },
   {
     "id": "529",
     "titulo": "Soy Yo Soldado de Jesus",
-    "url": "/Soy_Yo_Soldado_de_Jesus.pdf"
+    "url": "/Soy_Yo_Soldado_de_Jesus.pdf",
+    "categoria": "Lucha"
   },
   {
     "id": "530",
     "titulo": "Su Dulce Voz",
-    "url": "/Su_Dulce_Voz.pdf"
+    "url": "/Su_Dulce_Voz.pdf",
+    "categoria": "Elección"
   },
   {
     "id": "531",
     "titulo": "Su ley divina",
-    "url": "/Su_ley_divina.pdf"
+    "url": "/Su_ley_divina.pdf",
+    "categoria": "Alabanza"
   },
   {
     "id": "532",
     "titulo": "Su Mirada",
-    "url": "/Su_Mirada.pdf"
+    "url": "/Su_Mirada.pdf",
+    "categoria": "Elección"
   },
   {
     "id": "533",
     "titulo": "Su tiempo ha llegado",
-    "url": "/Su_tiempo_ha_llegado.pdf"
+    "url": "/Su_tiempo_ha_llegado.pdf",
+    "categoria": "Elección"
   },
   {
     "id": "534",
     "titulo": "Sublime Gracia",
-    "url": "/Sublime_Gracia.pdf"
+    "url": "/Sublime_Gracia.pdf",
+    "categoria": "Gracia"
   },
   {
     "id": "535",
     "titulo": "Suenen dulces himnos",
-    "url": "/Suenen_dulces_himnos.pdf"
+    "url": "/Suenen_dulces_himnos.pdf",
+    "categoria": "Alabanza"
   },
   {
     "id": "536",
     "titulo": "Sus Banderas",
-    "url": "/Sus_Banderas.pdf"
+    "url": "/Sus_Banderas.pdf",
+    "categoria": "Bienvenida"
   },
   {
     "id": "537",
     "titulo": "Tal como soy",
-    "url": "/Tal_como_soy.pdf"
+    "url": "/Tal_como_soy.pdf",
+    "categoria": "Consagración"
   },
   {
     "id": "538",
     "titulo": "Te Amamos oh Naasón",
-    "url": "/Te_Amamos_oh_Naasn.pdf"
+    "url": "/Te_Amamos_oh_Naasn.pdf",
+    "categoria": "Elección"
   },
   {
     "id": "539",
     "titulo": "Te Bendecimos",
-    "url": "/Te_Bendecimos.pdf"
+    "url": "/Te_Bendecimos.pdf",
+    "categoria": "Adoración"
   },
   {
     "id": "540",
     "titulo": "Te doy mi corazon",
-    "url": "/Te_doy_mi_corazon.pdf"
+    "url": "/Te_doy_mi_corazon.pdf",
+    "categoria": "Alabanza"
   },
   {
     "id": "541",
     "titulo": "Te loamos Te glorificamos",
-    "url": "/Te_loamos_Te_glorificamos.pdf"
+    "url": "/Te_loamos_Te_glorificamos.pdf",
+    "categoria": "Alabanza"
   },
   {
     "id": "542",
     "titulo": "Te necesito ya",
-    "url": "/Te_necesito_ya.pdf"
+    "url": "/Te_necesito_ya.pdf",
+    "categoria": "Intercesión"
   },
   {
     "id": "543",
     "titulo": "Tiempo de Luchar",
-    "url": "/Tiempo_de_Luchar.pdf"
+    "url": "/Tiempo_de_Luchar.pdf",
+    "categoria": "Lucha"
   },
   {
     "id": "544",
     "titulo": "Tiempo de meditacion",
-    "url": "/Tiempo_de_meditacion.pdf"
+    "url": "/Tiempo_de_meditacion.pdf",
+    "categoria": "Meditación"
   },
   {
     "id": "545",
     "titulo": "Tiempos de Gracia",
-    "url": "/Tiempos_de_Gracia.pdf"
+    "url": "/Tiempos_de_Gracia.pdf",
+    "categoria": "Gracia"
   },
   {
     "id": "546",
     "titulo": "Tocad Trompeta ya",
-    "url": "/Tocad_Trompeta_ya.pdf"
+    "url": "/Tocad_Trompeta_ya.pdf",
+    "categoria": "Fin de Año"
   },
   {
     "id": "547",
     "titulo": "Toda mi gratitud",
-    "url": "/Toda_mi_gratitud.pdf"
+    "url": "/Toda_mi_gratitud.pdf",
+    "categoria": "Gratitud"
   },
   {
     "id": "548",
     "titulo": "Toda voz",
-    "url": "/Toda_voz.pdf"
+    "url": "/Toda_voz.pdf",
+    "categoria": "Alabanza"
   },
   {
     "id": "549",
     "titulo": "Todos Fuimos Sepultados",
-    "url": "/Todos_Fuimos_Sepultados.pdf"
+    "url": "/Todos_Fuimos_Sepultados.pdf",
+    "categoria": "Bautismo"
   },
   {
     "id": "550",
     "titulo": "Tras la Tormenta el Arco Iris",
-    "url": "/Tras_la_Tormenta_el_Arco_Iris.pdf"
+    "url": "/Tras_la_Tormenta_el_Arco_Iris.pdf",
+    "categoria": "Esperanza"
   },
   {
     "id": "551",
     "titulo": "Tronos y Reinados",
-    "url": "/Tronos_y_Reinados.pdf"
+    "url": "/Tronos_y_Reinados.pdf",
+    "categoria": "Alabanza"
   },
   {
     "id": "552",
     "titulo": "Tu eres Dios",
-    "url": "/Tu_eres_Dios.pdf"
+    "url": "/Tu_eres_Dios.pdf",
+    "categoria": "Alabanza"
   },
   {
     "id": "553",
     "titulo": "Tu eres mi consuelo",
-    "url": "/Tu_eres_mi_consuelo.pdf"
+    "url": "/Tu_eres_mi_consuelo.pdf",
+    "categoria": "Confianza"
   },
   {
     "id": "554",
     "titulo": "Tu eres para mi",
-    "url": "/Tu_eres_para_mi.pdf"
+    "url": "/Tu_eres_para_mi.pdf",
+    "categoria": "Confianza"
   },
   {
     "id": "555",
     "titulo": "Tu poder",
-    "url": "/Tu_poder.pdf"
+    "url": "/Tu_poder.pdf",
+    "categoria": "Alabanza"
   },
   {
     "id": "556",
     "titulo": "Tu vida diste",
-    "url": "/Tu_vida_diste.pdf"
+    "url": "/Tu_vida_diste.pdf",
+    "categoria": "Pasión"
   },
   {
     "id": "557",
     "titulo": "Tú eres Creador",
-    "url": "/T_eres_Creador.pdf"
+    "url": "/T_eres_Creador.pdf",
+    "categoria": "Alabanza"
   },
   {
     "id": "558",
     "titulo": "Tú Eres mi Esperanza",
-    "url": "/T_Eres_mi_Esperanza.pdf"
+    "url": "/T_Eres_mi_Esperanza.pdf",
+    "categoria": "Confianza"
   },
   {
     "id": "559",
     "titulo": "Un Acto de Amor",
-    "url": "/Un_Acto_de_Amor.pdf"
+    "url": "/Un_Acto_de_Amor.pdf",
+    "categoria": "Pasión"
   },
   {
     "id": "560",
     "titulo": "Un angel bendito",
-    "url": "/Un_angel_bendito.pdf"
+    "url": "/Un_angel_bendito.pdf",
+    "categoria": "Elección"
   },
   {
     "id": "561",
     "titulo": "Un Apostol",
-    "url": "/Un_Apostol.pdf"
+    "url": "/Un_Apostol.pdf",
+    "categoria": "Honra"
   },
   {
     "id": "562",
     "titulo": "Un Apostol de Cristo",
-    "url": "/Un_Apostol_de_Cristo.pdf"
+    "url": "/Un_Apostol_de_Cristo.pdf",
+    "categoria": "Elección"
   },
   {
     "id": "563",
     "titulo": "Un Autentico Apostol",
-    "url": "/Un_Autentico_Apostol.pdf"
+    "url": "/Un_Autentico_Apostol.pdf",
+    "categoria": "Elección"
   },
   {
     "id": "564",
     "titulo": "Un año mas terminara",
-    "url": "/Un_ao_mas_terminara.pdf"
+    "url": "/Un_ao_mas_terminara.pdf",
+    "categoria": "Fin de Año"
   },
   {
     "id": "565",
     "titulo": "Un banquete de Amor",
-    "url": "/Un_banquete_de_Amor.pdf"
+    "url": "/Un_banquete_de_Amor.pdf",
+    "categoria": "Santa Cena"
   },
   {
     "id": "566",
     "titulo": "Un Canto de Amor",
-    "url": "/Un_Canto_de_Amor.pdf"
+    "url": "/Un_Canto_de_Amor.pdf",
+    "categoria": "Gratitud"
   },
   {
     "id": "567",
     "titulo": "Un dia estare",
-    "url": "/Un_dia_estare.pdf"
+    "url": "/Un_dia_estare.pdf",
+    "categoria": "Esperanza"
   },
   {
     "id": "568",
     "titulo": "Un Día tu Luz Llegó",
-    "url": "/Un_Da_tu_Luz_Lleg.pdf"
+    "url": "/Un_Da_tu_Luz_Lleg.pdf",
+    "categoria": "Elección"
   },
   {
     "id": "569",
     "titulo": "Un Gran Apóstol",
-    "url": "/Un_Gran_Apstol.pdf"
+    "url": "/Un_Gran_Apstol.pdf",
+    "categoria": "Elección"
   },
   {
     "id": "570",
     "titulo": "Un Gran Consolador",
-    "url": "/Un_Gran_Consolador.pdf"
+    "url": "/Un_Gran_Consolador.pdf",
+    "categoria": "Elección"
   },
   {
     "id": "571",
     "titulo": "Un gran Maestro",
-    "url": "/Un_gran_Maestro.pdf"
+    "url": "/Un_gran_Maestro.pdf",
+    "categoria": "Honra"
   },
   {
     "id": "572",
     "titulo": "Un Grande Honor",
-    "url": "/Un_Grande_Honor.pdf"
+    "url": "/Un_Grande_Honor.pdf",
+    "categoria": "Elección"
   },
   {
     "id": "573",
     "titulo": "Un nombre nuevo en la gloria",
-    "url": "/Un_nombre_nuevo_en_la_gloria.pdf"
+    "url": "/Un_nombre_nuevo_en_la_gloria.pdf",
+    "categoria": "Alabanza"
   },
   {
     "id": "574",
     "titulo": "Un regalo de Dios",
-    "url": "/Un_regalo_de_Dios.pdf"
+    "url": "/Un_regalo_de_Dios.pdf",
+    "categoria": "Elección"
   },
   {
     "id": "575",
     "titulo": "Una esposa",
-    "url": "/Una_esposa.pdf"
+    "url": "/Una_esposa.pdf",
+    "categoria": "Advenimiento"
   },
   {
     "id": "576",
     "titulo": "Una fe, un señor, un bautismo",
-    "url": "/Una_fe_un_seor_un_bautismo.pdf"
+    "url": "/Una_fe_un_seor_un_bautismo.pdf",
+    "categoria": "Alabanza"
   },
   {
     "id": "577",
     "titulo": "Una Firme Esperanza",
-    "url": "/Una_Firme_Esperanza.pdf"
+    "url": "/Una_Firme_Esperanza.pdf",
+    "categoria": "Esperanza"
   },
   {
     "id": "578",
     "titulo": "Una Hermosa Historia",
-    "url": "/Una_Hermosa_Historia.pdf"
+    "url": "/Una_Hermosa_Historia.pdf",
+    "categoria": "Gracia"
   },
   {
     "id": "579",
     "titulo": "Una Historia de Amor",
-    "url": "/Una_Historia_de_Amor.pdf"
+    "url": "/Una_Historia_de_Amor.pdf",
+    "categoria": "Elección"
   },
   {
     "id": "580",
     "titulo": "Una lumbrera",
-    "url": "/Una_lumbrera.pdf"
+    "url": "/Una_lumbrera.pdf",
+    "categoria": "Elección"
   },
   {
     "id": "581",
     "titulo": "Una Oración",
-    "url": "/Una_Oracin.pdf"
+    "url": "/Una_Oracin.pdf",
+    "categoria": "Oración"
   },
   {
     "id": "582",
     "titulo": "Una Vez Perdido",
-    "url": "/Una_Vez_Perdido.pdf"
+    "url": "/Una_Vez_Perdido.pdf",
+    "categoria": "Gozo"
   },
   {
     "id": "583",
     "titulo": "Una Vida Feliz",
-    "url": "/Una_Vida_Feliz.pdf"
+    "url": "/Una_Vida_Feliz.pdf",
+    "categoria": "Consagración"
   },
   {
     "id": "584",
     "titulo": "Unanimes Cantad",
-    "url": "/Unanimes_Cantad.pdf"
+    "url": "/Unanimes_Cantad.pdf",
+    "categoria": "Alabanza"
   },
   {
     "id": "585",
     "titulo": "Vamos",
-    "url": "/Vamos.pdf"
+    "url": "/Vamos.pdf",
+    "categoria": "Lucha"
   },
   {
     "id": "586",
     "titulo": "Vamos Hoy Adelante",
-    "url": "/Vamos_Hoy_Adelante.pdf"
+    "url": "/Vamos_Hoy_Adelante.pdf",
+    "categoria": "Lucha"
   },
   {
     "id": "587",
     "titulo": "Ven a la cena",
-    "url": "/Ven_a_la_cena.pdf"
+    "url": "/Ven_a_la_cena.pdf",
+    "categoria": "Santa Cena"
   },
   {
     "id": "588",
     "titulo": "Ven a la fiesta",
-    "url": "/Ven_a_la_fiesta.pdf"
+    "url": "/Ven_a_la_fiesta.pdf",
+    "categoria": "Elección"
   },
   {
     "id": "589",
     "titulo": "Ven al buen pastor",
-    "url": "/Ven_al_buen_pastor.pdf"
+    "url": "/Ven_al_buen_pastor.pdf",
+    "categoria": "Llamamiento"
   },
   {
     "id": "590",
     "titulo": "Ven Amigo a Jesus",
-    "url": "/Ven_Amigo_a_Jesus.pdf"
+    "url": "/Ven_Amigo_a_Jesus.pdf",
+    "categoria": "Llamamiento"
   },
   {
     "id": "591",
     "titulo": "Venceremos",
-    "url": "/Venceremos.pdf"
+    "url": "/Venceremos.pdf",
+    "categoria": "Lucha"
   },
   {
     "id": "592",
     "titulo": "Vengo a Honrarte",
-    "url": "/Vengo_a_Honrarte.pdf"
+    "url": "/Vengo_a_Honrarte.pdf",
+    "categoria": "Honra"
   },
   {
     "id": "593",
     "titulo": "Vengo a ofrecerte salvador",
-    "url": "/Vengo_a_ofrecerte_salvador.pdf"
+    "url": "/Vengo_a_ofrecerte_salvador.pdf",
+    "categoria": "Gratitud"
   },
   {
     "id": "594",
     "titulo": "Vengo a ti",
-    "url": "/Vengo_a_ti.pdf"
+    "url": "/Vengo_a_ti.pdf",
+    "categoria": "Adoración"
   },
   {
     "id": "595",
     "titulo": "Venid Celebremos",
-    "url": "/Venid_Celebremos.pdf"
+    "url": "/Venid_Celebremos.pdf",
+    "categoria": "Alabanza"
   },
   {
     "id": "596",
     "titulo": "Venid, Venid, Cantad la Bella Historia",
-    "url": "/Venid_Venid_Cantad_la_Bella_Historia.pdf"
+    "url": "/Venid_Venid_Cantad_la_Bella_Historia.pdf",
+    "categoria": "Alabanza"
   },
   {
     "id": "597",
     "titulo": "Veo tu Gloria",
-    "url": "/Veo_tu_Gloria.pdf"
+    "url": "/Veo_tu_Gloria.pdf",
+    "categoria": "Gloria"
   },
   {
     "id": "598",
     "titulo": "Viene de Dios",
-    "url": "/Viene_de_Dios.pdf"
+    "url": "/Viene_de_Dios.pdf",
+    "categoria": "Elección"
   },
   {
     "id": "599",
     "titulo": "Volver a Ver",
-    "url": "/Volver_a_Ver.pdf"
+    "url": "/Volver_a_Ver.pdf",
+    "categoria": "Santa Cena"
   },
   {
     "id": "600",
     "titulo": "Volver a ver su Rostro",
-    "url": "/Volver_a_ver_su_Rostro.pdf"
+    "url": "/Volver_a_ver_su_Rostro.pdf",
+    "categoria": "Elección"
   },
   {
     "id": "601",
     "titulo": "Vosotros oh fieles",
-    "url": "/Vosotros_oh_fieles.pdf"
+    "url": "/Vosotros_oh_fieles.pdf",
+    "categoria": "Fin de Año"
   },
   {
     "id": "602",
     "titulo": "Vuelve al redil",
-    "url": "/Vuelve_al_redil.pdf"
+    "url": "/Vuelve_al_redil.pdf",
+    "categoria": "Llamamiento"
   },
   {
     "id": "603",
     "titulo": "Ya sea en el valle",
-    "url": "/Ya_sea_en_el_valle.pdf"
+    "url": "/Ya_sea_en_el_valle.pdf",
+    "categoria": "Obra"
   },
   {
     "id": "604",
     "titulo": "Yo adoro un Dios Omnipotente",
-    "url": "/Yo_adoro_un_Dios_Omnipotente.pdf"
+    "url": "/Yo_adoro_un_Dios_Omnipotente.pdf",
+    "categoria": "Adoración"
   },
   {
     "id": "605",
     "titulo": "Yo Alabo a un Dios",
-    "url": "/Yo_Alabo_a_un_Dios.pdf"
+    "url": "/Yo_Alabo_a_un_Dios.pdf",
+    "categoria": "Alabanza"
   },
   {
     "id": "606",
     "titulo": "Yo amo a tu Apostol",
-    "url": "/Yo_amo_a_tu_Apostol.pdf"
+    "url": "/Yo_amo_a_tu_Apostol.pdf",
+    "categoria": "Amor"
   },
   {
     "id": "607",
     "titulo": "Yo escucho buen Jesus",
-    "url": "/Yo_escucho_buen_Jesus.pdf"
+    "url": "/Yo_escucho_buen_Jesus.pdf",
+    "categoria": "Consagración"
   },
   {
     "id": "608",
     "titulo": "Yo fui peregrino",
-    "url": "/Yo_fui_peregrino.pdf"
+    "url": "/Yo_fui_peregrino.pdf",
+    "categoria": "Confianza"
   },
   {
     "id": "609",
     "titulo": "Yo Iré",
-    "url": "/Yo_Ir.pdf"
+    "url": "/Yo_Ir.pdf",
+    "categoria": "Lucha"
   },
   {
     "id": "610",
     "titulo": "Yo le Amo",
-    "url": "/Yo_le_Amo.pdf"
+    "url": "/Yo_le_Amo.pdf",
+    "categoria": "Elección"
   },
   {
     "id": "611",
     "titulo": "Yo soy el pan de vida",
-    "url": "/Yo_soy_el_pan_de_vida.pdf"
+    "url": "/Yo_soy_el_pan_de_vida.pdf",
+    "categoria": "Alabanza"
   },
   {
     "id": "612",
     "titulo": "Yo te agradezco",
-    "url": "/Yo_te_agradezco.pdf"
+    "url": "/Yo_te_agradezco.pdf",
+    "categoria": "Gratitud"
   },
   {
     "id": "613",
     "titulo": "Yo tengo un himno de loor",
-    "url": "/Yo_tengo_un_himno_de_loor.pdf"
+    "url": "/Yo_tengo_un_himno_de_loor.pdf",
+    "categoria": "Alabanza"
   },
   {
     "id": "614",
     "titulo": "Yo Tengo un Padre",
-    "url": "/Yo_Tengo_un_Padre.pdf"
+    "url": "/Yo_Tengo_un_Padre.pdf",
+    "categoria": "Elección"
   },
   {
     "id": "615",
     "titulo": "Dile",
-    "url": "/Dile.pdf"
+    "url": "/Dile.pdf",
+    "categoria": "Petición"
   }
 ]
