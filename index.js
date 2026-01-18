@@ -10,6 +10,7 @@ const DATABASE_FILE = path.join(__dirname, 'database', 'songs.json');
 
 let cachedPartituras = null;
 let lastFetchTime = null;
+let lastFileModTime = null;
 const CACHE_DURATION = 1 * 60 * 1000; // 1 minuto (reducido para actualizaciones más rápidas)
 
 app.use(cors({
@@ -51,6 +52,20 @@ function loadSongsFromLocalDatabase() {
 app.get('/canciones', (req, res) => {
     try {
         const now = Date.now();
+        
+        // Verificar si el archivo cambió
+        let fileModTime = null;
+        if (fs.existsSync(DATABASE_FILE)) {
+            fileModTime = fs.statSync(DATABASE_FILE).mtime.getTime();
+        }
+        
+        // Si el archivo cambió, limpiar cache
+        if (fileModTime && lastFileModTime && fileModTime > lastFileModTime) {
+            cachedPartituras = null;
+            lastFetchTime = null;
+        }
+        
+        // Si hay cache válido y el archivo no cambió, usarlo
         if (cachedPartituras && lastFetchTime && (now - lastFetchTime) < CACHE_DURATION) {
             return res.json(cachedPartituras);
         }
@@ -60,6 +75,7 @@ app.get('/canciones', (req, res) => {
         if (listaCanciones && listaCanciones.length > 0) {
             cachedPartituras = listaCanciones;
             lastFetchTime = now;
+            lastFileModTime = fileModTime;
             return res.json(listaCanciones);
         }
         
