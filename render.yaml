@@ -1,0 +1,14 @@
+services:
+  - type: web
+    name: lldmcantos-server
+    env: node
+    plan: free
+    buildCommand: npm install
+    startCommand: npm start
+    envVars:
+      - key: NODE_ENV
+        value: production
+      - key: BASE_URL
+        sync: false  # Se configurará manualmente después del deployment
+    healthCheckPath: /health
+
