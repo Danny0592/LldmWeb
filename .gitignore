@@ -251,6 +251,10 @@ server.log
 server.error.log
 nohup.out
 
+# PDFs (ya están desplegados en Render, no necesitan estar en Git)
+public/*.pdf
+!public/.gitkeep
+
 # Archivos temporales
 *.swp
 *.swo
