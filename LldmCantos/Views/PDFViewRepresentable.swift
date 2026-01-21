@@ -184,7 +184,17 @@ struct PDFViewer: View {
                 }
                 
                 guard httpResponse.statusCode == 200 else {
-                    errorMessage = "Error al descargar PDF: código \(httpResponse.statusCode)\nVerifica que el servidor esté corriendo"
+                    // Proporcionar mensajes de error más específicos según el código de estado
+                    var errorMsg = ""
+                    switch httpResponse.statusCode {
+                    case 404:
+                        errorMsg = "Error 404: El PDF no se encontró en el servidor.\n\nPosibles causas:\n• El archivo no está en Render\n• El nombre del archivo no coincide\n• El servidor necesita reiniciarse\n\nVerifica que los PDFs estén desplegados en Render."
+                    case 500:
+                        errorMsg = "Error 500: Error interno del servidor.\nVerifica que el servidor esté funcionando correctamente."
+                    default:
+                        errorMsg = "Error al descargar PDF: código \(httpResponse.statusCode)\nVerifica que el servidor esté corriendo"
+                    }
+                    errorMessage = errorMsg
                     isLoading = false
                     return
                 }
