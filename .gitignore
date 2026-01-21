@@ -252,6 +252,7 @@ server.error.log
 nohup.out
 
 # PDFs (ya están desplegados en Render, no necesitan estar en Git)
+# Temporalmente permitir PDFs para subirlos a Render
 # public/*.pdf
 !public/.gitkeep
 
