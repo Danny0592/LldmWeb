@@ -14,3 +14,8 @@ fastlane/report.xml
 fastlane/Preview.html
 fastlane/screenshots
 fastlane/test_output
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
