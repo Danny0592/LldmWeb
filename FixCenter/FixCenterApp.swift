@@ -6,11 +6,18 @@
 // prueba
 
 import SwiftUI
+import FirebaseCore
 
 /// Punto de entrada principal de la aplicación FixCenter.
 /// Configura la inyección de dependencias inicial y gestiona el flujo de autenticación.
 @main
 struct FixCenterApp: App {
+    
+    init() {
+        FirebaseApp.configure()
+        // Descomenta la siguiente línea para subir los datos iniciales a Firestore:
+//         DatabaseSeeds.uploadServiceData()
+    }
     /// Servicio compartido para el almacenamiento de datos persistentes.
     private let storageService: StorageService = LocalStorageService()
     /// Servicio compartido para la gestión y procesamiento de imágenes.
@@ -22,7 +29,7 @@ struct FixCenterApp: App {
     }
     
     /// Estado que controla si el usuario ha iniciado sesión.
-    @State private var isAuthenticated = false
+    @State private var isAuthenticated = true
     
     var body: some Scene {
         WindowGroup {

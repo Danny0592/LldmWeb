@@ -61,6 +61,24 @@ enum DeviceType: String, Codable, CaseIterable, Identifiable {
             return .gray
         }
     }
+    
+    /// Identificador utilizado en Firestore para la colección 'categories'.
+    var catalogId: String {
+        switch self {
+        case .phone:
+            return "celular"
+        case .laptop:
+            return "laptop"
+        case .desktop:
+            return "pc"
+        case .tablet:
+            return "tablet"
+        case .console:
+            return "consola"
+        case .other:
+            return "other"
+        }
+    }
 }
 
 

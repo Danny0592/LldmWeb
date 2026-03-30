@@ -12,6 +12,9 @@ struct DeviceSectionView: View {
     @ObservedObject var viewModel: RepairFormViewModel
     @FocusState private var focusedField: RepairFormField?
     
+    @State private var showBrandSheet = false
+    @State private var showModelSheet = false
+    
     var body: some View {
         ScrollViewReader { proxy in
             ScrollView {
@@ -28,23 +31,49 @@ struct DeviceSectionView: View {
                     // Información del dispositivo
                     GlassCard {
                         VStack(spacing: 20) {
-                            FloatingTextField(
-                                title: "Marca",
-                                text: $viewModel.repair.device.brand,
-                                placeholder: "Ej: Apple, Samsung, HP",
-                                focusState: $focusedField,
-                                focusValue: .deviceBrand
-                            )
-                            .id(RepairFormField.deviceBrand)
+                            // Campo Dinámico para MARCA
+                            if viewModel.isCustomBrand {
+                                FloatingTextField(
+                                    title: "Marca (Manual)",
+                                    text: $viewModel.repair.device.brand,
+                                    placeholder: "Ej: Apple, Samsung, HP",
+                                    focusState: $focusedField,
+                                    focusValue: .deviceBrand
+                                )
+                                .id(RepairFormField.deviceBrand)
+                            } else {
+                                FloatingSelectField(
+                                    title: "Marca",
+                                    text: viewModel.repair.device.brand,
+                                    placeholder: viewModel.isLoadingCatalog ? "Cargando..." : "Seleccionar marca",
+                                    action: { showBrandSheet = true },
+                                    disabled: viewModel.isLoadingCatalog
+                                )
+                                .id(RepairFormField.deviceBrand)
+                            }
                             
-                            FloatingTextField(
-                                title: "Modelo",
-                                text: $viewModel.repair.device.model,
-                                placeholder: "Ej: iPhone 14, Galaxy S23",
-                                focusState: $focusedField,
-                                focusValue: .deviceModel
-                            )
-                            .id(RepairFormField.deviceModel)
+                            // Campo Dinámico para MODELO
+                            if viewModel.isCustomModel {
+                                FloatingTextField(
+                                    title: "Modelo (Manual)",
+                                    text: $viewModel.repair.device.model,
+                                    placeholder: "Ej: iPhone 14, Galaxy S23",
+                                    focusState: $focusedField,
+                                    focusValue: .deviceModel
+                                )
+                                .id(RepairFormField.deviceModel)
+                            } else {
+                                FloatingSelectField(
+                                    title: "Modelo",
+                                    text: viewModel.repair.device.model,
+                                    placeholder: viewModel.selectedBrandId == nil && !viewModel.isCustomBrand 
+                                        ? "Primero selecciona una marca" 
+                                        : (viewModel.isLoadingCatalog ? "Cargando..." : "Seleccionar modelo"),
+                                    action: { showModelSheet = true },
+                                    disabled: viewModel.selectedBrandId == nil || viewModel.isLoadingCatalog
+                                )
+                                .id(RepairFormField.deviceModel)
+                            }
                             
                             FloatingTextField(
                                 title: "Número de serie",
@@ -78,6 +107,43 @@ struct DeviceSectionView: View {
                         proxy.scrollTo(field, anchor: UnitPoint(x: 0.5, y: 0.8))
                     }
                 }
+            }
+            .onChange(of: viewModel.repair.device.type) { _ in
+                Task {
+                    await viewModel.deviceTypeChanged()
+                }
+            }
+            .task {
+                if viewModel.availableBrands.isEmpty && !viewModel.isCustomBrand {
+                    await viewModel.loadBrands()
+                }
+            }
+            .sheet(isPresented: $showBrandSheet) {
+                BrandSelectionSheet(
+                    brands: viewModel.availableBrands,
+                    onSelect: { brand in
+                        Task { await viewModel.loadModels(for: brand) }
+                    },
+                    onSelectOther: {
+                        viewModel.isCustomBrand = true
+                        viewModel.repair.device.brand = ""
+                        viewModel.repair.device.model = ""
+                        viewModel.isCustomModel = true
+                        viewModel.selectedBrandId = nil
+                    }
+                )
+            }
+            .sheet(isPresented: $showModelSheet) {
+                ModelSelectionSheet(
+                    models: viewModel.availableModels,
+                    onSelect: { model in
+                        viewModel.selectModel(model)
+                    },
+                    onSelectOther: {
+                        viewModel.isCustomModel = true
+                        viewModel.repair.device.model = ""
+                    }
+                )
             }
         }
     }

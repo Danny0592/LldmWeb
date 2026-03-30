@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>API_KEY</key>
+	<string>AIzaSyBlJP5ZlCIjYPzL3fZVbXa0UE5Mq2t9doI</string>
+	<key>GCM_SENDER_ID</key>
+	<string>688840122806</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>com.danielom.FixCenter</string>
+	<key>PROJECT_ID</key>
+	<string>fixcenterdevicemodel</string>
+	<key>STORAGE_BUCKET</key>
+	<string>fixcenterdevicemodel.firebasestorage.app</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:688840122806:ios:440c046892fe3335f2a117</string>
+</dict>
+</plist>

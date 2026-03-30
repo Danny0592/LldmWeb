@@ -27,10 +27,21 @@ class RepairFormViewModel: ObservableObject {
     /// Mensaje de error para mostrar en el formulario.
     @Published var errorMessage: String? = nil
     
+    // MARK: - Estado del Catálogo de Dispositivos
+    @Published var availableBrands: [DeviceBrand] = []
+    @Published var availableModels: [DeviceSpecificModel] = []
+    @Published var selectedBrandId: String? = nil
+    @Published var isCustomBrand: Bool = false
+    @Published var isCustomModel: Bool = false
+    @Published var isLoadingCatalog: Bool = false
+
+    
     /// Repositorio de datos.
     private let repository: RepairRepository
     /// Servicio de procesamiento de imágenes.
     private let imageService: ImageService
+    /// Servicio de catálogo de Firestore.
+    private let catalogService: DeviceCatalogService
     
     /// Número total de secciones del formulario.
     let totalSteps = 4
@@ -43,9 +54,10 @@ class RepairFormViewModel: ObservableObject {
     }
     
     /// Inicializa el ViewModel, opcionalmente con una reparación existente para editar.
-    init(repository: RepairRepository, imageService: ImageService, repair: Repair? = nil) {
+    init(repository: RepairRepository, imageService: ImageService, catalogService: DeviceCatalogService = FirebaseDeviceCatalogService(), repair: Repair? = nil) {
         self.repository = repository
         self.imageService = imageService
+        self.catalogService = catalogService
         if let repair = repair {
             self.repair = repair
             self.originalRepairId = repair.id
@@ -153,6 +165,59 @@ class RepairFormViewModel: ObservableObject {
         }
         
         return imageData
+    }
+    
+    // MARK: - Catálogo de Dispositivos (Firestore)
+    
+    /// Carga las marcas según la categoría actual.
+    func loadBrands() async {
+        let categoryId = repair.device.type.catalogId
+        isLoadingCatalog = true
+        do {
+            availableBrands = try await catalogService.fetchBrands(for: categoryId)
+            // Si la marca actual no existe en la lista, marcamos como "Otro" (si no está vacía)
+            if !availableBrands.contains(where: { $0.name == repair.device.brand }) && !repair.device.brand.isEmpty {
+                isCustomBrand = true
+            }
+        } catch {
+            print("Error cargando marcas: \(error.localizedDescription)")
+        }
+        isLoadingCatalog = false
+    }
+    
+    /// Carga los modelos basándose en la marca seleccionada.
+    func loadModels(for brand: DeviceBrand) async {
+        repair.device.brand = brand.name
+        selectedBrandId = brand.id
+        repair.device.model = "" // Limpiar modelo al cambiar marca
+        isCustomBrand = false
+        isCustomModel = false
+        
+        let categoryId = repair.device.type.catalogId
+        isLoadingCatalog = true
+        do {
+            availableModels = try await catalogService.fetchModels(for: brand.id, categoryId: categoryId)
+        } catch {
+            print("Error cargando modelos: \(error.localizedDescription)")
+        }
+        isLoadingCatalog = false
+    }
+    
+    /// Al seleccionar un modelo del catálogo.
+    func selectModel(_ model: DeviceSpecificModel) {
+        repair.device.model = model.name
+        isCustomModel = false
+    }
+    
+    /// Al cambiar el tipo de dispositivo, recargar marcas y limpiar campos.
+    func deviceTypeChanged() async {
+        repair.device.brand = ""
+        repair.device.model = ""
+        selectedBrandId = nil
+        isCustomBrand = false
+        isCustomModel = false
+        availableModels = []
+        await loadBrands()
     }
 }
 
