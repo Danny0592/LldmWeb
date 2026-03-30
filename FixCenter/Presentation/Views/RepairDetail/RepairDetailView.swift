@@ -243,7 +243,7 @@ struct RepairDetailView: View {
         GlassCard {
             VStack(alignment: .leading, spacing: 16) {
                 HStack {
-                    Text("Estado y Fechas")
+                    Text("Estatus y Fechas")
                         .font(.headline)
                     Spacer()
                 }
