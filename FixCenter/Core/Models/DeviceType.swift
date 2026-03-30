@@ -20,6 +20,10 @@ enum DeviceType: String, Codable, CaseIterable, Identifiable {
     case tablet = "Tablet"
     /// Consolas de videojuegos.
     case console = "Consola"
+    /// Monitores de PC.
+    case monitor = "Monitor"
+    /// Televisiones.
+    case tv = "Televisión"
     /// Cualquier otro tipo de dispositivo no listado.
     case other = "Otro"
     
@@ -39,6 +43,10 @@ enum DeviceType: String, Codable, CaseIterable, Identifiable {
             return "ipad"
         case .console:
             return "gamecontroller"
+        case .monitor:
+            return "display"
+        case .tv:
+            return "tv"
         case .other:
             return "ellipsis.circle"
         }
@@ -57,6 +65,10 @@ enum DeviceType: String, Codable, CaseIterable, Identifiable {
             return .cyan
         case .console:
             return .orange
+        case .monitor:
+            return .teal
+        case .tv:
+            return .pink
         case .other:
             return .gray
         }
@@ -75,6 +87,10 @@ enum DeviceType: String, Codable, CaseIterable, Identifiable {
             return "tablet"
         case .console:
             return "consola"
+        case .monitor:
+            return "monitor"
+        case .tv:
+            return "tv"
         case .other:
             return "other"
         }
