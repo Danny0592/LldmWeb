@@ -11,29 +11,36 @@ struct DatabaseSeeds {
             ["id": "laptop", "name": "Laptops", "icon": "laptopcomputer"],
             ["id": "tablet", "name": "Tablets", "icon": "ipad"],
             ["id": "pc", "name": "Computadoras de Escritorio", "icon": "desktopcomputer"],
-            ["id": "consola", "name": "Consolas de Videojuegos", "icon": "gamecontroller"]
+            ["id": "consola", "name": "Consolas de Videojuegos", "icon": "gamecontroller"],
+            ["id": "monitor", "name": "Monitores de PC", "icon": "display"],
+            ["id": "tv", "name": "Televisiones", "icon": "tv"]
         ]
         
-        // 2. Catálogo de Marcas (Actualizado con marcas de PC/Laptop)
+        // 2. Catálogo de Marcas (Actualizado con marcas de TV/Monitores)
         let brands = [
-            ["id": "apple", "name": "Apple", "categories": ["celular", "laptop", "tablet", "pc"]],
-            ["id": "samsung", "name": "Samsung", "categories": ["celular", "tablet", "laptop"]],
-            ["id": "sony", "name": "Sony (PlayStation)", "categories": ["consola"]],
+            ["id": "apple", "name": "Apple", "categories": ["celular", "laptop", "tablet", "pc", "monitor", "tv"]],
+            ["id": "samsung", "name": "Samsung", "categories": ["celular", "tablet", "laptop", "monitor", "tv"]],
+            ["id": "sony", "name": "Sony (PlayStation)", "categories": ["consola", "monitor", "tv"]],
             ["id": "nintendo", "name": "Nintendo", "categories": ["consola"]],
             ["id": "microsoft", "name": "Microsoft (Xbox)", "categories": ["consola", "laptop", "tablet"]],
-            ["id": "asus", "name": "Asus", "categories": ["laptop", "pc", "consola"]],
-            ["id": "xiaomi", "name": "Xiaomi", "categories": ["celular", "tablet"]],
-            ["id": "huawei", "name": "Huawei", "categories": ["celular", "laptop", "tablet"]],
+            ["id": "asus", "name": "Asus", "categories": ["laptop", "pc", "consola", "monitor"]],
+            ["id": "xiaomi", "name": "Xiaomi", "categories": ["celular", "tablet", "monitor", "tv"]],
+            ["id": "huawei", "name": "Huawei", "categories": ["celular", "laptop", "tablet", "monitor"]],
             ["id": "motorola", "name": "Motorola", "categories": ["celular"]],
-            ["id": "oppo", "name": "OPPO", "categories": ["celular"]],
+            ["id": "oppo", "name": "OPPO", "categories": ["celular", "tv"]],
             ["id": "vivo", "name": "Vivo", "categories": ["celular"]],
-            ["id": "realme", "name": "Realme", "categories": ["celular"]],
-            ["id": "oneplus", "name": "OnePlus", "categories": ["celular", "tablet"]],
+            ["id": "realme", "name": "Realme", "categories": ["celular", "tv"]],
+            ["id": "oneplus", "name": "OnePlus", "categories": ["celular", "tablet", "tv"]],
             ["id": "google", "name": "Google", "categories": ["celular", "tablet"]],
-            ["id": "lenovo", "name": "Lenovo", "categories": ["laptop", "tablet", "pc"]],
-            ["id": "hp", "name": "HP", "categories": ["laptop", "pc"]],
-            ["id": "dell", "name": "Dell", "categories": ["laptop", "pc"]],
-            ["id": "acer", "name": "Acer", "categories": ["laptop", "pc"]]
+            ["id": "lenovo", "name": "Lenovo", "categories": ["laptop", "tablet", "pc", "monitor"]],
+            ["id": "hp", "name": "HP", "categories": ["laptop", "pc", "monitor"]],
+            ["id": "dell", "name": "Dell", "categories": ["laptop", "pc", "monitor"]],
+            ["id": "acer", "name": "Acer", "categories": ["laptop", "pc", "monitor"]],
+            ["id": "lg", "name": "LG", "categories": ["monitor", "tv"]],
+            ["id": "hisense", "name": "Hisense", "categories": ["tv"]],
+            ["id": "tcl", "name": "TCL", "categories": ["tv"]],
+            ["id": "benq", "name": "BenQ", "categories": ["monitor"]],
+            ["id": "aoc", "name": "AOC", "categories": ["monitor"]]
         ]
         
         var models: [[String: String]] = []
@@ -88,13 +95,39 @@ struct DatabaseSeeds {
             "lenovo": ["Legion Tower 7i", "Legion Tower 5i", "Legion Tower 5 AMD", "IdeaCentre Gaming 5", "IdeaCentre AIO 3", "IdeaCentre 3", "ThinkCentre M90a", "ThinkCentre M70q Tiny", "ThinkStation P360", "Yoga AIO 7"]
         ]
 
+        // 3f. Modelos de Monitores de PC
+        let monitoresPorMarca = [
+            "samsung": ["Odyssey G9 49\"", "Odyssey G8 34\"", "Odyssey G7 32\"", "Odyssey G5 27\"", "Smart Monitor M8 32\"", "Smart Monitor M7 32\"", "UR55 28\" 4K", "CRG9 49\" Curved", "ViewFinity S8 32\"", "ViewFinity S6 27\""],
+            "lg": ["UltraGear 27\" OLED 240Hz", "UltraGear 32\" 144Hz", "UltraGear 34\" Curved", "UltraWide 38\" Curved", "DualUp 28\" Ergo", "UltraFine 5K 27\"", "UltraFine 4K 24\"", "32UN880-B Ergo", "27QN600-B 27\"", "Monitor 24\" IPS FHD"],
+            "sony": ["Inzone M9 27\" 4K", "Inzone M3 27\" FHD"],
+            "asus": ["ROG Swift OLED PG27AQDM", "ROG Swift 360Hz PG259QN", "ROG Strix XG27AQ", "ROG Strix XG32UQ", "TUF Gaming VG27AQ", "TUF Gaming VG249Q", "ProArt Display PA279CV", "ProArt Display PA329CV", "ProArt PA248QV", "ZenScreen MB16ACE"],
+            "lenovo": ["Legion Y27q-20", "Legion Y25-25", "Legion Y32p-30", "ThinkVision P27h-20", "ThinkVision T24i-20", "ThinkVision M14 Portable", "Lenovo G27q-20", "Lenovo L24q-30", "Lenovo Q27q-10", "Lenovo L28u-30"],
+            "hp": ["Omen 27c", "Omen 25i", "Omen 34c M", "X24ih Gaming Monitor", "Z24n G3 WUXGA", "Z27q G3 QHD", "M27f FHD", "M24fwa FHD", "E24 G4 FHD", "X34 WQHD Gaming"],
+            "dell": ["Alienware 34 Curved QD-OLED", "Alienware 27 Gaming 240Hz", "Alienware 25 Gaming", "UltraSharp 32 4K USB-C", "UltraSharp 27 4K", "UltraSharp 34 Curved USB-C", "S2722QC 27\" 4K", "S2421HGF 24\" Gaming", "S3222DGM Curved", "P2720D 27\" QHD"],
+            "acer": ["Predator XB273K", "Predator X38", "Nitro XV272U", "Nitro EI242QRP", "Nitro XV240Y", "ConceptD CP3", "CB272U 27\"", "SB220Q 21.5\"", "R240HY bidx 23.8\"", "Aopen 27HC5R"],
+            "benq": ["Mobiuz EX2710S", "Mobiuz EX3210U 4K", "Mobiuz EX3410R Curved", "PD2700U 4K Designer", "PD3220U Mac-Ready", "GW2480T 24\" Eye-care", "GW2780 27\"", "Zowie XL2546K E-Sports", "Zowie XL2411P", "Zowie XL2566K 360Hz"],
+            "aoc": ["CQ27G2 Curved", "CU34G2X 34\" Curved", "24G2 Gaming 144Hz", "27G2 Gaming IPS", "C24G1 Curved Gaming", "U2790VQ 27\" 4K", "I2267FW 22\"", "Agon AG493UCX 49\"", "Agon PRO AG254FG", "E1659FWU Portable"]
+        ]
+        
+        // 3g. Modelos de Televisiones (TV)
+        let tvsPorMarca = [
+            "samsung": ["Neo QLED 8K 85\" QN900C", "Neo QLED 4K 75\" QN90C", "OLED S95C 65\"", "OLED S90C 55\"", "The Frame 65\"", "The Frame 55\"", "QLED Q80C 65\"", "Crystal UHD CU8000 75\"", "Crystal UHD CU7000 50\"", "The Serif 43\""],
+            "lg": ["OLED evo G3 77\"", "OLED evo G3 65\"", "OLED C3 65\"", "OLED C3 55\"", "OLED B3 65\"", "QNED 85 Series 75\"", "QNED 80 Series 65\"", "NanoCell 75 Series 86\"", "NanoCell 75\" 4K", "UHD 80 Series 55\""],
+            "sony": ["Bravia XR A95L 77\" QD-OLED", "Bravia XR A95L 65\" QD-OLED", "Bravia XR A80L 65\" OLED", "Bravia XR A80L 55\" OLED", "Bravia XR X93L 75\" Mini LED", "Bravia XR X90L 65\" Full Array LED", "Bravia X85K 55\"", "Bravia X77L 43\""],
+            "hisense": ["ULED U8K 75\" Mini-LED", "ULED U8K 65\" Mini-LED", "ULED U7K 65\"", "ULED U7K 55\"", "U6K Series 65\"", "U6K Series 50\"", "A6 Series 75\" 4K", "A6 Series 43\" 4K", "A4 Series 40\" FHD", "A4 Series 32\" HD"],
+            "tcl": ["QM8 85\" Mini-LED", "QM8 65\" Mini-LED", "Q7 75\" QLED", "Q7 55\" QLED", "6-Series 65\" Mini-LED", "5-Series 50\" QLED", "4-Series 65\" 4K", "4-Series 43\" 4K", "Class S3 40\" FHD", "Class S3 32\" HD"],
+            "xiaomi": ["TV Q1 75\" QLED", "TV P1 55\" 4K", "TV P1 43\" 4K", "TV A2 55\" 4K", "TV A2 43\" FHD", "TV A2 32\" HD", "Smart TV 5A 43\"", "Smart TV X Series 50\""]
+        ]
+
         // Consolidación de todos los diccionarios a la lista "models"
         let todosLosCatálogos = [
             ("celular", celularesPorMarca),
             ("laptop", laptopsPorMarca),
             ("tablet", tabletsPorMarca),
             ("consola", consolasPorMarca),
-            ("pc", pcsPorMarca)
+            ("pc", pcsPorMarca),
+            ("monitor", monitoresPorMarca),
+            ("tv", tvsPorMarca)
         ]
         
         for (categoria, marcasYModelos) in todosLosCatálogos {
