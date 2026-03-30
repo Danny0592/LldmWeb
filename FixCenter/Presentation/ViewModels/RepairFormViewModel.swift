@@ -66,6 +66,7 @@ class RepairFormViewModel: ObservableObject {
             self.finalImages = repair.finalPhotos.compactMap { UIImage(data: $0) }
         } else {
             self.originalRepairId = nil
+            self.repair.diagnostics = RepairFormViewModel.generateDefaultDiagnostics(for: self.repair.device.type)
         }
     }
     
@@ -217,7 +218,90 @@ class RepairFormViewModel: ObservableObject {
         isCustomBrand = false
         isCustomModel = false
         availableModels = []
+        repair.diagnostics = RepairFormViewModel.generateDefaultDiagnostics(for: repair.device.type)
         await loadBrands()
+    }
+    
+    // MARK: - Generación de Diagnóstico por Defecto
+    
+    /// Genera una lista de items a verificar según el tipo de dispositivo.
+    static func generateDefaultDiagnostics(for type: DeviceType) -> [DiagnosticItem] {
+        switch type {
+        case .phone, .tablet:
+            return [
+                DiagnosticItem(name: "Pantalla sin rayones profundos o manchas"),
+                DiagnosticItem(name: "No tiene píxeles muertos o zonas oscuras"),
+                DiagnosticItem(name: "Marco sin golpes fuertes o deformaciones"),
+                DiagnosticItem(name: "Parte trasera sin grietas"),
+                DiagnosticItem(name: "Cámara sin rayones visibles"),
+                DiagnosticItem(name: "Botones (volumen, encendido) funcionan correctamente"),
+                DiagnosticItem(name: "Bandeja SIM abre y cierra bien"),
+                DiagnosticItem(name: "El teléfono enciende sin problemas"),
+                DiagnosticItem(name: "No se reinicia solo"),
+                DiagnosticItem(name: "Funciona fluido (sin lag excesivo)"),
+                DiagnosticItem(name: "No se sobrecalienta rápidamente"),
+                DiagnosticItem(name: "Carga correctamente"),
+                DiagnosticItem(name: "No se descarga demasiado rápido"),
+                DiagnosticItem(name: "No se calienta al cargar"),
+                DiagnosticItem(name: "Porcentaje de batería estable (no baja de golpe)"),
+                DiagnosticItem(name: "Señal móvil funciona (llamadas y datos)"),
+                DiagnosticItem(name: "Wi-Fi se conecta sin problemas"),
+                DiagnosticItem(name: "Bluetooth funciona"),
+                DiagnosticItem(name: "GPS funciona correctamente"),
+                DiagnosticItem(name: "Altavoces se escuchan claros"),
+                DiagnosticItem(name: "Micrófono funciona (prueba con grabación)"),
+                DiagnosticItem(name: "Entrada de audífonos (si tiene) funciona"),
+                DiagnosticItem(name: "Cámara trasera enfoca bien"),
+                DiagnosticItem(name: "Cámara frontal funciona"),
+                DiagnosticItem(name: "Flash funciona"),
+                DiagnosticItem(name: "No hay manchas en fotos"),
+                DiagnosticItem(name: "Pantalla táctil responde en toda la superficie"),
+                DiagnosticItem(name: "Sensor de huella funciona"),
+                DiagnosticItem(name: "Reconocimiento facial (si tiene) funciona"),
+                DiagnosticItem(name: "Sensor de proximidad (apaga pantalla en llamadas)"),
+                DiagnosticItem(name: "Puerto de carga funciona correctamente"),
+                DiagnosticItem(name: "No está flojo o dañado"),
+                DiagnosticItem(name: "Reconoce cable y carga normal"),
+                DiagnosticItem(name: "No tiene cuentas bloqueadas (Google / iCloud)"),
+                DiagnosticItem(name: "Está restaurado de fábrica (si es usado)"),
+                DiagnosticItem(name: "IMEI válido y no reportado"),
+                DiagnosticItem(name: "Sistema operativo funcional")
+            ]
+        case .laptop, .desktop:
+            return [
+                DiagnosticItem(name: "Encendido"),
+                DiagnosticItem(name: "Pantalla"),
+                DiagnosticItem(name: "Teclado"),
+                DiagnosticItem(name: "Trackpad / Mouse"),
+                DiagnosticItem(name: "Puertos USB / I-O"),
+                DiagnosticItem(name: "Wi-Fi"),
+                DiagnosticItem(name: "Batería (Laptop)")
+            ]
+        case .console:
+            return [
+                DiagnosticItem(name: "Encendido"),
+                DiagnosticItem(name: "Lectura de Discos"),
+                DiagnosticItem(name: "Puerto HDMI / Video"),
+                DiagnosticItem(name: "Puertos de Controles"),
+                DiagnosticItem(name: "Ventilación / Ruido"),
+                DiagnosticItem(name: "Conexión a Internet")
+            ]
+        case .monitor, .tv:
+            return [
+                DiagnosticItem(name: "Encendido"),
+                DiagnosticItem(name: "Panel (Líneas/Golpes)"),
+                DiagnosticItem(name: "Puertos HDMI"),
+                DiagnosticItem(name: "Puertos Auxiliares"),
+                DiagnosticItem(name: "Altavoces"),
+                DiagnosticItem(name: "Botones Físicos")
+            ]
+        case .other:
+            return [
+                DiagnosticItem(name: "Encendido general"),
+                DiagnosticItem(name: "Daño físico visible"),
+                DiagnosticItem(name: "Cables/Puertos")
+            ]
+        }
     }
 }
 

@@ -38,6 +38,8 @@ struct Repair: Identifiable, Codable, Hashable {
     var notes: String
     /// Costo total de la reparación (opcional).
     var price: Double?
+    /// Lista de diagnóstico inicial basado en checklist.
+    var diagnostics: [DiagnosticItem]
     
     /// Inicializa una nueva orden de reparación.
     /// - Parameters:
@@ -69,7 +71,8 @@ struct Repair: Identifiable, Codable, Hashable {
         finalPhotos: [Data] = [],
         workPerformed: String = "",
         notes: String = "",
-        price: Double? = nil
+        price: Double? = nil,
+        diagnostics: [DiagnosticItem] = []
     ) {
         self.id = id
         self.folio = folio
@@ -85,10 +88,11 @@ struct Repair: Identifiable, Codable, Hashable {
         self.workPerformed = workPerformed
         self.notes = notes
         self.price = price
+        self.diagnostics = diagnostics
     }
     
     enum CodingKeys: String, CodingKey {
-        case id, folio, customer, device, problemDescription, assignedTechnician, status, receivedDate, deliveryDate, initialPhotos, finalPhotos, workPerformed, notes, price
+        case id, folio, customer, device, problemDescription, assignedTechnician, status, receivedDate, deliveryDate, initialPhotos, finalPhotos, workPerformed, notes, price, diagnostics
     }
     
     init(from decoder: Decoder) throws {
@@ -107,6 +111,7 @@ struct Repair: Identifiable, Codable, Hashable {
         workPerformed = try container.decode(String.self, forKey: .workPerformed)
         notes = try container.decode(String.self, forKey: .notes)
         price = try container.decodeIfPresent(Double.self, forKey: .price)
+        diagnostics = try container.decodeIfPresent([DiagnosticItem].self, forKey: .diagnostics) ?? []
     }
 }
 

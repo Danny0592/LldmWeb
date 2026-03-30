@@ -19,10 +19,17 @@ struct ProblemSectionView: View {
                     Color.clear
                         .frame(height: 1)
                         .id("top")
+                    /// Checklist de Recepción
+                    GlassCard {
+                        DiagnosticChecklistView(
+                            diagnostics: $viewModel.repair.diagnostics,
+                            deviceTypeName: viewModel.repair.device.type.rawValue
+                        )
+                    }
                     
                     GlassCard {
                         VStack(alignment: .leading, spacing: 16) {
-                            Text("Descripción del problema")
+                            Text("Descripción adicional del problema")
                                 .font(.headline)
                                 .foregroundColor(.primary)
                             
