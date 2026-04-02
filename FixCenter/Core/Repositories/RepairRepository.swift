@@ -19,17 +19,17 @@ protocol RepairRepository {
     func fetchRepairs() async throws -> [Repair]
     
     /// Obtiene una reparación específica por su identificador único.
-    /// - Parameter id: UUID de la reparación.
+    /// - Parameter id: ID de la reparación (String).
     /// - Returns: La reparación encontrada o nil si no existe.
-    func fetchRepair(id: UUID) async throws -> Repair?
+    func fetchRepair(id: String) async throws -> Repair?
     
     /// Actualiza la información de una reparación existente.
     /// - Parameter repair: La reparación con los datos actualizados.
     func updateRepair(_ repair: Repair) async throws
     
     /// Elimina una reparación del sistema.
-    /// - Parameter id: Identificador de la reparación a eliminar.
-    func deleteRepair(id: UUID) async throws
+    /// - Parameter id: Identificador de la reparación a eliminar (String).
+    func deleteRepair(id: String) async throws
     
     /// Realiza una búsqueda de reparaciones basada en un texto.
     /// - Parameter query: Texto de búsqueda (nombre, folio, etc.).
@@ -41,5 +41,3 @@ protocol RepairRepository {
     /// - Returns: Lista de reparaciones con el estado solicitado.
     func filterRepairs(by status: RepairStatus) async throws -> [Repair]
 }
-
-

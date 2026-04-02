@@ -29,8 +29,8 @@ class RepairRepositoryImpl: RepairRepository {
         try await storageService.fetchRepairs()
     }
     
-    /// Busca una reparación por ID.
-    func fetchRepair(id: UUID) async throws -> Repair? {
+    /// Busca una reparación por ID (String).
+    func fetchRepair(id: String) async throws -> Repair? {
         try await storageService.fetchRepair(id: id)
     }
     
@@ -39,8 +39,8 @@ class RepairRepositoryImpl: RepairRepository {
         try await storageService.updateRepair(repair)
     }
     
-    /// Elimina una reparación por ID.
-    func deleteRepair(id: UUID) async throws {
+    /// Elimina una reparación por ID (String).
+    func deleteRepair(id: String) async throws {
         try await storageService.deleteRepair(id: id)
     }
     
@@ -54,5 +54,3 @@ class RepairRepositoryImpl: RepairRepository {
         try await storageService.filterRepairs(by: status)
     }
 }
-
-

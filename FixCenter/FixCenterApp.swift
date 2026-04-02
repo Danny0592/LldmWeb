@@ -13,15 +13,18 @@ import FirebaseCore
 @main
 struct FixCenterApp: App {
     
+    /// Servicio compartido para el almacenamiento de datos persistentes.
+    private let storageService: StorageService
+    /// Servicio compartido para la gestión y procesamiento de imágenes.
+    private let imageService: ImageService
+
     init() {
         FirebaseApp.configure()
+        self.storageService = FirestoreStorageService()
+        self.imageService = ImageStorageService()
         // Descomenta la siguiente línea para subir los datos iniciales a Firestore:
 //         DatabaseSeeds.uploadServiceData()
     }
-    /// Servicio compartido para el almacenamiento de datos persistentes.
-    private let storageService: StorageService = LocalStorageService()
-    /// Servicio compartido para la gestión y procesamiento de imágenes.
-    private let imageService: ImageService = ImageStorageService()
     
     /// Repositorio computado que provee acceso a las reparaciones.
     private var repairRepository: RepairRepository {

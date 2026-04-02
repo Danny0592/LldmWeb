@@ -32,8 +32,8 @@ class LocalStorageService: StorageService {
         return try JSONDecoder().decode([Repair].self, from: data)
     }
     
-    /// Recupera una reparación individual por su ID.
-    func fetchRepair(id: UUID) async throws -> Repair? {
+    /// Recupera una reparación individual por su ID (String).
+    func fetchRepair(id: String) async throws -> Repair? {
         let repairs = try await fetchRepairs()
         return repairs.first { $0.id == id }
     }
@@ -43,8 +43,8 @@ class LocalStorageService: StorageService {
         try await saveRepair(repair)
     }
     
-    /// Elimina una reparación de la lista local.
-    func deleteRepair(id: UUID) async throws {
+    /// Elimina una reparación de la lista local (String ID).
+    func deleteRepair(id: String) async throws {
         var repairs = try await fetchRepairs()
         repairs.removeAll { $0.id == id }
         try saveRepairs(repairs)

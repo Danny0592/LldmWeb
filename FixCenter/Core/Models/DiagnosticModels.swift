@@ -17,11 +17,11 @@ enum DiagnosticStatus: String, Codable, CaseIterable {
 
 /// Representa un elemento individual en la lista de diagnóstico.
 struct DiagnosticItem: Identifiable, Codable, Hashable {
-    var id: UUID
+    var id: String
     var name: String
     var status: DiagnosticStatus
     
-    init(id: UUID = UUID(), name: String, status: DiagnosticStatus = .notTested) {
+    init(id: String = UUID().uuidString, name: String, status: DiagnosticStatus = .notTested) {
         self.id = id
         self.name = name
         self.status = status

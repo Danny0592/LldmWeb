@@ -46,7 +46,8 @@ class RepairFormViewModel: ObservableObject {
     /// Número total de secciones del formulario.
     let totalSteps = 4
     /// ID original si estamos editando (nil si es una nueva reparación).
-    private var originalRepairId: UUID?
+    /// ID original si estamos editando (nil si es una nueva reparación).
+    private var originalRepairId: String?
     
     /// Propiedad computada que indica si estamos en modo edición o creación.
     var isEditing: Bool {

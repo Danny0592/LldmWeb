@@ -10,8 +10,8 @@ import Foundation
 /// Representa una orden de reparación integral en FixCenter.
 /// Centraliza la información del cliente, el dispositivo, el estado del trabajo y la facturación.
 struct Repair: Identifiable, Codable, Hashable {
-    /// Identificador único de la reparación.
-    var id: UUID
+    /// Identificador único de la reparación (Doc ID en Firestore).
+    var id: String
     /// Folio o ticket de servicio (opcional).
     var folio: String?
     /// Información del cliente propietario.
@@ -58,7 +58,7 @@ struct Repair: Identifiable, Codable, Hashable {
     ///   - notes: Comentarios extra.
     ///   - price: Precio final.
     init(
-        id: UUID = UUID(),
+        id: String = UUID().uuidString,
         folio: String? = nil,
         customer: Customer = Customer(),
         device: Device = Device(),
@@ -97,21 +97,47 @@ struct Repair: Identifiable, Codable, Hashable {
     
     init(from decoder: Decoder) throws {
         let container = try decoder.container(keyedBy: CodingKeys.self)
-        id = try container.decode(UUID.self, forKey: .id)
+        // Nota: Firestore guarda el ID como documentID, no como campo dentro del documento.
+        // Se usa decodeIfPresent aquí y se sobreescribe con documentID en fetchRepairs.
+        id = try container.decodeIfPresent(String.self, forKey: .id) ?? ""
         folio = try container.decodeIfPresent(String.self, forKey: .folio)
         customer = try container.decode(Customer.self, forKey: .customer)
         device = try container.decode(Device.self, forKey: .device)
-        problemDescription = try container.decode(String.self, forKey: .problemDescription)
+        problemDescription = try container.decodeIfPresent(String.self, forKey: .problemDescription) ?? ""
         assignedTechnician = try container.decodeIfPresent(String.self, forKey: .assignedTechnician) ?? ""
         status = try container.decode(RepairStatus.self, forKey: .status)
-        receivedDate = try container.decode(Date.self, forKey: .receivedDate)
-        deliveryDate = try container.decodeIfPresent(Date.self, forKey: .deliveryDate)
-        initialPhotos = try container.decode([Data].self, forKey: .initialPhotos)
-        finalPhotos = try container.decode([Data].self, forKey: .finalPhotos)
-        workPerformed = try container.decode(String.self, forKey: .workPerformed)
-        notes = try container.decode(String.self, forKey: .notes)
+
+        // receivedDate y deliveryDate pueden estar guardadas como Timestamp (nuevo) o
+        // como String ISO8601 (registros antiguos). Manejamos ambos casos.
+        receivedDate = Self.decodeDate(from: container, forKey: .receivedDate) ?? Date()
+        deliveryDate = Self.decodeDate(from: container, forKey: .deliveryDate)
+
+        initialPhotos = try container.decodeIfPresent([Data].self, forKey: .initialPhotos) ?? []
+        finalPhotos = try container.decodeIfPresent([Data].self, forKey: .finalPhotos) ?? []
+        workPerformed = try container.decodeIfPresent(String.self, forKey: .workPerformed) ?? ""
+        notes = try container.decodeIfPresent(String.self, forKey: .notes) ?? ""
         price = try container.decodeIfPresent(Double.self, forKey: .price)
         diagnostics = try container.decodeIfPresent([DiagnosticItem].self, forKey: .diagnostics) ?? []
+    }
+
+    /// Intenta decodificar una fecha como Timestamp de Firebase o como String ISO8601.
+    private static func decodeDate(
+        from container: KeyedDecodingContainer<CodingKeys>,
+        forKey key: CodingKeys
+    ) -> Date? {
+        // Intento 1: Timestamp de Firestore (formato nativo — el más común para registros nuevos)
+        if let date = try? container.decodeIfPresent(Date.self, forKey: key) {
+            return date
+        }
+        // Intento 2: String ISO8601 (registros anteriores guardados con JSONEncoder)
+        if let isoString = try? container.decodeIfPresent(String.self, forKey: key) {
+            let formatter = ISO8601DateFormatter()
+            formatter.formatOptions = [.withInternetDateTime, .withFractionalSeconds]
+            if let date = formatter.date(from: isoString) { return date }
+            formatter.formatOptions = .withInternetDateTime
+            return formatter.date(from: isoString)
+        }
+        return nil
     }
 }
 

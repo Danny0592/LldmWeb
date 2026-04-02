@@ -98,7 +98,7 @@ struct RepairCard: View {
                         
                         Spacer()
                         
-                        if repair.daysInRepair > 0 {
+                        if repair.daysInRepair >= 0 {
                             Text("\(repair.daysInRepair) días")
                                 .font(.caption)
                                 .foregroundColor(repair.isOverdue ? .red : .secondary)

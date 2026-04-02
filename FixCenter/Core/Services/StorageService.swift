@@ -19,17 +19,17 @@ protocol StorageService {
     func fetchRepairs() async throws -> [Repair]
     
     /// Busca una reparación específica por su ID.
-    /// - Parameter id: Identificador único de la reparación.
+    /// - Parameter id: Identificador único (String).
     /// - Returns: La reparación encontrada o nil.
-    func fetchRepair(id: UUID) async throws -> Repair?
+    func fetchRepair(id: String) async throws -> Repair?
     
     /// Sobrescribe los datos de una reparación existente.
     /// - Parameter repair: La reparación con datos actualizados.
     func updateRepair(_ repair: Repair) async throws
     
     /// Remueve permanentemente una reparación del almacenamiento.
-    /// - Parameter id: ID de la reparación a eliminar.
-    func deleteRepair(id: UUID) async throws
+    /// - Parameter id: ID de la reparación (String).
+    func deleteRepair(id: String) async throws
     
     /// Busca entre las reparaciones almacenadas basándose en un criterio de texto.
     /// - Parameter query: Texto a buscar.
@@ -41,5 +41,3 @@ protocol StorageService {
     /// - Returns: Lista de reparaciones filtradas.
     func filterRepairs(by status: RepairStatus) async throws -> [Repair]
 }
-
-

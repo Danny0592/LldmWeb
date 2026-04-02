@@ -10,7 +10,7 @@ import Foundation
 /// Representa el dispositivo que requiere reparación.
 struct Device: Identifiable, Codable, Hashable {
     /// Identificador único del dispositivo.
-    var id: UUID
+    var id: String
     /// Tipo de dispositivo (ej. Teléfono, Tablet, etc.).
     var type: DeviceType
     /// Marca del fabricante.
@@ -22,16 +22,13 @@ struct Device: Identifiable, Codable, Hashable {
     /// Contraseña o patrón de desbloqueo para pruebas.
     var password: String
     
+    enum CodingKeys: String, CodingKey {
+        case id, type, brand, model, serialNumber, password
+    }
+    
     /// Inicializa un nuevo dispositivo.
-    /// - Parameters:
-    ///   - id: Identificador único.
-    ///   - type: Tipo de dispositivo.
-    ///   - brand: Marca.
-    ///   - model: Modelo.
-    ///   - serialNumber: Número de serie.
-    ///   - password: Contraseña.
     init(
-        id: UUID = UUID(),
+        id: String = UUID().uuidString,
         type: DeviceType = .phone,
         brand: String = "",
         model: String = "",
@@ -45,11 +42,21 @@ struct Device: Identifiable, Codable, Hashable {
         self.serialNumber = serialNumber
         self.password = password
     }
+    
+    /// Decoder personalizado para manejar campos opcionales de Firestore.
+    init(from decoder: Decoder) throws {
+        let container = try decoder.container(keyedBy: CodingKeys.self)
+        id = try container.decodeIfPresent(String.self, forKey: .id) ?? UUID().uuidString
+        type = try container.decodeIfPresent(DeviceType.self, forKey: .type) ?? .phone
+        brand = try container.decodeIfPresent(String.self, forKey: .brand) ?? ""
+        model = try container.decodeIfPresent(String.self, forKey: .model) ?? ""
+        serialNumber = try container.decodeIfPresent(String.self, forKey: .serialNumber) ?? ""
+        password = try container.decodeIfPresent(String.self, forKey: .password) ?? ""
+    }
 }
 
 extension Device {
     /// Nombre formateado para mostrar (Marca + Modelo).
-    /// Si ambos están vacíos, muestra el tipo de dispositivo.
     var displayName: String {
         if brand.isEmpty && model.isEmpty {
             return type.rawValue
@@ -57,5 +64,3 @@ extension Device {
         return "\(brand) \(model)".trimmingCharacters(in: .whitespaces)
     }
 }
-
-
