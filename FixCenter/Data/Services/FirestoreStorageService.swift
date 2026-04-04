@@ -33,7 +33,7 @@ class FirestoreStorageService: StorageService {
         }
         
         // 2. Guardar la reparación final
-        try db.collection(collectionName).document(finalRepair.id).setData(from: finalRepair)
+        try await db.collection(collectionName).document(finalRepair.id).setData(from: finalRepair)
     }
     
     /// Obtiene la lista completa de reparaciones desde Firestore.

@@ -67,6 +67,11 @@ struct RepairCard: View {
                         
                         /// Marca, modelo y cliente.
                         VStack(alignment: .leading, spacing: 4) {
+                            
+                            Text(repair.device.type.rawValue)
+                                .font(.subheadline)
+                                .foregroundColor(.secondary)
+                            
                             Text(repair.device.displayName)
                                 .font(.headline)
                                 .foregroundColor(.primary)

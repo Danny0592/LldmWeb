@@ -24,8 +24,8 @@ class ImageStorageService: ImageService {
         try? FileManager.default.createDirectory(at: imagesDirectory, withIntermediateDirectories: true)
     }
     
-    /// Comprime la imagen de forma iterativa hasta alcanzar el tamaño máximo solicitado.
-    func compressImage(_ image: UIImage, maxSizeKB: Int = 500) -> Data? {
+    /// Comprime la imagen de forma iterativa hasta alcanzar el tamaño máximo solicitado (200KB por defecto).
+    func compressImage(_ image: UIImage, maxSizeKB: Int = 200) -> Data? {
         var compression: CGFloat = 1.0
         var imageData = image.jpegData(compressionQuality: compression)
         

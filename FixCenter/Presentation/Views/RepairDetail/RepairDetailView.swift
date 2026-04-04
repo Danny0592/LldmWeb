@@ -402,16 +402,12 @@ struct RepairDetailView: View {
                     Text("No hay imágenes para este tipo")
                         .font(.subheadline)
                         .foregroundColor(.secondary)
-                    
-                    addPhotosMenu
                 }
                 .frame(maxWidth: .infinity, alignment: .center)
                 .padding()
             } else {
                 ScrollView(.horizontal, showsIndicators: false) {
                     HStack(spacing: 12) {
-                        addPhotosMenu
-                        
                         ForEach(Array(images.enumerated()), id: \.offset) { index, image in
                             Button(action: {
                                 selectedImageIndex = index
@@ -432,56 +428,6 @@ struct RepairDetailView: View {
             ImageFullscreenView(
                 images: isShowingInitial ? viewModel.initialImageUIs : viewModel.finalImageUIs,
                 currentIndex: selectedImageIndex
-            )
-        }
-        .sheet(isPresented: $showCamera) {
-            CameraView(selectedImage: { image in
-                if isShowingInitial {
-                    viewModel.initialImageUIs.append(image)
-                } else {
-                    viewModel.finalImageUIs.append(image)
-                }
-                Task {
-                    await viewModel.saveChanges()
-                }
-            })
-        }
-        .sheet(isPresented: $showPhotoPicker) {
-            PhotoPickerView(selectedImages: isShowingInitial ? $viewModel.initialImageUIs : $viewModel.finalImageUIs, maxSelection: 10)
-                .onDisappear {
-                    Task {
-                        await viewModel.saveChanges()
-                    }
-                }
-        }
-    }
-    /// Boton que permite tomar una fotogrfia desde la camara
-    private var addPhotosMenu: some View {
-        Menu {
-            Button(action: {
-                showCamera = true
-            }) {
-                Label("Cámara", systemImage: "camera.fill")
-            }
-            
-            Button(action: {
-                showPhotoPicker = true
-            }) {
-                Label("Galería", systemImage: "photo.on.rectangle")
-            }
-        } label: {
-            VStack(spacing: 8) {
-                Image(systemName: "plus.circle.fill")
-                    .font(.title2)
-                Text("Agregar")
-                    .font(.caption)
-                    .fontWeight(.semibold)
-            }
-            .foregroundColor(.blue)
-            .frame(width: 110, height: 110)
-            .background(
-                RoundedRectangle(cornerRadius: 12)
-                    .fill(Color.blue.opacity(0.1))
             )
         }
     }

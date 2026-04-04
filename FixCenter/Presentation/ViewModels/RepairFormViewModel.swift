@@ -9,6 +9,7 @@ import Foundation
 import SwiftUI
 import UIKit
 import Combine
+import FirebaseFirestore
 
 /// ViewModel que gestiona el flujo de creación y edición de una reparación a través de varios pasos.
 /// Controla la navegación entre secciones, la validación de campos y el guardado final.
@@ -131,7 +132,16 @@ class RepairFormViewModel: ObservableObject {
             repairToSave.initialPhotos = try await processImages(initialImages)
             repairToSave.finalPhotos = try await processImages(finalImages)
             
+            // Normalizar textos (Capitalizar primera letra)
+            repairToSave.device.brand = repairToSave.device.brand.trimmingCharacters(in: .whitespacesAndNewlines).capitalized
+            repairToSave.device.model = repairToSave.device.model.trimmingCharacters(in: .whitespacesAndNewlines)
+            
             // Persistir cambios
+            let totalInitialSize = repairToSave.initialPhotos.reduce(0) { $0 + $1.count }
+            let totalFinalSize = repairToSave.finalPhotos.reduce(0) { $0 + $1.count }
+            print("📸 [DEBUG] Guardando reparación con \(repairToSave.initialPhotos.count) fotos iniciales (\(totalInitialSize / 1024) KB) y \(repairToSave.finalPhotos.count) fotos finales (\(totalFinalSize / 1024) KB)")
+            print("📦 [DEBUG] Tamaño total estimado en blobs: \((totalInitialSize + totalFinalSize) / 1024) KB")
+            
             try await repository.saveRepair(repairToSave)
         } catch {
             errorMessage = "Error al guardar reparación: \(error.localizedDescription)"
@@ -140,28 +150,75 @@ class RepairFormViewModel: ObservableObject {
         isLoading = false
     }
     
-    /// Genera automáticamente el siguiente folio basado en el año actual (ej. OS-2024-0001).
+    /// Genera automáticamente el siguiente folio sincronizado mediante una transacción de Firestore.
+    /// Formato solicitado: FC-YYMMDDNN
     private func generateNextFolio() async throws -> String {
-        let repairs = try await repository.fetchRepairs()
-        let year = Calendar.current.component(.year, from: Date())
-        let prefix = "OS-\(year)-"
+        let db = Firestore.firestore()
+        let counterRef = db.collection("metadata").document("folios")
         
-        let numbersInYear = repairs.compactMap { repair -> Int? in
-            guard let folio = repair.folio, folio.hasPrefix(prefix) else { return nil }
-            let suffix = String(folio.dropFirst(prefix.count))
-            return Int(suffix)
-        }
+        // Obtener fecha actual en formato YYMMDD
+        let dateFormatter = DateFormatter()
+        dateFormatter.dateFormat = "yyMMdd"
+        let currentDateString = dateFormatter.string(from: Date())
         
-        let nextNumber = (numbersInYear.max() ?? 0) + 1
-        return "\(prefix)\(String(format: "%04d", nextNumber))"
+        return try await db.runTransaction { (transaction, errorPointer) -> Any? in
+            let counterDoc: DocumentSnapshot
+            do {
+                counterDoc = try transaction.getDocument(counterRef)
+            } catch let fetchError as NSError {
+                errorPointer?.pointee = fetchError
+                return nil
+            }
+            
+            var nextNumber = 1
+            
+            if let data = counterDoc.data() {
+                let lastDate = data["lastDate"] as? String ?? ""
+                let lastNumber = data["lastNumber"] as? Int ?? 0
+                
+                // Si seguimos en el mismo día, sumamos 1. Si es día nuevo, reiniciamos a 1.
+                if lastDate == currentDateString {
+                    nextNumber = lastNumber + 1
+                }
+            }
+            
+            // Generar el folio (ej: FC-26040301)
+            let folio = String(format: "FC-%@%02d", currentDateString, nextNumber)
+            
+            // Actualizar el contador central en Firestore
+            transaction.setData([
+                "lastDate": currentDateString,
+                "lastNumber": nextNumber
+            ], forDocument: counterRef, merge: true)
+            
+            return folio
+        } as! String
     }
+
+    
+    
+    /// Genera automáticamente el siguiente folio basado en el año actual (ej. OS-2024-0001).
+//    private func generateNextFolio() async throws -> String {
+//        let repairs = try await repository.fetchRepairs()
+//        let year = Calendar.current.component(.year, from: Date())
+//        let prefix = "OS-\(year)-"
+//        
+//        let numbersInYear = repairs.compactMap { repair -> Int? in
+//            guard let folio = repair.folio, folio.hasPrefix(prefix) else { return nil }
+//            let suffix = String(folio.dropFirst(prefix.count))
+//            return Int(suffix)
+//        }
+//        
+//        let nextNumber = (numbersInYear.max() ?? 0) + 1
+//        return "\(prefix)\(String(format: "%04d", nextNumber))"
+//    }
     
     /// Comprime un set de imágenes utilizando el servicio de imágenes.
     private func processImages(_ images: [UIImage]) async throws -> [Data] {
         var imageData: [Data] = []
         
         for image in images {
-            if let compressed = imageService.compressImage(image, maxSizeKB: 500) {
+            if let compressed = imageService.compressImage(image, maxSizeKB: 200) {
                 imageData.append(compressed)
             }
         }
