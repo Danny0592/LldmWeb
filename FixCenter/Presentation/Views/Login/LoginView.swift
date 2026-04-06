@@ -24,6 +24,8 @@ struct LoginView: View {
     
     /// Estado de foco para los campos del formulario.
     @FocusState private var focusedField: LoginFormField?
+    /// Presenta el formulario de registro.
+    @State private var showRegisterSheet = false
     
     // Gradiente intenso inspirado en el icono de la app
     private let loginGradient = LinearGradient(
@@ -151,6 +153,15 @@ struct LoginView: View {
                                         .font(.caption)
                                         .foregroundColor(.secondary)
                                 }
+
+                                Button {
+                                    showRegisterSheet = true
+                                } label: {
+                                    Text("¿No tienes cuenta? Regístrate")
+                                        .font(.subheadline.weight(.medium))
+                                        .foregroundColor(.blue)
+                                }
+                                .padding(.top, 4)
                             }
                             .padding(.vertical, 8)
                         }
@@ -169,6 +180,9 @@ struct LoginView: View {
                 }
             }
             .hideKeyboardOnTap()
+        }
+        .sheet(isPresented: $showRegisterSheet) {
+            RegisterView(onRegisterSuccess: onLoginSuccess)
         }
         .onAppear {
             viewModel.onLoginSuccess = onLoginSuccess
