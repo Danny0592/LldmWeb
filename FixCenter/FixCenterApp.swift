@@ -17,11 +17,17 @@ struct FixCenterApp: App {
     private let storageService: StorageService
     /// Servicio compartido para la gestión y procesamiento de imágenes.
     private let imageService: ImageService
+    /// Servicio de catálogo para descargar marcas y modelos.
+    private let catalogService: DeviceCatalogService
+    /// Gestor de caché para el catálogo.
+    @StateObject private var cacheManager: CatalogCacheManager
 
     init() {
         FirebaseApp.configure()
         self.storageService = FirestoreStorageService()
         self.imageService = ImageStorageService()
+        self.catalogService = FirebaseDeviceCatalogService()
+        _cacheManager = StateObject(wrappedValue: CatalogCacheManager())
         // Descomenta la siguiente línea para subir los datos iniciales a Firestore:
 //         DatabaseSeeds.uploadServiceData()
     }
@@ -47,6 +53,18 @@ struct FixCenterApp: App {
                         }
                     }
                 )
+                .environmentObject(cacheManager)
+                .task {
+                    // Sincronización del catálogo al arranque
+                    do {
+                        print("🔄 [SYNC] Iniciando sincronización del catálogo...")
+                        let (brands, models) = try await catalogService.fetchAllCatalog()
+                        cacheManager.updateCache(brands: brands, models: models)
+                        print("✅ [SYNC] Catálogo sincronizado: \(brands.count) marcas, \(models.count) modelos.")
+                    } catch {
+                        print("❌ [SYNC] Error sincronizando catálogo: \(error.localizedDescription)")
+                    }
+                }
                 .transition(.asymmetric(
                     insertion: .move(edge: .trailing).combined(with: .opacity),
                     removal: .move(edge: .leading).combined(with: .opacity)

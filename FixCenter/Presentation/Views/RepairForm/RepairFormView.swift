@@ -232,7 +232,8 @@ struct RepairFormView: View {
                 repository: RepairRepositoryImpl(
                     storageService: LocalStorageService()
                 ),
-                imageService: ImageStorageService()
+                imageService: ImageStorageService(),
+                cacheManager: CatalogCacheManager()
             )
         )
     }

@@ -43,6 +43,8 @@ class RepairFormViewModel: ObservableObject {
     private let imageService: ImageService
     /// Servicio de catálogo de Firestore.
     private let catalogService: DeviceCatalogService
+    /// Gestor de caché del catálogo.
+    private let cacheManager: CatalogCacheManager
     
     /// Número total de secciones del formulario.
     let totalSteps = 4
@@ -56,10 +58,15 @@ class RepairFormViewModel: ObservableObject {
     }
     
     /// Inicializa el ViewModel, opcionalmente con una reparación existente para editar.
-    init(repository: RepairRepository, imageService: ImageService, catalogService: DeviceCatalogService = FirebaseDeviceCatalogService(), repair: Repair? = nil) {
+    init(repository: RepairRepository, 
+         imageService: ImageService, 
+         catalogService: DeviceCatalogService = FirebaseDeviceCatalogService(), 
+         cacheManager: CatalogCacheManager,
+         repair: Repair? = nil) {
         self.repository = repository
         self.imageService = imageService
         self.catalogService = catalogService
+        self.cacheManager = cacheManager
         if let repair = repair {
             self.repair = repair
             self.originalRepairId = repair.id
@@ -228,23 +235,23 @@ class RepairFormViewModel: ObservableObject {
     
     // MARK: - Catálogo de Dispositivos (Firestore)
     
-    /// Carga las marcas según la categoría actual.
+    /// Carga las marcas según la categoría actual desde la caché local.
     func loadBrands() async {
         let categoryId = repair.device.type.catalogId
         isLoadingCatalog = true
-        do {
-            availableBrands = try await catalogService.fetchBrands(for: categoryId)
-            // Si la marca actual no existe en la lista, marcamos como "Otro" (si no está vacía)
-            if !availableBrands.contains(where: { $0.name == repair.device.brand }) && !repair.device.brand.isEmpty {
-                isCustomBrand = true
-            }
-        } catch {
-            print("Error cargando marcas: \(error.localizedDescription)")
+        
+        // Obtenemos marcas de la caché local instantáneamente
+        availableBrands = cacheManager.getBrands(for: categoryId)
+        
+        // Si la marca actual no existe en la lista, marcamos como "Otro" (si no está vacía)
+        if !availableBrands.contains(where: { $0.name == repair.device.brand }) && !repair.device.brand.isEmpty {
+            isCustomBrand = true
         }
+        
         isLoadingCatalog = false
     }
     
-    /// Carga los modelos basándose en la marca seleccionada.
+    /// Carga los modelos basándose en la marca seleccionada desde la caché local.
     func loadModels(for brand: DeviceBrand) async {
         repair.device.brand = brand.name
         selectedBrandId = brand.id
@@ -254,11 +261,10 @@ class RepairFormViewModel: ObservableObject {
         
         let categoryId = repair.device.type.catalogId
         isLoadingCatalog = true
-        do {
-            availableModels = try await catalogService.fetchModels(for: brand.id, categoryId: categoryId)
-        } catch {
-            print("Error cargando modelos: \(error.localizedDescription)")
-        }
+        
+        // Obtenemos modelos de la caché local instantáneamente
+        availableModels = cacheManager.getModels(for: brand.id, categoryId: categoryId)
+        
         isLoadingCatalog = false
     }
     

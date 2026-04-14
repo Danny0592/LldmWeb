@@ -6,8 +6,11 @@ protocol DeviceCatalogService {
     /// Obtiene las marcas disponibles para una categoría específica.
     func fetchBrands(for categoryId: String) async throws -> [DeviceBrand]
     
-    /// Obtiene los modelos disponibles para una marca y categoría específica.
+    /// Obtiene todos los modelos disponibles para una marca y categoría específica.
     func fetchModels(for brandId: String, categoryId: String) async throws -> [DeviceSpecificModel]
+    
+    /// Obtiene todo el catálogo de marcas y modelos de una sola vez.
+    func fetchAllCatalog() async throws -> (brands: [DeviceBrand], models: [DeviceSpecificModel])
 }
 
 /// Implementación del servicio de catálogo utilizando Firebase Firestore.
@@ -45,5 +48,33 @@ class FirebaseDeviceCatalogService: DeviceCatalogService {
             }
             return DeviceSpecificModel(id: document.documentID, name: name, brand_id: bId, category_id: catId)
         }.sorted { $0.name < $1.name }
+    }
+    
+    func fetchAllCatalog() async throws -> (brands: [DeviceBrand], models: [DeviceSpecificModel]) {
+        // Fetch brands
+        let brandsSnapshot = try await db.collection("brands").getDocuments()
+        let brands = brandsSnapshot.documents.compactMap { document -> DeviceBrand? in
+            let data = document.data()
+            guard let id = data["id"] as? String,
+                  let name = data["name"] as? String,
+                  let categories = data["categories"] as? [String] else {
+                return nil
+            }
+            return DeviceBrand(id: id, name: name, categories: categories)
+        }
+        
+        // Fetch models
+        let modelsSnapshot = try await db.collection("models").getDocuments()
+        let models = modelsSnapshot.documents.compactMap { document -> DeviceSpecificModel? in
+            let data = document.data()
+            guard let name = data["name"] as? String,
+                  let bId = data["brand_id"] as? String,
+                  let catId = data["category_id"] as? String else {
+                return nil
+            }
+            return DeviceSpecificModel(id: document.documentID, name: name, brand_id: bId, category_id: catId)
+        }
+        
+        return (brands: brands, models: models)
     }
 }

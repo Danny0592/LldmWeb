@@ -76,12 +76,9 @@ struct ProblemSectionView: View {
 #Preview {
     ProblemSectionView(
         viewModel: RepairFormViewModel(
-            repository: RepairRepositoryImpl(
-                storageService: LocalStorageService()
-            ),
-            imageService: ImageStorageService()
+            repository: RepairRepositoryImpl(storageService: LocalStorageService()),
+            imageService: ImageStorageService(),
+            cacheManager: CatalogCacheManager()
         )
     )
 }
-
-

@@ -18,6 +18,9 @@ struct RepairListView: View {
     /// Estado de foco para el campo de búsqueda.
     @FocusState private var isSearchFocused: Bool
     
+    /// Gestor de caché del catálogo inyectado desde el App.
+    @EnvironmentObject private var cacheManager: CatalogCacheManager
+    
     /// Acción para cerrar sesión.
     var onLogout: () -> Void
     
@@ -108,7 +111,8 @@ struct RepairListView: View {
                     RepairFormView(
                         viewModel: RepairFormViewModel(
                             repository: viewModel.repository,
-                            imageService: ImageStorageService()
+                            imageService: ImageStorageService(),
+                            cacheManager: cacheManager
                         )
                     )
                 }

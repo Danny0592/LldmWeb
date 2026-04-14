@@ -29,6 +29,9 @@ struct RepairDetailView: View {
     /// Controla la apertura de la galería de fotos.
     @State private var showPhotoPicker = false
     
+    /// Gestor de caché del catálogo inyectado desde el App.
+    @EnvironmentObject private var cacheManager: CatalogCacheManager
+    
     var body: some View {
         ScrollView {
             VStack(spacing: 24) {
@@ -94,6 +97,7 @@ struct RepairDetailView: View {
                     viewModel: RepairFormViewModel(
                         repository: viewModel.repository,
                         imageService: ImageStorageService(),
+                        cacheManager: cacheManager,
                         repair: viewModel.repair
                     )
                 )
